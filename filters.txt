@@ -1,0 +1,298 @@
+! Filters by hant0508
+! Version: 2.4.0
+! Use with:
+! - uBlock filters
+! - uBlock filters – Privacy‎
+! - uBlock filters – Unbreak‎
+! - Adblock Warning Removal List
+! - Basic tracking list by Disconnect‎
+! - EasyPrivacy
+! - Malvertising filter list by Disconnect‎
+! - Malware Domain List‎
+! - Malware domains
+! - RUS: RU AdList
+! - Adguard Russian Filter (https://adguard.com/ru/filter-rules.html?id=1)
+! - Adguard English Filter (https://adguard.com/ru/filter-rules.html?id=2) (or EasyList)
+! - Block-EU-Cookie-Shit-List (https://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt)
+
+! Exclusions
+@@/adwolf.
+@@/pr.php?
+@@||cs.pikabu.ru/files/ad/ad_places_post_example*.*
+comss.ru#@#.top + .av
+
+! Global rules
+###gb > div[style*="behavior:url(#default#homePage)"]
+##.banner
+##.Banner_Top
+##.banner2
+##.bunner
+##.place_for_ad
+##[class^="show_"][class$="_ads"]
+##[id*="banner"]
+##[id^="s"][id$="Bunner"]
+##[id="WIX_ADS"]
+~megafon.ru##[class*="adfox"]
+~megafon.ru##[class*="AdFox"]
+~megafon.ru##[id*="adfox"]
+~megafon.ru##[id*="AdFox"]
+
+! Special rules for pikabu.ru
+pikabu.ru###right_menu > .menu-block.login_f > table > tbody > tr > td > .promo-block
+pikabu.ru###wrap > table > tbody > tr > .main-b > .inner_wrap > tbody > tr > td:nth-of-type(2) > .inner_wrap:nth-of-type(2) > tbody > tr > td:nth-of-type(2) > noindex > .b-social
+pikabu.ru##td > [id="right_menu"] > table[style="width: 300px; margin: 15px 0 0 5px; padding: 0px; text-align: center"]
+pikabu.ru##td > span > table[style="border: 1px solid #d7d7d7; border-radius: 3px; width: 302px; margin: 15px 0 0 5px;text-align: center"]
+pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[class="inner_wrap b-story inner_wrap_visible"]
+
+! Blocking rules
+/wp-content/themes/urban-rooms_v4/images/picnic_ad_*.gif
+||003apteka.ru/uploads/banner*.gif
+||2.cdn.echo.msk.ru/files/1338208.jpg
+||cdn.comss.net/action/internet*.png
+||cdn.comss.net/img/adguard_down*.png
+||deita.ru/*/*/*.gif
+||demo.boobstagram.com/wp-content/themes/boobstagram/images/store.gif
+||fightforthefuture.github.io/countdown-widget/iframe/banner.html
+||gramota.ru/img/sp.gif
+||hackzone.ru/img/*.gif
+||kampc-help.ru/img/30.gif
+||last.by/adv/kr.gif
+||mirtochtonado.ru/seo.html
+||ntv.ru/smi.html
+||red.tingrinter.com/
+||whoer.net/images/*.gif
+
+! Hiding rules
+100-000-pochemu.info###sidebar-left.sidebar.grid_4.top-margin > ul
+10minutemail.net###leftover
+300kbit.ru###main > section > aside > .com:nth-of-type(9)
+300kbit.ru###main > section > aside > .main_e
+300kbit.ru###main > section > section > .cont_b
+300kbit.ru###main > section > section > .content_a:nth-of-type(2)
+320kbit.net###sl
+4ege.ru##.size-wrap > .centrovka > tbody > tr > .yip > object
+4pda.ru###sidebar > .side-box:nth-of-type(1)
+5terka.com###block-block-5
+5terka.com###block-user-4 > .widgetbottom
+adme.ru###js-article-content.content.content-flex > div > .article-yandex-direct
+adme.ru###js-dialog-social-overlay.dialog
+adme.ru###js-dialog-social-overlay-1
+adme.ru##.dialog-bg
+adme.ru##.fixed-like-box.js-fixed-like-box
+allbesta.ru###center > noindex
+ame-game.com.ua###main-carcas > .content > tbody > tr:nth-of-type(1) > .cont_left > .div_rek
+anekdot.ru##table > tbody > tr:nth-of-type(4) > .rightcolumn
+antonkozlov.ru###sidebar_friends
+compconsult.orgfree.com###block-block-11.block.block-block
+compconsult.orgfree.com###block-block-17.block.block-block
+comss.ru###container > div:nth-of-type(1) > a[href="download/Adguard.html"]
+comss.ru###container > div:nth-of-type(6) > div > a[href="http://www.comss.ru/download/Adguard.html"]
+cqham.ru##blockquote > p:nth-of-type(62)
+cqham.ru##div > center > table > tbody > tr:nth-of-type(1)
+cyberforum.ru##[id^=edit]> div:nth-of-type(1)
+cyberforum.ru##[id^=edit]> div:nth-of-type(2)
+cyberforum.ru##body > div:nth-of-type(1) > .page > div > .tborder:nth-of-type(3)
+cyberforum.ru##body > div:nth-of-type(3) > .page > div > .tborder
+darkside.ru###fscroller > div
+dead-line.net###content > .rightsidebar.hidden-xs.hidden-sm.col-sm-2
+deita.ru###stMainCenter > .stBunner.stInNewsListBunner
+deita.ru###stMainRight > .stRightBunner_right.stBunner
+echo.msk.ru##.pagecontent > .mainbanner_box
+echomsk.spb.ru###news-detail-block > .red_hd
+echomsk.spb.ru##.container > .partners
+echospb.ru###leftbar > .rightbar
+echospb.ru##.bline
+ecosystema.ru##body > div:nth-of-type(2) > center > table > tbody > tr:nth-of-type(1)
+ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > noindex
+ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > noindex:nth-of-type(1)
+ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > table > tbody > tr > td > noindex:nth-of-type(4) > form > div > center > p:nth-of-type(3)
+ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > table > tbody > tr > td > noindex:nth-of-type(4) > form > div > center > p:nth-of-type(4)
+e-reading.club###LeftAds
+e-reading.club###n4p_7670
+e-reading.club###RightAds
+e-reading.club##body > div:nth-of-type(7) > table > tbody > tr > td > noindex:nth-of-type(1)
+fastpic.ru###bbb
+fcbarcelona.cat###site-header__ads
+finmarket.ru###pl45_ban72
+finmarket.ru###pl46_ban45
+forum.antichat.ru###content > .pageWidth > .noBorderRadiusBottom.pageContent > .funbox.section:nth-of-type(2) > .funboxWrapper > .samBannerUnit
+forum.beznal.cc###categories > .banner_800
+forum.beznal.cc###categories > .cat_banner
+forum.beznal.cc###content > .shlinks.left.ipsType_smaller.desc
+forum.beznal.cc###index_stats > .clearfix.ipsSideBlock:nth-of-type(1)
+forum.beznal.cc###index_stats > .ipsSideBlock:nth-of-type(3)
+forum.beznal.cc###index_stats > .ipsSideBlock:nth-of-type(4)
+forum.beznal.cc###shopslider
+fromblog.ru###page > footer > .container > .suf
+game01.ru##.branding > .content > .inner:nth-of-type(2) > .gamePage > .gameTop > .rightBanner > .padding20:nth-of-type(1)
+game01.ru##.branding > .content > .inner:nth-of-type(2) > .gamePage > .gameTop > .rightBanner > .rightBannerInner > .rightBannerTop
+game01.ru##.branding > .content > .inner:nth-of-type(3) > .footer > .footerLinks > .AdSpDown
+game01.ru##[class$="BannerWrap"]
+gamefaqs.com###content > .row.pre_content > .span12 > .board_wrap.pod > .body > .msg.message.board > tbody > .msg.forum_promo
+gitem.ru##.container > table > tbody > tr > td > .addon
+gitem.ru##.container > table > tbody > tr > td > .block-box > .box-cont > .cssmenu > li > .vkpr[href="http://spishy-gdz.ru/"]
+google.*##div > [id="pushdown"][class="pdp-psy"]
+google.ru###pmocntr2
+gotovkgia.ru###post-2251 > .entry-wrap > .content.entry-content > p:nth-of-type(7)
+gotovkgia.ru###post-2251 > .entry-wrap > .content.entry-content > table
+gramota.ru###page-content > .gray:nth-of-type(2)
+grani.ru###LentaInformScriptRootN14220
+grani.ru###main-inner > .clearfix.main-text > .ad-240x400
+grani.ru###other-links
+gtmarket.ru###main > .main-cnt > section > .node > .t-a > tbody > tr > .t-f-a
+hackzone.ru##div:nth-of-type(1) > a[href="/forum/open/id/1908/"]
+hackzone.ru##div:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(2) > td > table:nth-of-type(3) > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > .plashka1:nth-of-type(5)
+hackzone.ru##div:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(2) > td > table:nth-of-type(3) > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > .plashka1:nth-of-type(6)
+hackzone.ru##div:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(2) > td > table:nth-of-type(3) > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > div:nth-of-type(5)
+hackzone.ru##div:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(2) > td > table:nth-of-type(3) > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > div:nth-of-type(6)
+hackzone.ru##div:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(2) > td > table:nth-of-type(3) > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > div:nth-of-type(7)
+hackzone.ru##div:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > table:nth-of-type(3) > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > div:nth-of-type(8)
+hackzone.ru##div:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(2) > td:nth-of-type(2)
+hh.ru##body > .columns-wrapper:nth-of-type(5) > .column_container.column_l-16.column_m-12.column_s-8.column > .gap_top.gap > .column_container.column_l-4.column_m-4.column_s-4.column
+hh.ru##body > .columns-wrapper:nth-of-type(6) > .index-main-wrapper > .column_container.column_l-12.column_m-12.column_s-8.column:nth-of-type(1) > .column_container.column_l-12.column_m-12.column_s-8.column:nth-of-type(2)
+home.webalta.ru###newsTitles > .out-main-news:nth-of-type(2)
+home.webalta.ru###out-content > .col-2
+ilibrary.ru###in > div:nth-of-type(3)
+itelevisor.ru##div > .a-overlay
+i-vd.org.ru##table > tbody > tr > td > table > tbody > tr > td > .mainfooter
+kampc-help.ru###art-main > .art-sheet.art-box > .art-sheet-body.art-box-body > .art-layout-wrapper > .art-content-layout > .art-content-layout-row > .art-sidebar2.art-layout-cell > .art-block.art-box:nth-of-type(6) > .art-block-body.art-box-body
+kampc-help.ru##.art-box-body.art-post-body > .art-post-inner > .art-postcontent > .art-article > center
+kampc-help.ru##.art-layout-cell.art-sidebar1 > .art-box.art-block
+kareliyarsp.ru###tdRight > .cntr_menu:nth-of-type(1) > .data_menu > noindex > noindex:nth-of-type(1) > div
+kareliyarsp.ru###tdRight > .cntr_menu:nth-of-type(1) > .data_menu > noindex > noindex:nth-of-type(1) > noindex
+kinobaza.tv###fast-feedback-btn
+kizi.com###ad_title
+kizi.com###game_header
+kp.ru###top-link-social.all_top-link-social > .left
+ksenia.8m.com###sideFrame
+kv.by###block-block-116
+laptop-info.ru###page > .container-inner > div > .banners
+leeet.net###teaser_223
+magic-karelia.ru##table > tbody > tr > td:nth-of-type(2) > table > tbody > tr > td:nth-of-type(4) > table:nth-of-type(4) > tbody > tr > td > table:nth-of-type(4) > tbody > tr > td > table:nth-of-type(1) > tbody > tr:nth-of-type(1) > td:nth-of-type(7) > .tizer > .hd[href="#"]:nth-of-type(3)
+malekal.com##center
+master-skills.ru###column_right > .moduletable:nth-of-type(3)
+medow.ru###execphp-3.widget.widget_execphp
+medow.ru###execphp-9.widget.widget_execphp
+mignews.com###rightc > h5:nth-of-type(1)
+mignews.com###rightc > noindex
+mintlinux.ru###left > .module:nth-of-type(1)
+mir24.net###bn_953c68279c
+mk.ru##.wrap > div:nth-of-type(6) > .right > aside > .right_block:nth-of-type(11)
+mk.ru##.wrap > div:nth-of-type(6) > .right > aside > .right_block:nth-of-type(12)
+mk.ru##.wrap > div:nth-of-type(6) > .right > aside > .right_block:nth-of-type(6)
+moscowwriters.ru##body > table:nth-of-type(2)
+mp3.shmidt.net###mainbox > .rightbox
+mp3-zaycev.com###page-body > .sidebar_position_left.sidebar.unit-sidebar > .sidebar__news.box:nth-of-type(3)
+mp3-zaycev.com###topArtistsBlock
+myzuka.org##.all > .header > .aside > .button-a.v2[href="/GetVipAccount"]
+myzuka.org##.all > .main > .aside-col > center
+myzuka.org##.all > .main > .aside-col > noindex > center
+myzuka.org##.all > .main > .side-col > noindex > center
+nagitaru.ru###text-24
+nagitaru.ru###text-35
+nashe.ru##.main > .content > .wrapper > .right-sidebar
+newkaliningrad.ru###page-buffer > .container > .row > .col-main > .pr-600
+newkaliningrad.ru###page-buffer > .container > .row > .col-side
+newkaliningrad.ru##.modal, .fade, .in
+newslab.ru##.page > .container-fluid:nth-of-type(3) > .di2-skeleton > .di2-skeleton__aside > .hidden-sm.hidden-xs.b-banner_center.b-banner-wrapper
+ntv.ru###flamur3
+ntv.ru###flamur7
+ofirefox.ru###Mod41
+ofirefox.ru###Mod42
+ofirefox.ru###Mod43
+ololo.fm##.content > .col_1 > .block2:nth-of-type(34)
+onlineguru.ru###ban240x400
+onlineguru.ru###jointNew
+orthographia.ru##.footer > tbody > tr:nth-of-type(4) > td
+ovgorskiy.ru##body > div:nth-of-type(6) > table > tbody > tr > td:nth-of-type(2) > .zsnazzy:nth-of-type(2)
+ovgorskiy.ru##body > div:nth-of-type(6) > table > tbody > tr > td:nth-of-type(4) > .zsnazzy:nth-of-type(3)
+ovgorskiy.ru##body > div:nth-of-type(6) > table > tbody > tr > td:nth-of-type(6) > .zsnazzy:nth-of-type(2)
+ovgorskiy.ru##body > div:nth-of-type(6) > table > tbody > tr > td:nth-of-type(6) > .zsnazzy:nth-of-type(4)
+ovgorskiy.ru##body > div:nth-of-type(7) > table > tbody > tr > td:nth-of-type(2) > .zsnazzy:nth-of-type(4)
+ovgorskiy.ru##body > div:nth-of-type(7) > table > tbody > tr > td:nth-of-type(6) > .zsnazzy:nth-of-type(3)
+paperpaper.ru##.r-top-banner.placeholder2_m.placeholder2
+paperpaper.ru##.singular-container > .base-frame-wide > .dd-push--top.base-frame > .gw > .js-controller.is-skew.sk-sidebar.d2-soft-bottom.hard--left.one-quarter.g > .push-left:nth-of-type(1) > .d4-push-bottom > .simple-list > .sk-middle-banner.push-ends
+paperpaper.ru##.singular-container > .base-frame-wide > .dd-push--top.base-frame > .gw:nth-of-type(1) > .js-controller.d2-soft-bottom.hard--left.one-quarter.sk-sidebar.g > .sk-news-banner.js-banner > .simple-list > .sk-middle-banner.push-ends
+paperpaper.ru##.singular-container > .base-frame-wide > .gw > .is-main.sk-sidebar.d2-push-bottom.hard--left.one-third.g > .push-left > .d2-soft-bottom > .simple-list > .sk-middle-banner.push-ends
+paperpaper.ru##.singular-container > .placeholder2
+parta.com.ua###block_gr
+parta.com.ua###left_menu > div:nth-of-type(1)
+parta.com.ua###left_menu > div:nth-of-type(7)
+php-zametki.ru###art-main > .art-sheet > .art-sheet-body > .art-content-layout > .art-content-layout-row > .art-sidebar1.art-layout-cell > .art-block:nth-of-type(7)
+physics.ru##body > noindex:nth-of-type(2)
+physics.ru##body > noindex:nth-of-type(3) > table > tbody > tr:nth-of-type(5)
+pogoda.mail.ru###doubleformat_top
+pogoda.mail.ru##a.forecast-branding-link
+popuptest.com##table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2)
+popuptest.com##table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(3)
+rbc.ua##.hidemobo.rdblock
+redtube.com###contentHolder > .pageVideos.content > .slidePanelMovable.video-top-wrap > div:nth-of-type(1)
+remontka.pro##.rem-container.uk-container-center.uk-container > .uk-grid.tm-middle > .uk-width-medium-1-1.tm-main > .rem-main > .tm-content > .rem-singlearticle.uk-article > .uk-clearfix:nth-of-type(1)
+remontka.pro##.rem-container.uk-container-center.uk-container > .uk-grid.tm-top-a
+ren.tv###block-block-13
+ren.tv###block-block-22
+ren.tv###block-block-24
+rmprepusb.com##.sites-cookie-notice-fit
+royallib.com##.container > .container-in > .nuclear.center > .wrapper > .content > table:nth-of-type(2)
+ru.onlinemschool.com###G_M
+ru.onlinemschool.com##.table_main > tbody > tr:nth-of-type(3) > .td_main_left
+ru.tsn.ua###left > .wrapper_10px:nth-of-type(5)
+ru.tsn.ua###left > .wrapper_10px:nth-of-type(7)
+ru.tsn.ua###left > .wrapper_10px_bottom
+ru.tsn.ua###right > .wrapper_10px:nth-of-type(1)
+ru.tsn.ua###right > .wrapper_10px:nth-of-type(2)
+ru.tsn.ua###right > .wrapper_10px:nth-of-type(3)
+ru.wikihow.com##[class^="ad_label"]
+russian.rt.com###content > .widget-mediametrics
+russian.rt.com###sidebar > .shown.widget-mediametrics
+russian.rt.com###smi2-aside_single
+sg-team.net##.wrapper > .wrapmid > .container > .leftcol > .rightside > .bfilms.bminpad.block
+singularlabs.com###text-18.widget.widget_text
+smiles.spb.su###sidebar2 > .for > div > noindex
+soft.mydiv.net###container > .f_bg > table > tbody > tr:nth-of-type(3) > td > div > table > tbody > tr > td:nth-of-type(2) > .leftcon2 > div:nth-of-type(1)
+soft.mydiv.net###container > .f_bg > table > tbody > tr:nth-of-type(3) > td > div > table > tbody > tr > td:nth-of-type(2) > .rightcon2 > table > tbody > tr:nth-of-type(1) > td > div:nth-of-type(4) > div:nth-of-type(4)
+soft.mydiv.net###container > .f_bg > table > tbody > tr:nth-of-type(3) > td > div > table > tbody > tr > td:nth-of-type(2) > .rightcon2 > table > tbody > tr:nth-of-type(1) > td > div:nth-of-type(4) > table:nth-of-type(1) > tbody > tr > td:nth-of-type(1)
+soft.mydiv.net###container > .f_bg > table > tbody > tr:nth-of-type(3) > td > div:nth-of-type(1)
+soft.mydiv.net###container > .f_bg > table > tbody > tr:nth-of-type(3) > td > div:nth-of-type(2) > div > table > tbody > tr > td:nth-of-type(2) > .rightcon2 > div:nth-of-type(3) > div:nth-of-type(1)
+soft.mydiv.net###container > .f_bg > table > tbody > tr:nth-of-type(3) > td > div:nth-of-type(2) > div > table > tbody > tr > td:nth-of-type(2) > .rightcon2 > div:nth-of-type(3) > div:nth-of-type(3)
+soft.mydiv.net###container > .f_bg > table > tbody > tr:nth-of-type(3) > td > div:nth-of-type(2) > div > table > tbody > tr > td:nth-of-type(2) > .rightcon2 > div:nth-of-type(3) > table:nth-of-type(1) > tbody > tr > td:nth-of-type(1)
+soft.mydiv.net###container > .f_bg > table > tbody > tr:nth-of-type(3) > td > table > tbody > tr > td:nth-of-type(2) > div:nth-of-type(1)
+soft.mydiv.net###container > .f_bg > table > tbody > tr:nth-of-type(3) > td > table > tbody > tr > td:nth-of-type(2) > table > tbody > tr > td > div:nth-of-type(1) > table > tbody > tr > td:nth-of-type(1)
+softpedia.com###wrapper > .main > .container_48 > .fr.sepbrd4.prefix_2.grid_31 > .legible.storybox1 > .fr.ad-336
+softrew.ru##.main-center-block > .content-block > .shad > .shad-top > .shad-bottom > .right-col > .right-block:nth-of-type(5)
+softrew.ru##.main-center-block > .content-block > .shad > .shad-top > .shad-bottom > .right-col > .right-block:nth-of-type(6)
+sozdaiblog.ru###scrollable
+space.utema.ru###main-content > .main-content-padding > noindex:nth-of-type(1)
+the-village.ru###fixed-sidebar
+the-village.ru##.app-content.page-content > .row-adblock-message.row
+thg.ru##body > div:nth-of-type(4) > table:nth-of-type(2) > tbody > tr > td:nth-of-type(3) > table > tbody > tr:nth-of-type(1)
+top1000-ru.hotlog.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(3) > div:nth-of-type(3)
+trashbox.ru###div_page_right > aside > .table_center > div > .adnobg.center
+tvgid.ua##table > tbody > tr > td > table > tbody > tr > .head > table:nth-of-type(2) > tbody > .copyright > td:nth-of-type(2)
+tvgid.ua##table > tbody > tr > td > table > tbody > tr > .head > table:nth-of-type(2) > tbody > tr:nth-of-type(2) > td:nth-of-type(2)
+tvgid.ua##table > tbody > tr > td > table > tbody > tr > .head > table:nth-of-type(2) > tbody > tr:nth-of-type(3) > td:nth-of-type(2)
+veryicon.com###content > .right_content_728
+veryicon.com###content > .right_content_728:nth-of-type(3)
+vokrugsveta.ru###sape_links
+vsekratko.ru###content > .add
+vsekratko.ru###pright
+webalta.ru###newsTitles > .out-main-news:nth-of-type(2)
+webalta.ru###out-content > .col-2
+webalta.ru##.wrapper > .header2.header > .header2 > .head-row-logo2.o-h.head-row-logo > .f-l.search > .search-form2.search-form > .b-s.f-l.head2-setting
+webbazar.eu###fblikebg
+webbazar.eu###fblikepop
+wiki.eduvdom.com##.dokuwiki > .page > .level1 > .table.sectionedit2
+wiki.eduvdom.com##.dokuwiki > .page > .level1 > .table.sectionedit3
+wiki.eduvdom.com##.dokuwiki > div:nth-of-type(2)
+windowsfaq.ru##.container > tbody > tr > .maincolumn > div:nth-of-type(1)
+windxp.com.ru###fixblock > .del:nth-of-type(1)
+www.comss.ru###main > div:nth-of-type(1) > div:nth-of-type(1)
+youpk.ru###text-27
+youpk.ru###text-29
+youpk.ru###text-31
+youpk.ru###text-33
+zvanyuzhin.ru###sidebar > div:nth-of-type(10)
+zvanyuzhin.ru###sidebar > div:nth-of-type(11)
+zvanyuzhin.ru###sidebar > div:nth-of-type(8)
+zvanyuzhin.ru###sidebar > div:nth-of-type(9)
+егэша.рф###rightcol > .sidebar > .block:nth-of-type(2)
