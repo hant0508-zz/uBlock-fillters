@@ -1,4 +1,4 @@
-! Filters by hant0508
+! Title: Filters by hant0508
 ! Version: 2.4.0
 ! Use with:
 ! - uBlock filters
