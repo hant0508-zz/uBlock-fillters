@@ -48,6 +48,7 @@ pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[c
 /wp-content/themes/urban-rooms_v4/images/picnic_ad_*.gif
 ||003apteka.ru/uploads/banner*.gif
 ||2.cdn.echo.msk.ru/files/1338208.jpg
+||alma-ata.cf/*.html
 ||cdn.comss.net/action/internet*.png
 ||cdn.comss.net/img/adguard_down*.png
 ||deita.ru/*/*/*.gif
@@ -56,10 +57,13 @@ pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[c
 ||gramota.ru/img/sp.gif
 ||hackzone.ru/img/*.gif
 ||kampc-help.ru/img/30.gif
+||kotovski.net/wp-content/uploads/CRONUS_Models3-1_600x200.png
 ||last.by/adv/kr.gif
 ||mirtochtonado.ru/seo.html
 ||ntv.ru/smi.html
 ||red.tingrinter.com/
+||static.fastpic.ru/js/jquery*.js
+||velo-stokcenter.ru/images/vst_720x100.swf
 ||whoer.net/images/*.gif
 
 ! Hiding rules
@@ -83,6 +87,7 @@ allbesta.ru###center > noindex
 ame-game.com.ua###main-carcas > .content > tbody > tr:nth-of-type(1) > .cont_left > .div_rek
 anekdot.ru##table > tbody > tr:nth-of-type(4) > .rightcolumn
 antonkozlov.ru###sidebar_friends
+chelyabinsk-info.ga##body > noindex
 compconsult.orgfree.com###block-block-11.block.block-block
 compconsult.orgfree.com###block-block-17.block.block-block
 comss.ru###container > div:nth-of-type(1) > a[href="download/Adguard.html"]
@@ -107,11 +112,9 @@ ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > noindex
 ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > noindex:nth-of-type(1)
 ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > table > tbody > tr > td > noindex:nth-of-type(4) > form > div > center > p:nth-of-type(3)
 ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > table > tbody > tr > td > noindex:nth-of-type(4) > form > div > center > p:nth-of-type(4)
-e-reading.club###LeftAds
-e-reading.club###n4p_7670
-e-reading.club###RightAds
-e-reading.club##body > div:nth-of-type(7) > table > tbody > tr > td > noindex:nth-of-type(1)
-fastpic.ru###bbb
+e-reading.life##[id$="Ads"]
+e-reading.life##body > div:nth-of-type(7) > table > tbody > tr > td > hr
+fastpic.ru##body > .center > a[href]
 fcbarcelona.cat###site-header__ads
 finmarket.ru###pl45_ban72
 finmarket.ru###pl46_ban45
