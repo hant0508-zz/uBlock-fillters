@@ -23,7 +23,6 @@ comss.ru#@#.top + .av
 
 ! Global rules
 ###gb > div[style*="behavior:url(#default#homePage)"]
-##.banner
 ##.Banner_Top
 ##.banner2
 ##.bunner
@@ -32,6 +31,7 @@ comss.ru#@#.top + .av
 ##[id*="banner"]
 ##[id^="s"][id$="Bunner"]
 ##[id="WIX_ADS"]
+~iloveenglish.ru##.banner
 ~megafon.ru##[class*="adfox"]
 ~megafon.ru##[class*="AdFox"]
 ~megafon.ru##[id*="adfox"]
@@ -48,6 +48,7 @@ pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[c
 /wp-content/themes/urban-rooms_v4/images/picnic_ad_*.gif
 ||003apteka.ru/uploads/banner*.gif
 ||2.cdn.echo.msk.ru/files/1338208.jpg
+||activeinfo.ru/ai.gif
 ||alma-ata.cf/*.html
 ||cdn.comss.net/action/internet*.png
 ||cdn.comss.net/img/adguard_down*.png
@@ -56,6 +57,7 @@ pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[c
 ||fightforthefuture.github.io/countdown-widget/iframe/banner.html
 ||gramota.ru/img/sp.gif
 ||hackzone.ru/img/*.gif
+||i.qtymi.com/s/*/*.html
 ||kampc-help.ru/img/30.gif
 ||kotovski.net/wp-content/uploads/CRONUS_Models3-1_600x200.png
 ||last.by/adv/kr.gif
@@ -63,6 +65,7 @@ pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[c
 ||ntv.ru/smi.html
 ||red.tingrinter.com/
 ||static.fastpic.ru/js/jquery*.js
+||velopiter.spb.ru/activeinfo/banners/*/*.gif
 ||velo-stokcenter.ru/images/vst_720x100.swf
 ||whoer.net/images/*.gif
 
@@ -176,6 +179,8 @@ malekal.com##center
 master-skills.ru###column_right > .moduletable:nth-of-type(3)
 medow.ru###execphp-3.widget.widget_execphp
 medow.ru###execphp-9.widget.widget_execphp
+memesmix.net###footer_wrapper > p
+memesmix.net###menu-module > .module-body-i
 mignews.com###rightc > h5:nth-of-type(1)
 mignews.com###rightc > noindex
 mintlinux.ru###left > .module:nth-of-type(1)
