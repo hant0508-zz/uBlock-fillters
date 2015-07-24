@@ -1,14 +1,14 @@
 ! Title: Filters by hant0508
-! Version: 2.4.1
+! Version: 2.4.2
 ! Use with:
 ! - uBlock filters
-! - uBlock filters – Privacy‎
-! - uBlock filters – Unbreak‎
+! - uBlock filters – Privacy
+! - uBlock filters – Unbreak
 ! - Adblock Warning Removal List
-! - Basic tracking list by Disconnect‎
+! - Basic tracking list by Disconnect
 ! - EasyPrivacy
-! - Malvertising filter list by Disconnect‎
-! - Malware Domain List‎
+! - Malvertising filter list by Disconnect
+! - Malware Domain List
 ! - Malware domains
 ! - RUS: RU AdList
 ! - Adguard Russian Filter (https://adguard.com/ru/filter-rules.html?id=1)
@@ -20,12 +20,14 @@
 @@/pr.php?
 @@||cs.pikabu.ru/files/ad/ad_places_post_example*.*
 comss.ru#@#.top + .av
+new.gramota.ru#@##main-sec > .block-side:last-child
 
 ! Global rules
 ###gb > div[style*="behavior:url(#default#homePage)"]
 ##.Banner_Top
 ##.banner2
 ##.bunner
+##.megaads
 ##.place_for_ad
 ##[class^="show_"][class$="_ads"]
 ##[id*="banner"]
@@ -47,15 +49,16 @@ pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[c
 ! Blocking rules
 /wp-content/themes/urban-rooms_v4/images/picnic_ad_*.gif
 ||003apteka.ru/uploads/banner*.gif
+||198.58.122.116/ads
 ||2.cdn.echo.msk.ru/files/1338208.jpg
 ||activeinfo.ru/ai.gif
+||adminvps.ru/img/buttons/AV468x60.gif
 ||alma-ata.cf/*.html
 ||cdn.comss.net/action/internet*.png
 ||cdn.comss.net/img/adguard_down*.png
 ||deita.ru/*/*/*.gif
 ||demo.boobstagram.com/wp-content/themes/boobstagram/images/store.gif
 ||fightforthefuture.github.io/countdown-widget/iframe/banner.html
-||gramota.ru/img/sp.gif
 ||hackzone.ru/img/*.gif
 ||i.qtymi.com/s/*/*.html
 ||kampc-help.ru/img/30.gif
@@ -67,6 +70,7 @@ pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[c
 ||static.fastpic.ru/js/jquery*.js
 ||velopiter.spb.ru/activeinfo/banners/*/*.gif
 ||velo-stokcenter.ru/images/vst_720x100.swf
+||vladmaxi.net/uploads/*/*/banner*.gif
 ||whoer.net/images/*.gif
 
 ! Hiding rules
@@ -119,6 +123,7 @@ e-reading.life##[id$="Ads"]
 e-reading.life##body > div:nth-of-type(7) > table > tbody > tr > td > hr
 fastpic.ru##body > .center > a[href]
 fcbarcelona.cat###site-header__ads
+filyanin.ru###art-main > .art-sheet > .art-sheet-body > .art-content-layout > .art-content-layout-row > .art-sidebar1.art-layout-cell > .art-block
 finmarket.ru###pl45_ban72
 finmarket.ru###pl46_ban45
 forum.antichat.ru###content > .pageWidth > .noBorderRadiusBottom.pageContent > .funbox.section:nth-of-type(2) > .funboxWrapper > .samBannerUnit
@@ -141,7 +146,6 @@ google.*##div > [id="pushdown"][class="pdp-psy"]
 google.ru###pmocntr2
 gotovkgia.ru###post-2251 > .entry-wrap > .content.entry-content > p:nth-of-type(7)
 gotovkgia.ru###post-2251 > .entry-wrap > .content.entry-content > table
-gramota.ru###page-content > .gray:nth-of-type(2)
 grani.ru###LentaInformScriptRootN14220
 grani.ru###main-inner > .clearfix.main-text > .ad-240x400
 grani.ru###other-links
@@ -205,6 +209,7 @@ newkaliningrad.ru##.modal, .fade, .in
 newslab.ru##.page > .container-fluid:nth-of-type(3) > .di2-skeleton > .di2-skeleton__aside > .hidden-sm.hidden-xs.b-banner_center.b-banner-wrapper
 ntv.ru###flamur3
 ntv.ru###flamur7
+ntv.ru###xblock
 ofirefox.ru###Mod41
 ofirefox.ru###Mod42
 ofirefox.ru###Mod43
@@ -279,6 +284,8 @@ trashbox.ru###div_page_right > aside > .table_center > div > .adnobg.center
 tvgid.ua##table > tbody > tr > td > table > tbody > tr > .head > table:nth-of-type(2) > tbody > .copyright > td:nth-of-type(2)
 tvgid.ua##table > tbody > tr > td > table > tbody > tr > .head > table:nth-of-type(2) > tbody > tr:nth-of-type(2) > td:nth-of-type(2)
 tvgid.ua##table > tbody > tr > td > table > tbody > tr > .head > table:nth-of-type(2) > tbody > tr:nth-of-type(3) > td:nth-of-type(2)
+velofun.ru###content > span
+velonews.ru###inner-wrap > .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid > .td-post-sidebar.column_container.span4 > .widget_text.widget
 veryicon.com###content > .right_content_728
 veryicon.com###content > .right_content_728:nth-of-type(3)
 vokrugsveta.ru###sape_links
