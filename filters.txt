@@ -24,6 +24,7 @@ new.gramota.ru#@##main-sec > .block-side:last-child
 
 ! Global rules
 ###gb > div[style*="behavior:url(#default#homePage)"]
+##.adv_wrap
 ##.Banner_Top
 ##.banner2
 ##.bunner
@@ -53,6 +54,7 @@ pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[c
 ||2.cdn.echo.msk.ru/files/1338208.jpg
 ||activeinfo.ru/ai.gif
 ||adminvps.ru/img/buttons/AV468x60.gif
+||allforchildren.ru/img/lolo.gif
 ||alma-ata.cf/*.html
 ||cdn.comss.net/action/internet*.png
 ||cdn.comss.net/img/adguard_down*.png
@@ -90,6 +92,7 @@ adme.ru###js-dialog-social-overlay.dialog
 adme.ru###js-dialog-social-overlay-1
 adme.ru##.dialog-bg
 adme.ru##.fixed-like-box.js-fixed-like-box
+aeroflot.ru##.main-body > .block-right
 allbesta.ru###center > noindex
 ame-game.com.ua###main-carcas > .content > tbody > tr:nth-of-type(1) > .cont_left > .div_rek
 anekdot.ru##table > tbody > tr:nth-of-type(4) > .rightcolumn
@@ -178,6 +181,7 @@ ksenia.8m.com###sideFrame
 kv.by###block-block-116
 laptop-info.ru###page > .container-inner > div > .banners
 leeet.net###teaser_223
+lyricsfreak.com##.large_wrapper.wrapper > .floatfix.song-content.content > .w100p.d-table > .d-row > .d-cell.al-t.sidebar > div:nth-of-type(1)
 magic-karelia.ru##table > tbody > tr > td:nth-of-type(2) > table > tbody > tr > td:nth-of-type(4) > table:nth-of-type(4) > tbody > tr > td > table:nth-of-type(4) > tbody > tr > td > table:nth-of-type(1) > tbody > tr:nth-of-type(1) > td:nth-of-type(7) > .tizer > .hd[href="#"]:nth-of-type(3)
 malekal.com##center
 master-skills.ru###column_right > .moduletable:nth-of-type(3)
@@ -238,6 +242,7 @@ pogoda.mail.ru###doubleformat_top
 pogoda.mail.ru##a.forecast-branding-link
 popuptest.com##table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2)
 popuptest.com##table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(3)
+proficinema.ru##table > tbody > tr:nth-of-type(1) > .root > table > tbody > tr > td:nth-of-type(1) > table > tbody > tr:nth-of-type(1) > td:nth-of-type(1) > noindex:nth-of-type(1)
 rbc.ua##.hidemobo.rdblock
 redtube.com###contentHolder > .pageVideos.content > .slidePanelMovable.video-top-wrap > div:nth-of-type(1)
 remontka.pro##.rem-container.uk-container-center.uk-container > .uk-grid.tm-middle > .uk-width-medium-1-1.tm-main > .rem-main > .tm-content > .rem-singlearticle.uk-article > .uk-clearfix:nth-of-type(1)
