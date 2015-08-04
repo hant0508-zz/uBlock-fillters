@@ -18,7 +18,7 @@
 ! Exclusions
 @@/adwolf.
 @@/pr.php?
-@@||cs.pikabu.ru/files/ad/ad_places_post_example*.*
+@@||cs.pikabu.ru/files/ad/*.png
 comss.ru#@#.top + .av
 new.gramota.ru#@##main-sec > .block-side:last-child
 
@@ -184,6 +184,7 @@ leeet.net###teaser_223
 lyricsfreak.com##.large_wrapper.wrapper > .floatfix.song-content.content > .w100p.d-table > .d-row > .d-cell.al-t.sidebar > div:nth-of-type(1)
 magic-karelia.ru##table > tbody > tr > td:nth-of-type(2) > table > tbody > tr > td:nth-of-type(4) > table:nth-of-type(4) > tbody > tr > td > table:nth-of-type(4) > tbody > tr > td > table:nth-of-type(1) > tbody > tr:nth-of-type(1) > td:nth-of-type(7) > .tizer > .hd[href="#"]:nth-of-type(3)
 malekal.com##center
+manyahin.ru##footer
 master-skills.ru###column_right > .moduletable:nth-of-type(3)
 medow.ru###execphp-3.widget.widget_execphp
 medow.ru###execphp-9.widget.widget_execphp
@@ -235,11 +236,13 @@ paperpaper.ru##.singular-container > .placeholder2
 parta.com.ua###block_gr
 parta.com.ua###left_menu > div:nth-of-type(1)
 parta.com.ua###left_menu > div:nth-of-type(7)
+pcpro100.info###block_r
 php-zametki.ru###art-main > .art-sheet > .art-sheet-body > .art-content-layout > .art-content-layout-row > .art-sidebar1.art-layout-cell > .art-block:nth-of-type(7)
 physics.ru##body > noindex:nth-of-type(2)
 physics.ru##body > noindex:nth-of-type(3) > table > tbody > tr:nth-of-type(5)
 pogoda.mail.ru###doubleformat_top
 pogoda.mail.ru##a.forecast-branding-link
+popmech.ru###_sim_popup
 popuptest.com##table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2)
 popuptest.com##table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(3)
 proficinema.ru##table > tbody > tr:nth-of-type(1) > .root > table > tbody > tr > td:nth-of-type(1) > table > tbody > tr:nth-of-type(1) > td:nth-of-type(1) > noindex:nth-of-type(1)
@@ -281,6 +284,7 @@ softrew.ru##.main-center-block > .content-block > .shad > .shad-top > .shad-bott
 softrew.ru##.main-center-block > .content-block > .shad > .shad-top > .shad-bottom > .right-col > .right-block:nth-of-type(6)
 sozdaiblog.ru###scrollable
 space.utema.ru###main-content > .main-content-padding > noindex:nth-of-type(1)
+staforceteam.ru##body > div:nth-of-type(1)
 the-village.ru###fixed-sidebar
 the-village.ru##.app-content.page-content > .row-adblock-message.row
 thg.ru##body > div:nth-of-type(4) > table:nth-of-type(2) > tbody > tr > td:nth-of-type(3) > table > tbody > tr:nth-of-type(1)
