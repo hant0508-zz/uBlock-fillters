@@ -31,9 +31,9 @@ new.gramota.ru#@##main-sec > .block-side:last-child
 ##.megaads
 ##.place_for_ad
 ##[class^="show_"][class$="_ads"]
-##[id*="banner"]
 ##[id^="s"][id$="Bunner"]
 ##[id="WIX_ADS"]
+~asus.com##[id*="banner"]
 ~iloveenglish.ru##.banner
 ~megafon.ru##[class*="adfox"]
 ~megafon.ru##[class*="AdFox"]
