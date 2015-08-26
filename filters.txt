@@ -153,7 +153,6 @@ gamefaqs.com###content > .row.pre_content > .span12 > .board_wrap.pod > .body > 
 geektimes.ru###layout > .inner > .dont-add-our-site-pls
 gitem.ru##.container > table > tbody > tr > td > .addon
 gitem.ru##.container > table > tbody > tr > td > .block-box > .box-cont > .cssmenu > li > .vkpr[href="http://spishy-gdz.ru/"]
-google.*##div > [id="pushdown"][class="pdp-psy"]
 google.ru###pmocntr2
 gotovkgia.ru###post-2251 > .entry-wrap > .content.entry-content > p:nth-of-type(7)
 gotovkgia.ru###post-2251 > .entry-wrap > .content.entry-content > table
