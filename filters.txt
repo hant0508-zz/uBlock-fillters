@@ -1,5 +1,5 @@
 ! Title: Filters by hant0508
-! Version: 2.4.5
+! Version: 2.4.6
 ! Use with:
 ! - uBlock filters
 ! - uBlock filters – Privacy
