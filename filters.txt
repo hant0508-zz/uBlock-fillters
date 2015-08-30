@@ -91,15 +91,19 @@ pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[c
 5terka.com###block-block-5
 5terka.com###block-user-4 > .widgetbottom
 adme.ru###js-article-content.content.content-flex > div > .article-yandex-direct
-adme.ru###js-dialog-social-overlay.dialog
 adme.ru###js-dialog-social-overlay-1
+adme.ru###js-dialog-social-overlay.dialog
 adme.ru##.dialog-bg
 adme.ru##.fixed-like-box.js-fixed-like-box
+adme.ru##.js-fixed-like-box-new.js-fixed-like-box.fixed-like-box-blue
 aeroflot.ru##.main-body > .block-right
+agar.io###helloContainer > .side-container:nth-of-type(4) > .agario-promo
+agar.io###mainPanel > center
 allbesta.ru###center > noindex
 ame-game.com.ua###main-carcas > .content > tbody > tr:nth-of-type(1) > .cont_left > .div_rek
 anekdot.ru##table > tbody > tr:nth-of-type(4) > .rightcolumn
 antonkozlov.ru###sidebar_friends
+bestru.ru##.main_box > .rightColumn
 chelyabinsk-info.ga##body > noindex
 chistiulia.ru###content > .row-fluid > .span3:nth-of-type(1) > .clearfix.b-shadow.bt-5px.margin-25t.box.widget:nth-of-type(1)
 chistiulia.ru###content > .row-fluid > .span3:nth-of-type(1) > .clearfix.b-shadow.bt-5px.margin-25t.box.widget:nth-of-type(3)
@@ -109,6 +113,7 @@ compconsult.orgfree.com###block-block-11.block.block-block
 compconsult.orgfree.com###block-block-17.block.block-block
 comss.ru###container > div:nth-of-type(1) > a[href="download/Adguard.html"]
 comss.ru###container > div:nth-of-type(6) > div > a[href="http://www.comss.ru/download/Adguard.html"]
+comss.ru###main > div:nth-of-type(1) > div:nth-of-type(1)
 cqham.ru##blockquote > p:nth-of-type(62)
 cqham.ru##div > center > table > tbody > tr:nth-of-type(1)
 cyberforum.ru##[id^=edit]> div:nth-of-type(1)
@@ -119,6 +124,8 @@ darkside.ru###fscroller > div
 dead-line.net###content > .rightsidebar.hidden-xs.hidden-sm.col-sm-2
 deita.ru###stMainCenter > .stBunner.stInNewsListBunner
 deita.ru###stMainRight > .stRightBunner_right.stBunner
+e-reading.life##[id$="Ads"]
+e-reading.life##body > div:nth-of-type(7) > table > tbody > tr > td > hr
 echo.msk.ru##.pagecontent > .mainbanner_box
 echomsk.spb.ru###news-detail-block > .red_hd
 echomsk.spb.ru##.container > .partners
@@ -129,8 +136,6 @@ ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > noindex
 ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > noindex:nth-of-type(1)
 ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > table > tbody > tr > td > noindex:nth-of-type(4) > form > div > center > p:nth-of-type(3)
 ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > table > tbody > tr > td > noindex:nth-of-type(4) > form > div > center > p:nth-of-type(4)
-e-reading.life##[id$="Ads"]
-e-reading.life##body > div:nth-of-type(7) > table > tbody > tr > td > hr
 fastpic.ru##body > .center > a[href]
 fcbarcelona.cat###site-header__ads
 filyanin.ru###art-main > .art-sheet > .art-sheet-body > .art-content-layout > .art-content-layout-row > .art-sidebar1.art-layout-cell > .art-block
@@ -176,9 +181,10 @@ hi-tech.mail.ru##.layout > .js-module > .block:nth-of-type(7) > .wrapper > .cols
 hi-tech.mail.ru##.layout > .js-module > .js-module.js-springs__group.block > .wrapper > .cols > .cols__column_sidebar.cols__column_small_14.cols__column
 home.webalta.ru###newsTitles > .out-main-news:nth-of-type(2)
 home.webalta.ru###out-content > .col-2
-ilibrary.ru###in > div:nth-of-type(3)
-itelevisor.ru##div > .a-overlay
 i-vd.org.ru##table > tbody > tr > td > table > tbody > tr > td > .mainfooter
+ilibrary.ru###in > div:nth-of-type(3)
+instagram.com##.-cx-PRIVATE-Photo__clickShield
+itelevisor.ru##div > .a-overlay
 kampc-help.ru###art-main > .art-sheet.art-box > .art-sheet-body.art-box-body > .art-layout-wrapper > .art-content-layout > .art-content-layout-row > .art-sidebar2.art-layout-cell > .art-block.art-box:nth-of-type(6) > .art-block-body.art-box-body
 kampc-help.ru##.art-box-body.art-post-body > .art-post-inner > .art-postcontent > .art-article > center
 kampc-help.ru##.art-layout-cell.art-sidebar1 > .art-box.art-block
@@ -192,6 +198,7 @@ ksenia.8m.com###sideFrame
 kv.by###block-block-116
 laptop-info.ru###page > .container-inner > div > .banners
 leeet.net###teaser_223
+lifehacker.ru##article[id^="post"] > .clearfix.entry-content > .relap-wrapper
 lyricsfreak.com##.large_wrapper.wrapper > .floatfix.song-content.content > .w100p.d-table > .d-row > .d-cell.al-t.sidebar > div:nth-of-type(1)
 magic-karelia.ru##table > tbody > tr > td:nth-of-type(2) > table > tbody > tr > td:nth-of-type(4) > table:nth-of-type(4) > tbody > tr > td > table:nth-of-type(4) > tbody > tr > td > table:nth-of-type(1) > tbody > tr:nth-of-type(1) > td:nth-of-type(7) > .tizer > .hd[href="#"]:nth-of-type(3)
 malekal.com##center
@@ -210,9 +217,9 @@ mk.ru##.wrap > div:nth-of-type(6) > .right > aside > .right_block:nth-of-type(11
 mk.ru##.wrap > div:nth-of-type(6) > .right > aside > .right_block:nth-of-type(12)
 mk.ru##.wrap > div:nth-of-type(6) > .right > aside > .right_block:nth-of-type(6)
 moscowwriters.ru##body > table:nth-of-type(2)
-mp3.shmidt.net###mainbox > .rightbox
 mp3-zaycev.com###page-body > .sidebar_position_left.sidebar.unit-sidebar > .sidebar__news.box:nth-of-type(3)
 mp3-zaycev.com###topArtistsBlock
+mp3.shmidt.net###mainbox > .rightbox
 myzuka.org##.all > .header > .aside > .button-a.v2[href="/GetVipAccount"]
 myzuka.org##.all > .main > .aside-col > center
 myzuka.org##.all > .main > .aside-col > noindex > center
@@ -259,6 +266,8 @@ popmech.ru###_sim_popup
 popuptest.com##table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2)
 popuptest.com##table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(3)
 proficinema.ru##table > tbody > tr:nth-of-type(1) > .root > table > tbody > tr > td:nth-of-type(1) > table > tbody > tr:nth-of-type(1) > td:nth-of-type(1) > noindex:nth-of-type(1)
+progimp.ru###iCN > .left > .ad-rle
+progimp.ru###iCN > .right > .spp
 rbc.ua##.hidemobo.rdblock
 redtube.com###contentHolder > .pageVideos.content > .slidePanelMovable.video-top-wrap > div:nth-of-type(1)
 remontka.pro##.rem-container.uk-container-center.uk-container > .uk-grid.tm-middle > .uk-width-medium-1-1.tm-main > .rem-main > .tm-content > .rem-singlearticle.uk-article > .uk-clearfix:nth-of-type(1)
@@ -268,6 +277,8 @@ ren.tv###block-block-22
 ren.tv###block-block-24
 rmprepusb.com##.sites-cookie-notice-fit
 royallib.com##.container > .container-in > .nuclear.center > .wrapper > .content > table:nth-of-type(2)
+ru.aliexpress.com##.ui-mask
+ru.aliexpress.com##.ui-newuser-floating-layer
 ru.onlinemschool.com###G_M
 ru.onlinemschool.com##.table_main > tbody > tr:nth-of-type(3) > .td_main_left
 ru.tsn.ua###left > .wrapper_10px:nth-of-type(5)
@@ -324,7 +335,6 @@ wiki.eduvdom.com##.dokuwiki > .page > .level1 > .table.sectionedit3
 wiki.eduvdom.com##.dokuwiki > div:nth-of-type(2)
 windowsfaq.ru##.container > tbody > tr > .maincolumn > div:nth-of-type(1)
 windxp.com.ru###fixblock > .del:nth-of-type(1)
-www.comss.ru###main > div:nth-of-type(1) > div:nth-of-type(1)
 youpk.ru###text-27
 youpk.ru###text-29
 youpk.ru###text-31
