@@ -1,22 +1,23 @@
 ! Title: Filters by hant0508
-! Version: 2.5.0
+! Version: 2.6.0
 
 ! Recommend to use with:
 ! - uBlock filters
-! - uBlock filters – Privacy‎
-! - uBlock filters – Unbreak‎
+! - uBlock filters – Privacy
+! - uBlock filters – Unbreak
 ! - Adblock Warning Removal List
 ! - EasyList
 ! - Peter Lowe’s Ad server list
 ! - EasyPrivacy
-! - Malvertising filter list by Disconnect‎
-! - Malware Domain List‎
+! - Malvertising filter list by Disconnect
+! - Malware Domain List
 ! - Malware domains
 ! - RUS: RU AdList
-! - Adguard Russian Filter (https://adguard.com/ru/filter-rules.html?id=1)
+! - Adguard Russian Filter (http://adguard.com/ru/filter-rules.html?id=1)
 
 ! Optional:
-! - RU AdList: BitBlock
+! - RU AdList: BitBlock (high risk of web page breakage)
+! - RU AdList: Counters (https://easylist-downloads.adblockplus.org/cntblock.txt)
 ! - Block-EU-Cookie-Shit-List (https://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt)
 ! - hpHosts - PSH (http://hosts-file.net/psh.txt)
 ! - hpHosts - HJK (http://hosts-file.net/hjk.txt)
@@ -28,6 +29,7 @@
 @@||cs.pikabu.ru/files/ad/*.png
 @@||relap.io/api$script,domain=adme.ru
 comss.ru#@#.top + .av
+megafon.ru#@#div[id^="AdFox_banner_"]
 new.gramota.ru#@##main-sec > .block-side:last-child
 
 ! Global rules
@@ -47,9 +49,17 @@ new.gramota.ru#@##main-sec > .block-side:last-child
 
 ! Special rules for pikabu.ru
 pikabu.ru##.promo-block
+pikabu.ru##noindex > .b-social
 pikabu.ru##td > [id="right_menu"] > table[style="width: 300px; margin: 15px 0 0 5px; padding: 0px; text-align: center"]
 pikabu.ru##td > span > table[style="border: 1px solid #d7d7d7; border-radius: 3px; width: 302px; margin: 15px 0 0 5px;text-align: center"]
 pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[class="inner_wrap b-story inner_wrap_visible"]
+
+! Strict blocking
+||askfm.im^
+||delta-search.com^
+||smartinf.ru^
+||webalta.ru^
+||yamdex.net^
 
 ! Blocking rules
 /wp-content/themes/urban-rooms_v4/images/picnic_ad_*.gif
@@ -60,7 +70,6 @@ pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[c
 ||adminvps.ru/img/buttons/AV468x60.gif
 ||allforchildren.ru/img/lolo.gif
 ||alma-ata.cf/*.html
-||askfm.im
 ||cdn.comss.net/action/internet*.png
 ||cdn.comss.net/img/adguard_down*.png
 ||cs.ppvlj.com/s/*/*.html
@@ -96,8 +105,8 @@ pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[c
 5terka.com###block-block-5
 5terka.com###block-user-4 > .widgetbottom
 add0n.com###inshort > tbody > tr:nth-of-type(1) > .box
-adme.ru##.dialog-bg
 adme.ru###js-dialog-social-overlay-1
+adme.ru##.dialog-bg
 adme.ru##.js-fixed-like-box-new.js-fixed-like-box.fixed-like-box-blue
 aeroflot.ru##.main-body > .block-right
 agar.io###helloContainer > .side-container:nth-of-type(4) > .agario-promo
@@ -106,6 +115,8 @@ allbesta.ru###center > noindex
 ame-game.com.ua###main-carcas > .content > tbody > tr:nth-of-type(1) > .cont_left > .div_rek
 anekdot.ru##table > tbody > tr:nth-of-type(4) > .rightcolumn
 antonkozlov.ru###sidebar_friends
+articulos.softonic.com###popup-newsletter-article
+articulos.softonic.com##.ov_opened.ov_modal_bkgnd_layer
 bestru.ru##.main_box > .rightColumn
 chelyabinsk-info.ga##body > noindex
 chistiulia.ru###content > .row-fluid > .span3:nth-of-type(1) > .clearfix.b-shadow.bt-5px.margin-25t.box.widget:nth-of-type(1)
@@ -151,6 +162,7 @@ ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > table > t
 ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > table > tbody > tr > td > noindex:nth-of-type(4) > form > div > center > p:nth-of-type(4)
 euroki.net##.bg_main > .main > div:nth-of-type(9)
 fastpic.ru##body > .center > a[href]
+fb.ru##.rollup.fsb
 fcbarcelona.cat###site-header__ads
 filyanin.ru###art-main > .art-sheet > .art-sheet-body > .art-content-layout > .art-content-layout-row > .art-sidebar1.art-layout-cell > .art-block
 finmarket.ru###pl45_ban72
@@ -168,6 +180,7 @@ game01.ru##.branding > .content > .inner:nth-of-type(2) > .gamePage > .gameTop >
 game01.ru##[class$="BannerWrap"]
 gamefaqs.com###content > .row.pre_content > .span12 > .board_wrap.pod > .body > .msg.message.board > tbody > .msg.forum_promo
 games.mydiv.net##div[style="width:728px; height: 90px; border:#dddddd 1px solid; margin-bottom:40px;margin-top:10px;"]
+garant.ru###page > .content > .inner > .row-grid > .popup-social
 geektimes.ru###layout > .inner > .dont-add-our-site-pls
 gitem.ru##.container > table > tbody > tr > td > .addon
 gitem.ru##.container > table > tbody > tr > td > .block-box > .box-cont > .cssmenu > li > .vkpr[href="http://spishy-gdz.ru/"]
@@ -290,6 +303,7 @@ proficinema.ru##table > tbody > tr:nth-of-type(1) > .root > table > tbody > tr >
 progimp.ru###iCN > .left > .ad-rle
 progimp.ru###iCN > .right > .spp
 rbc.ua##.hidemobo.rdblock
+read.ru##.banner_subscribe
 redtube.com###contentHolder > .pageVideos.content > .slidePanelMovable.video-top-wrap > div:nth-of-type(1)
 remontka.pro##.rem-container.uk-container-center.uk-container > .uk-grid.tm-middle > .uk-width-medium-1-1.tm-main > .rem-main > .tm-content > .rem-singlearticle.uk-article > .uk-clearfix:nth-of-type(1)
 remontka.pro##.rem-container.uk-container-center.uk-container > .uk-grid.tm-top-a
@@ -338,10 +352,13 @@ trashbox.ru###div_page_right > aside > .table_center > div > .adnobg.center
 tvgid.ua##table > tbody > tr > td > table > tbody > tr > .head > table:nth-of-type(2) > tbody > .copyright > td:nth-of-type(2)
 tvgid.ua##table > tbody > tr > td > table > tbody > tr > .head > table:nth-of-type(2) > tbody > tr:nth-of-type(2) > td:nth-of-type(2)
 tvgid.ua##table > tbody > tr > td > table > tbody > tr > .head > table:nth-of-type(2) > tbody > tr:nth-of-type(3) > td:nth-of-type(2)
+ubuntovod.ru###contentwrap > .sidecont > div:nth-of-type(4)
 velofun.ru###content > span
 velonews.ru###inner-wrap > .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid > .td-post-sidebar.column_container.span4 > .widget_text.widget
 veryicon.com###content > .right_content_728
 veryicon.com###content > .right_content_728:nth-of-type(3)
+vk.com###profile_narrow > .profile_rate_warning
+vk.com###profile_narrow > .stage0.rate_line
 vokrugsveta.ru###sape_links
 vsekratko.ru###content > .add
 vsekratko.ru###pright
