@@ -1,5 +1,5 @@
 ! Title: Filters by hant0508
-! Version: 2.6.0
+! Version: 2.6.1
 
 ! Recommend to use with:
 ! - uBlock filters
@@ -54,12 +54,28 @@ pikabu.ru##td > [id="right_menu"] > table[style="width: 300px; margin: 15px 0 0 
 pikabu.ru##td > span > table[style="border: 1px solid #d7d7d7; border-radius: 3px; width: 302px; margin: 15px 0 0 5px;text-align: center"]
 pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[class="inner_wrap b-story inner_wrap_visible"]
 
-! Strict blocking
+! Strict blocking rules
 ||askfm.im^
+||base2.ru^
 ||delta-search.com^
+||extrabase.ru^
+||fed2.ru^
+||glav4.ru^
+||gorspravki.ru^
+||guf2.ru^
+||misterjoy.ru^
+||mona-vi.ru^
+||phone8.ru^
+||rybalka-profi.ru^
 ||smartinf.ru^
+||vstrade.ru^
+||vtradein.ru^
 ||webalta.ru^
+||well-men.ru^
+||x002xx.ru^
+||xiby.ru^
 ||yamdex.net^
+||znaniytutpiahocost.weebly.com^
 
 ! Blocking rules
 /wp-content/themes/urban-rooms_v4/images/picnic_ad_*.gif
@@ -87,10 +103,11 @@ pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[c
 ||ntv.ru/smi.html
 ||red.tingrinter.com/
 ||static.fastpic.ru/js/jquery*.js
-||velopiter.spb.ru/activeinfo/banners/*/*.gif
 ||velo-stokcenter.ru/images/vst_720x100.swf
+||velopiter.spb.ru/activeinfo/banners/*/*.gif
 ||vladmaxi.net/uploads/*/*/banner*.gif
 ||whoer.net/images/*.gif
+||www.uchiyaziki.ru/adblock
 
 ! Hiding rules
 100-000-pochemu.info###sidebar-left.sidebar.grid_4.top-margin > ul
