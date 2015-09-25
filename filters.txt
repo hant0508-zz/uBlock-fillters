@@ -1,5 +1,5 @@
 ! Title: Filters by hant0508
-! Version: 2.6.1
+! Version: 2.7.0
 
 ! Recommend to use with:
 ! - uBlock filters
@@ -46,6 +46,7 @@ new.gramota.ru#@##main-sec > .block-side:last-child
 ~megafon.ru##[class*="AdFox"]
 ~megafon.ru##[id*="adfox"]
 ~megafon.ru##[id*="AdFox"]
+~nov-mod.ru##[href^="http://nov-mod.ru/"]
 
 ! Special rules for pikabu.ru
 pikabu.ru##.promo-block
@@ -54,12 +55,20 @@ pikabu.ru##td > [id="right_menu"] > table[style="width: 300px; margin: 15px 0 0 
 pikabu.ru##td > span > table[style="border: 1px solid #d7d7d7; border-radius: 3px; width: 302px; margin: 15px 0 0 5px;text-align: center"]
 pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[class="inner_wrap b-story inner_wrap_visible"]
 
+! Special rules for adme.ru
+adme.ru##[id^="js-dialog-social-overlay"]
+adme.ru##.dialog-bg
+adme.ru##.js-fixed-like-box-new.js-fixed-like-box.fixed-like-box-blue
+adme.ru##.js-fixed-like-box.fixed-like-box-blue
+adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.article-list-block
+
 ! Strict blocking rules
 ||askfm.im^
 ||base2.ru^
 ||delta-search.com^
 ||extrabase.ru^
 ||fed2.ru^
+||file.freeddns.org^
 ||glav4.ru^
 ||gorspravki.ru^
 ||guf2.ru^
@@ -68,6 +77,7 @@ pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[c
 ||phone8.ru^
 ||rybalka-profi.ru^
 ||smartinf.ru^
+||softing.draizer.ru^
 ||vstrade.ru^
 ||vtradein.ru^
 ||webalta.ru^
@@ -99,15 +109,19 @@ pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[c
 ||kampc-help.ru/img/30.gif
 ||kotovski.net/wp-content/uploads/CRONUS_Models3-1_600x200.png
 ||last.by/adv/kr.gif
+||magmens.com/wp-content/uploads/20*/*.gif
 ||mirtochtonado.ru/seo.html
+||myonionsoup.com/bn/2053.gif
 ||ntv.ru/smi.html
+||prankota.com/images/*.gif
 ||red.tingrinter.com/
 ||static.fastpic.ru/js/jquery*.js
+||u.jimdo.com*/std/image.gif
+||uchiyaziki.ru/adblock
 ||velo-stokcenter.ru/images/vst_720x100.swf
 ||velopiter.spb.ru/activeinfo/banners/*/*.gif
 ||vladmaxi.net/uploads/*/*/banner*.gif
 ||whoer.net/images/*.gif
-||www.uchiyaziki.ru/adblock
 
 ! Hiding rules
 100-000-pochemu.info###sidebar-left.sidebar.grid_4.top-margin > ul
@@ -122,9 +136,6 @@ pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[c
 5terka.com###block-block-5
 5terka.com###block-user-4 > .widgetbottom
 add0n.com###inshort > tbody > tr:nth-of-type(1) > .box
-adme.ru###js-dialog-social-overlay-1
-adme.ru##.dialog-bg
-adme.ru##.js-fixed-like-box-new.js-fixed-like-box.fixed-like-box-blue
 aeroflot.ru##.main-body > .block-right
 agar.io###helloContainer > .side-container:nth-of-type(4) > .agario-promo
 agar.io###mainPanel > center
@@ -199,6 +210,7 @@ gamefaqs.com###content > .row.pre_content > .span12 > .board_wrap.pod > .body > 
 games.mydiv.net##div[style="width:728px; height: 90px; border:#dddddd 1px solid; margin-bottom:40px;margin-top:10px;"]
 garant.ru###page > .content > .inner > .row-grid > .popup-social
 geektimes.ru###layout > .inner > .dont-add-our-site-pls
+getemoji.com##.container > div > .text-center:nth-of-type(2)
 gitem.ru##.container > table > tbody > tr > td > .addon
 gitem.ru##.container > table > tbody > tr > td > .block-box > .box-cont > .cssmenu > li > .vkpr[href="http://spishy-gdz.ru/"]
 google.ru###pmocntr2
@@ -231,6 +243,7 @@ ilibrary.ru###in > div:nth-of-type(3)
 ilibrary.ru###mnubar > div > table:nth-of-type(1) > tbody > tr > td:nth-of-type(1) > table > tbody > tr > td > div:nth-of-type(2)
 ilibrary.ru###mnubar > div > table:nth-of-type(1) > tbody > tr > td:nth-of-type(1) > table > tbody > tr > td > span:nth-of-type(2)
 instagram.com##.-cx-PRIVATE-Photo__clickShield
+irc.lv###regForm
 itelevisor.ru##div > .a-overlay
 kampc-help.ru###art-main > .art-sheet.art-box > .art-sheet-body.art-box-body > .art-layout-wrapper > .art-content-layout > .art-content-layout-row > .art-sidebar2.art-layout-cell > .art-block.art-box:nth-of-type(6) > .art-block-body.art-box-body
 kampc-help.ru##.art-box-body.art-post-body > .art-post-inner > .art-postcontent > .art-article > center
