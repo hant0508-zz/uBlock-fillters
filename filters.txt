@@ -1,5 +1,5 @@
 ! Title: Filters by hant0508
-! Version: 2.7.0
+! Version: 2.7.1
 
 ! Recommend to use with:
 ! - uBlock filters
@@ -56,7 +56,7 @@ pikabu.ru##td > span > table[style="border: 1px solid #d7d7d7; border-radius: 3p
 pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[class="inner_wrap b-story inner_wrap_visible"]
 
 ! Special rules for adme.ru
-adme.ru##[id^="js-dialog-social-overlay"]
+adme.ru##[class*="dialog-social"]
 adme.ru##.dialog-bg
 adme.ru##.js-fixed-like-box-new.js-fixed-like-box.fixed-like-box-blue
 adme.ru##.js-fixed-like-box.fixed-like-box-blue
@@ -74,6 +74,7 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 ||guf2.ru^
 ||misterjoy.ru^
 ||mona-vi.ru^
+||peceqi.meda-21.ru^
 ||phone8.ru^
 ||rybalka-profi.ru^
 ||smartinf.ru^
@@ -112,8 +113,10 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 ||magmens.com/wp-content/uploads/20*/*.gif
 ||mirtochtonado.ru/seo.html
 ||myonionsoup.com/bn/2053.gif
+||new.gramota.ru/templates/ru_gramota_spravka_/images/sp.gif
 ||ntv.ru/smi.html
 ||prankota.com/images/*.gif
+||prostolinux.ru/wp-content/bn/ihor.gif
 ||red.tingrinter.com/
 ||static.fastpic.ru/js/jquery*.js
 ||u.jimdo.com*/std/image.gif
@@ -131,6 +134,7 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 300kbit.ru###main > section > section > .cont_b
 300kbit.ru###main > section > section > .content_a:nth-of-type(2)
 320kbit.net###sl
+3dyuriki.com###wsidebar-top
 4ege.ru##.size-wrap > .centrovka > tbody > tr > .yip > object
 4pda.ru###sidebar > .side-box:nth-of-type(1)
 5terka.com###block-block-5
@@ -239,6 +243,7 @@ home.webalta.ru###out-content > .col-2
 howto.mydiv.net##div[style="border:1px #EAEAEA solid; widtH:728px; height:90px; margin-top:5px; margin-bottom:38px;"]
 howto.mydiv.net##div[style="margin-top:120px;width:160px; height:600px;  bordeR:1px #eeeeee solid;"]
 i-vd.org.ru##table > tbody > tr > td > table > tbody > tr > td > .mainfooter
+ilibrary.ru###ex
 ilibrary.ru###in > div:nth-of-type(3)
 ilibrary.ru###mnubar > div > table:nth-of-type(1) > tbody > tr > td:nth-of-type(1) > table > tbody > tr > td > div:nth-of-type(2)
 ilibrary.ru###mnubar > div > table:nth-of-type(1) > tbody > tr > td:nth-of-type(1) > table > tbody > tr > td > span:nth-of-type(2)
@@ -277,6 +282,7 @@ mir24.net###bn_953c68279c
 mk.ru##.wrap > div:nth-of-type(6) > .right > aside > .right_block:nth-of-type(11)
 mk.ru##.wrap > div:nth-of-type(6) > .right > aside > .right_block:nth-of-type(12)
 mk.ru##.wrap > div:nth-of-type(6) > .right > aside > .right_block:nth-of-type(6)
+momentmag.com###sidebar > [id^="text-"]
 moscowwriters.ru##body > table:nth-of-type(2)
 mp3-zaycev.com###page-body > .sidebar_position_left.sidebar.unit-sidebar > .sidebar__news.box:nth-of-type(3)
 mp3-zaycev.com###topArtistsBlock
@@ -287,9 +293,14 @@ myzuka.org##.all > .header > .aside > .button-a.v2[href="/GetVipAccount"]
 myzuka.org##.all > .main > .aside-col > center
 myzuka.org##.all > .main > .aside-col > noindex > center
 myzuka.org##.all > .main > .side-col > noindex > center
+myzuka.org##.all > .main > center
 nagitaru.ru###text-24
 nagitaru.ru###text-35
 nashe.ru##.main > .content > .wrapper > .right-sidebar
+nat-geo.ru###_sim_popup
+nat-geo.ru###widget-collection-overlay
+nat-geo.ru##.grid-cell--shadow.grid-cell--3banner.grid-cell--3.grid-cell.js-banner-stretch
+nat-geo.ru##[class*="js-banner-tgb-article"]
 newkaliningrad.ru###page-buffer > .container > .row > .col-main > .pr-600
 newkaliningrad.ru###page-buffer > .container > .row > .col-side
 newkaliningrad.ru##.modal, .fade, .in
@@ -347,6 +358,7 @@ ru.aliexpress.com##.ui-mask
 ru.aliexpress.com##.ui-newuser-floating-layer
 ru.onlinemschool.com###G_M
 ru.onlinemschool.com##.table_main > tbody > tr:nth-of-type(3) > .td_main_left
+ru.stackoverflow.com###beta-ad-container
 ru.tsn.ua###left > .wrapper_10px:nth-of-type(5)
 ru.tsn.ua###left > .wrapper_10px:nth-of-type(7)
 ru.tsn.ua###left > .wrapper_10px_bottom
@@ -373,10 +385,13 @@ softrew.ru##.main-center-block > .content-block > .shad > .shad-top > .shad-bott
 sozdaiblog.ru###scrollable
 space.utema.ru###main-content > .main-content-padding > noindex:nth-of-type(1)
 staforceteam.ru##body > div:nth-of-type(1)
+tatar-inform.ru##.banner
 the-village.ru###fixed-sidebar
 the-village.ru##.app-content.page-content > .row-adblock-message.row
 thg.ru##body > div:nth-of-type(4) > table:nth-of-type(2) > tbody > tr > td:nth-of-type(3) > table > tbody > tr:nth-of-type(1)
 timeout.ru###DIV_BSN_36
+toolslib.net##.panel-default.panel
+toolslib.net##body > .container:nth-of-type(3) > .row > .col-sm-9
 top1000-ru.hotlog.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(3) > div:nth-of-type(3)
 trashbox.ru###div_page_right > aside > .table_center > div > .adnobg.center
 tvgid.ua##table > tbody > tr > td > table > tbody > tr > .head > table:nth-of-type(2) > tbody > .copyright > td:nth-of-type(2)
