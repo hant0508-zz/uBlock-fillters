@@ -1,5 +1,5 @@
 ! Title: Filters by hant0508
-! Version: 2.7.2
+! Version: 2.7.3
 
 ! Recommend to use with:
 ! - uBlock filters
@@ -114,6 +114,7 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 ||guruadmin.ru/hosting.gif
 ||hackzone.ru/img/*.gif
 ||hi-tech.mail.ru/img/branding/
+||host-food.ru/images/banners/
 ||i.qtymi.com/s/*/*.html
 ||kampc-help.ru/img/30.gif
 ||kotovski.net/wp-content/uploads/CRONUS_Models3-1_600x200.png
@@ -129,6 +130,7 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 ||red.tingrinter.com/
 ||static.fastpic.ru/js/jquery*.js
 ||studme.org/images/*adv*.gif
+||theindependent.co.zw/wp-content/uploads/2015/12/13121B-ZB-Home-Improvements_ZimInd-*.jpg
 ||u.jimdo.com*/std/image.gif
 ||uchiyaziki.ru/adblock
 ||velo-stokcenter.ru/images/vst_720x100.swf
@@ -206,6 +208,7 @@ ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > noindex
 ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > noindex:nth-of-type(1)
 ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > table > tbody > tr > td > noindex:nth-of-type(4) > form > div > center > p:nth-of-type(3)
 ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > table > tbody > tr > td > noindex:nth-of-type(4) > form > div > center > p:nth-of-type(4)
+euroki.net##.bg_main > .main > .one_page.content > .clearfix > .send_error
 euroki.net##.bg_main > .main > div:nth-of-type(9)
 fastpic.ru##body > .center > a[href]
 fb.ru##.rollup.fsb
@@ -222,6 +225,8 @@ forum.beznal.cc###index_stats > .ipsSideBlock:nth-of-type(3)
 forum.beznal.cc###index_stats > .ipsSideBlock:nth-of-type(4)
 forum.beznal.cc###shopslider
 fromblog.ru###page > footer > .container > .suf
+furfur.me###fixed-sidebar
+furfur.me##.app-content.page-content > .main-row.row > .row-cont > .app-content.content > .post > .pseudosidebar
 game01.ru##.branding > .content > .inner:nth-of-type(2) > .gamePage > .gameTop > .rightBanner
 game01.ru##[class$="BannerWrap"]
 gamefaqs.com###content > .row.pre_content > .span12 > .board_wrap.pod > .body > .msg.message.board > tbody > .msg.forum_promo
@@ -232,6 +237,7 @@ getemoji.com##.container > div > .text-center:nth-of-type(2)
 gitem.ru##.container > table > tbody > tr > td > .addon
 gitem.ru##.container > table > tbody > tr > td > .block-box > .box-cont > .cssmenu > li > .vkpr[href="http://spishy-gdz.ru/"]
 google.ru###pmocntr2
+gorod48.ru###body > .main > .mar.col3 > [class^="banner"]
 gotovkgia.ru###post-2251 > .entry-wrap > .content.entry-content > p:nth-of-type(7)
 gotovkgia.ru###post-2251 > .entry-wrap > .content.entry-content > table
 grani.ru###LentaInformScriptRootN14220
@@ -239,6 +245,7 @@ grani.ru###main-inner > .clearfix.main-text > .ad-240x400
 grani.ru###other-links
 gtmarket.ru###main > .main-cnt > section > .node > .t-a > tbody > tr > .t-f-a
 habrahabr.ru###layout > .inner > .dont-add-our-site-pls
+habrahabr.ru##.float_yandex_ad
 habrahabr.ru##.sidebar_right > .float_block
 hackzone.ru##div:nth-of-type(1) > a[href="/forum/open/id/1908/"]
 hackzone.ru##div:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(2) > td > table:nth-of-type(3) > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > .plashka1:nth-of-type(5)
@@ -258,10 +265,13 @@ home.webalta.ru###out-content > .col-2
 howto.mydiv.net##div[style="border:1px #EAEAEA solid; widtH:728px; height:90px; margin-top:5px; margin-bottom:38px;"]
 howto.mydiv.net##div[style="margin-top:120px;width:160px; height:600px;  bordeR:1px #eeeeee solid;"]
 i-vd.org.ru##table > tbody > tr > td > table > tbody > tr > td > .mainfooter
+ibm.com###dw-regbar
 ilibrary.ru###ex
 ilibrary.ru###in > div:nth-of-type(3)
 ilibrary.ru###mnubar > div > table:nth-of-type(1) > tbody > tr > td:nth-of-type(1) > table > tbody > tr > td > div:nth-of-type(2)
 ilibrary.ru###mnubar > div > table:nth-of-type(1) > tbody > tr > td:nth-of-type(1) > table > tbody > tr > td > span:nth-of-type(2)
+inforuss.ru##body > table:nth-of-type(2) > tbody > tr > td:nth-of-type(1) > table > tbody > tr > td > div
+inforuss.ru##noindex > div:nth-of-type(2)
 instagram.com##.-cx-PRIVATE-Photo__clickShield
 irc.lv###regForm
 itelevisor.ru##div > .a-overlay
@@ -327,6 +337,7 @@ newkaliningrad.ru###page-buffer > .container > .row > .col-side
 newkaliningrad.ru##.modal, .fade, .in
 news-kmv.ru##img[alt="реклама"]
 newslab.ru##.page > .container-fluid:nth-of-type(3) > .di2-skeleton > .di2-skeleton__aside > .hidden-sm.hidden-xs.b-banner_center.b-banner-wrapper
+newsru.com###stakan
 ntv.ru###flamur3
 ntv.ru###flamur7
 ntv.ru###xblock
