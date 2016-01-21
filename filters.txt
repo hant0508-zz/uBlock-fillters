@@ -1,5 +1,5 @@
 ! Title: Filters by hant0508
-! Version: 2.7.4
+! Version: 2.7.5
 
 ! Recommended to use with:
 ! - uBlock filters
@@ -51,6 +51,7 @@ new.gramota.ru#@##main-sec > .block-side:last-child
 ~nov-mod.ru##[href^="http://nov-mod.ru/"]
 
 ! Special rules for pikabu.ru
+pikabu.ru###wrap > table > tbody > tr > .main-b > .inner_wrap > tbody > tr > td > div:nth-of-type(1) > table[id^="inner_wrap_"]
 pikabu.ru##.promo-block
 pikabu.ru##noindex > .b-social
 pikabu.ru##td > [id="right_menu"] > table[style="width: 300px; margin: 15px 0 0 5px; padding: 0px; text-align: center"]
@@ -109,7 +110,9 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 ||cdn.comss.net/img/adguard_down*.png
 ||cs.ppvlj.com/s/*/*.html
 ||deita.ru/*/*/*.gif
+||delayreferat.ru/images/polosa.swf
 ||demo.boobstagram.com/wp-content/themes/boobstagram/images/store.gif
+||ege-ok.ru/wp-content/uploads/*/*/*.gif
 ||fightforthefuture.github.io/countdown-widget/iframe/banner.html
 ||funkyimg.com/i/*.jpg
 ||guruadmin.ru/hosting.gif
@@ -184,6 +187,7 @@ chistiulia.ru###content > .row-fluid > .span3:nth-of-type(1) > .clearfix.b-shado
 chistiulia.ru###content > .row-fluid > .span3:nth-of-type(1) > .clearfix.b-shadow.bt-5px.margin-25t.box.widget:nth-of-type(3)
 chistiulia.ru###content > .row-fluid > .span3:nth-of-type(3) > .clearfix.b-shadow.bt-5px.margin-25t.box.widget:nth-of-type(2)
 chistiulia.ru###content > .row-fluid > .span3:nth-of-type(3) > .clearfix.b-shadow.bt-5px.margin-25t.box.widget:nth-of-type(4)
+citilink.ru##.toggling_banners
 compconsult.orgfree.com###block-block-11.block.block-block
 compconsult.orgfree.com###block-block-17.block.block-block
 comss.info###header > .toplogo > span
@@ -205,6 +209,8 @@ darkside.ru###fscroller > div
 dead-line.net###content > .rightsidebar.hidden-xs.hidden-sm.col-sm-2
 deita.ru###stMainCenter > .stBunner.stInNewsListBunner
 deita.ru###stMainRight > .stRightBunner_right.stBunner
+delayreferat.ru##.side-border-left
+delayreferat.ru##.side-border-right
 drivers.mydiv.net##div[style="margin:8px;margin-top:0px;border:1px #c0c0c0 solid; width: 336px;"]
 drivers.mydiv.net##div[style="width:160px; height:600px;  bordeR:1px #eeeeee solid;"]
 drivers.mydiv.net##div[style="width:160px; height:600px; margin-left:15px; margin-right:5px; bordeR:1px #eeeeee solid;"]
@@ -296,6 +302,7 @@ kareliyarsp.ru###tdRight > .cntr_menu:nth-of-type(1) > .data_menu > noindex > no
 kinobaza.tv###fast-feedback-btn
 kizi.com###ad_title
 kizi.com###game_header
+kostyor.ru##[class*="reclama"]
 kp.ru###ok-popup
 kp.ru###top-link-social.all_top-link-social > .left
 ksenia.8m.com###sideFrame
@@ -303,6 +310,7 @@ kv.by###block-block-116
 laptop-info.ru###page > .container-inner > div > .banners
 leeet.net###teaser_223
 lifehacker.ru##article[id^="post"] > .clearfix.entry-content > .relap-wrapper
+lit.1september.ru###menu
 litmir.co##tbody > tr > td > div[style="height:180px; overflow:hidden;"]
 livelib.ru###column-fixed
 lyricsfreak.com##.large_wrapper.wrapper > .floatfix.song-content.content > .w100p.d-table > .d-row > .d-cell.al-t.sidebar > div:nth-of-type(1)
@@ -491,6 +499,7 @@ youpk.ru###text-27
 youpk.ru###text-29
 youpk.ru###text-31
 youpk.ru###text-33
+znak.com##main > .x1.column.flex:nth-of-type(1) > .st
 zvanyuzhin.ru###sidebar > div:nth-of-type(10)
 zvanyuzhin.ru###sidebar > div:nth-of-type(11)
 zvanyuzhin.ru###sidebar > div:nth-of-type(8)
