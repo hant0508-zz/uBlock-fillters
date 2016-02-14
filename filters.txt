@@ -1,5 +1,5 @@
 ! Title: Filters by hant0508
-! Version: 2.7.6
+! Version: 2.7.7
 
 ! Recommended to use with:
 ! - uBlock filters
@@ -9,7 +9,6 @@
 ! - EasyList
 ! - Peter Lowe’s Ad server list
 ! - EasyPrivacy
-! - Malvertising filter list by Disconnect
 ! - Malware Domain List
 ! - Malware domains
 ! - RUS: RU AdList
@@ -135,6 +134,7 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 ||mngz.ru/templates/Mangazeya/images/60pl-280px.gif
 ||mngz.ru/templates/Mangazeya/images/md.jpg
 ||mngz.ru/uploads/rek/
+||moeobrazovanie.ru/*/*/*/asd*
 ||mp3.cc/public/api.iframe.php
 ||mparker.ru/images/banners
 ||myonionsoup.com/bn/2053.gif
@@ -143,6 +143,7 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 ||new.gramota.ru/templates/ru_gramota_spravka_/images/sp.gif
 ||ntv.ru/smi.html
 ||pbs.twimg.com/profile_banners/
+||php-zametki.ru/images/banner*.gif
 ||prankota.com/images/*.gif
 ||prostolinux.ru/wp-content/bn/ihor.gif
 ||red.tingrinter.com/
@@ -183,6 +184,7 @@ add0n.com###inshort > tbody > tr:nth-of-type(1) > .box
 aeroflot.ru##.main-body > .block-right
 agar.io###helloContainer > .side-container:nth-of-type(4) > .agario-promo
 agar.io###mainPanel > center
+all-biography.ru###right-sidebar > [class*="ads_banner"]
 allbesta.ru###center > noindex
 alvinalexander.com##.ads-large.ads
 ame-game.com.ua###main-carcas > .content > tbody > tr:nth-of-type(1) > .cont_left > .div_rek
@@ -309,6 +311,7 @@ irecommend.ru###bigright
 irecommend.ru###sidebar-left-top-content-wrapper
 irecommend.ru###sidebar-left-top-content-wrapper > .brusok-processed.brusok > .left-top-300x250
 itelevisor.ru##div > .a-overlay
+jenyay.net###wikitext > .ad
 kampc-help.ru###art-main > .art-sheet.art-box > .art-sheet-body.art-box-body > .art-layout-wrapper > .art-content-layout > .art-content-layout-row > .art-sidebar2.art-layout-cell > .art-block.art-box:nth-of-type(6) > .art-block-body.art-box-body
 kampc-help.ru##.art-box-body.art-post-body > .art-post-inner > .art-postcontent > .art-article > center
 kampc-help.ru##.art-layout-cell.art-sidebar1 > .art-box.art-block
@@ -352,6 +355,9 @@ mngz.ru###side > .dslinks-block
 mngz.ru###side > .yodofix
 mngz.ru###side > a[href^="http://"]
 mngz.ru###side > noindex > div > span
+moeobrazovanie.ru###adapt-wrapper > .aside > .filler.puzzle
+moeobrazovanie.ru###adapt-wrapper > .bgLeftExcessBlock[href^="/go/"]
+moeobrazovanie.ru###adapt-wrapper > .headBn.puzzle
 momentmag.com###sidebar > [id^="text-"]
 moscowwriters.ru##body > table:nth-of-type(2)
 mp3-zaycev.com###page-body > .sidebar_position_left.sidebar.unit-sidebar > .sidebar__news.box:nth-of-type(3)
@@ -512,6 +518,7 @@ wiki.eduvdom.com##.dokuwiki > .page > .level1 > .table.sectionedit3
 wiki.eduvdom.com##.dokuwiki > div:nth-of-type(2)
 windowsfaq.ru##.container > tbody > tr > .maincolumn > div:nth-of-type(1)
 windxp.com.ru###fixblock > .del:nth-of-type(1)
+wolframalpha.com###headerad-pro
 wolframalpha.com###sidebar
 youpk.ru###text-27
 youpk.ru###text-29
