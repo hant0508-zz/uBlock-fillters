@@ -1,10 +1,7 @@
 ! Title: Filters by hant0508
-! Version: 2.7.8
+! Version: 2.8.0
 
 ! Recommended to use with:
-! - uBlock filters
-! - uBlock filters – Privacy
-! - uBlock filters – Unbreak
 ! - Adblock Warning Removal List
 ! - EasyList
 ! - Peter Lowe’s Ad server list
@@ -13,11 +10,11 @@
 ! - Malware domains
 ! - RUS: RU AdList
 ! - Adguard Russian Filter (https://adguard.com/ru/filter-rules.html?id=1)
+! - uBlock Filters + (https://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt)
 
 ! Optional:
-! - RU AdList: BitBlock (high risk of web page breakage)
 ! - RU AdList: Counters (https://easylist-downloads.adblockplus.org/cntblock.txt)
-! - Block-EU-Cookie-Shit-List (https://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt)
+! - I don't care about cookies (http://www.kiboke-studio.hr/i-dont-care-about-cookies/abp/)
 ! - hpHosts - PSH (http://hosts-file.net/psh.txt)
 ! - hpHosts - HJK (http://hosts-file.net/hjk.txt)
 ! - hpHosts - EXP (http://hosts-file.net/exp.txt)
@@ -25,10 +22,10 @@
 ! Exclusions
 @@/adwolf.
 @@/pr.php?
-@@||cs.pikabu.ru/files/ad/*.png
 @@||gigatorrent.net^
 @@||mymeizu.ru/bitrix/templates/m2mini/content$image
 @@||relap.io/api$script,domain=adme.ru
+@@||speedtest.net/javascript/speedtest-main.js?*
 @@||videouroki.net/img/*/*.gif
 comss.ru#@#.top + .av
 megafon.ru#@#div[id^="AdFox_banner_"]
@@ -51,6 +48,8 @@ new.gramota.ru#@##main-sec > .block-side:last-child
 ~nov-mod.ru##[href^="http://nov-mod.ru/"]
 
 ! Special rules for pikabu.ru
+@@||cs.pikabu.ru/files/ad/*.png
+pikabu.ru###wrap > table > tbody > tr > .main-b > .inner_wrap > tbody > tr > td > .stories_prev
 pikabu.ru###wrap > table > tbody > tr > .main-b > .inner_wrap > tbody > tr > td > div:nth-of-type(1) > table[id^="inner_wrap_"]
 pikabu.ru##.promo-block
 pikabu.ru##[href^="http://pikabu.ru/go/"]
@@ -65,6 +64,14 @@ adme.ru##.dialog-bg
 adme.ru##.js-fixed-like-box-new.js-fixed-like-box.fixed-like-box-blue
 adme.ru##.js-fixed-like-box.fixed-like-box-blue
 adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.article-list-block
+
+! Special rules for 4pda.ru
+4pda.ru###wrapper > div[class] > div[class] > div[id] > div[class] > section[id] > article[id] > .post > .visual > a[class][href^="http://4pda.ru/20"][target="_blank"][style=""]
+4pda.ru###wrapper > div[class] > div[class] > div[id] > div[class] > section[id] > article[id] > .post > .visual > a[class][href^="http://4pda.ru/20"][target="_blank"][title=""]
+4pda.ru###wrapper > div[class] > div[class] > div[id][class] > a[href]
+4pda.ru###wrapper > div[class] > div[class] > div[id][class] > a[style]
+4pda.ru##aside[id]:nth-of-type(1) > div[class] > .sidebar_border_content
+||s.4pda.to/*.gif$image
 
 ! Strict blocking rules
 ||askfm.im^
@@ -103,10 +110,14 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 ||198.58.122.116/ads
 ||2.cdn.echo.msk.ru/files/1338208.jpg
 ||5ballov.qip.ru/iframe/
+||abcege.easytrack.pro/b$subdocument
 ||activeinfo.ru/ai.gif
 ||adminvps.ru/img/buttons/AV468x60.gif
 ||allforchildren.ru/img/lolo.gif
 ||alma-ata.cf/*.html
+||altwall.net/images/b/
+||biblemenus.com/adframe
+||bicaps.net/bicaps-bg*.jpg$image
 ||c.mql4.com/images/*/*.gif
 ||cdn*.grattis.ru/publicdata/widget/
 ||cdn.comss.net/action/internet*.png
@@ -129,12 +140,15 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 ||i.qtymi.com/s/*/*.html
 ||idatz.twirpx.com/swf/*
 ||kampc-help.ru/img/30.gif
+||kotovski.net/wp-content/uploads/*banner*
 ||kotovski.net/wp-content/uploads/CRONUS_Models3-1_600x200.png
 ||last.by/adv/kr.gif
 ||magmens.com/wp-content/uploads/20*/*.gif
 ||mathprofi.com/images/promo/
 ||mathprofi.ru/images/matburo.gif
 ||mathprofi.ru/images/zaochnik*.gif
+||mathwarehouse.com/images/icons/penjee/*.gif
+||megarand.ru/images/banner.png
 ||mirtochtonado.ru/seo.html
 ||mngz.ru/templates/Mangazeya/images/60pl-280px.gif
 ||mngz.ru/templates/Mangazeya/images/md.jpg
@@ -143,6 +157,7 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 ||mp3.cc/public/api.iframe.php
 ||mparker.ru/images/banners
 ||myonionsoup.com/bn/2053.gif
+||myzuka.org/do/*
 ||nanevskom.ru/wp-content/uploads/*.gif
 ||nesk.ru/images/up_line.gif
 ||new.gramota.ru/templates/ru_gramota_spravka_/images/sp.gif
@@ -150,16 +165,21 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 ||pbs.twimg.com/profile_banners/
 ||php-zametki.ru/images/banner*.gif
 ||prankota.com/images/*.gif
+||programmersforum.ru/anim*.gif
 ||prostolinux.ru/wp-content/bn/ihor.gif
 ||red.tingrinter.com/
 ||ru.onlinemschool.com/*/prmo/
+||ru.onlinemschool.com/pictures/promo$image
 ||s3.amazonaws.com/disconnect-images/images/search/*Premium*.png
+||savoy.cubecdn.net/*.jpg$image
+||scontent-frt3-1.xx.fbcdn.net/*.jpg$image
 ||server-rotation.ru/media/upload/ban/*
 ||ss.nzbstars.com.xxxnavy.com/advertisement.js
 ||static.fastpic.ru/js/jquery*.js
 ||storeb2b.com/images/banners/*
 ||studme.org/images/*adv*.gif
 ||tampermonkey.net/bnir/*
+||technical-server.ru/media/upload/ban/
 ||theindependent.co.zw/wp-content/uploads/2015/12/13121B-ZB-Home-Improvements_ZimInd-*.jpg
 ||u.jimdo.com*/std/image.gif
 ||uchiyaziki.ru/adblock
@@ -170,26 +190,22 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 ||videouroki.net/*banner
 ||videouroki.net/img/look/bestforteacherstop.jpg
 ||vladmaxi.net/uploads/*/*/banner*.gif
+||webmath.ru/images/webmath_240_400_homework.jpg
 ||whoer.net/images/*.gif
 ||www.kuponlar.ru/res/knopki/kuponlar88x31.gif
 
 ! Hiding rules
 100-000-pochemu.info###sidebar-left.sidebar.grid_4.top-margin > ul
-10minutemail.net###leftover
-10minutemail.net###noadright
-10minutemail.org###noadright
-300kbit.ru###main > section > aside > .com:nth-of-type(9)
-300kbit.ru###main > section > aside > .main_e
-300kbit.ru###main > section > section > .cont_b
-300kbit.ru###main > section > section > .content_a:nth-of-type(2)
+10minutemail.*###noadright
+10minutemail.net###right
+256bit.ru##body > div:nth-of-type(1)
+256bit.ru##body > table:nth-of-type(1)
 320kbit.net###sl
 320kbit.net##.bg > .tpi.ProfileCanopy--large.ProfileCanopy--withNav.ProfileCanopy
 3dyuriki.com###wsidebar-top
 4ege.ru##.size-wrap > .centrovka > tbody > tr > .yip > object
-4pda.ru###sidebar > .side-box:nth-of-type(1)
 5ballov.qip.ru###content > .right_sidebar > .h_block.panel
-5terka.com###block-block-5
-5terka.com###block-user-4 > .widgetbottom
+720pizle.com##[id^="reklam"]
 add0n.com###inshort > tbody > tr:nth-of-type(1) > .box
 aeroflot.ru##.main-body > .block-right
 afisha.yandex.ru##.b-page__inner > .page-content > .content-event > .main > .content-event__main.smart-grid > .smart-grid__right-column
@@ -199,6 +215,7 @@ agar.io###helloContainer > .side-container:nth-of-type(4) > .agario-promo
 agar.io###mainPanel > center
 all-biography.ru###right-sidebar > [class*="ads_banner"]
 allbesta.ru###center > noindex
+altyazilifilmizle.org###pageskin > .bannergroup-pageskin
 alvinalexander.com##.ads-large.ads
 ame-game.com.ua###main-carcas > .content > tbody > tr:nth-of-type(1) > .cont_left > .div_rek
 anekdot.ru##table > tbody > tr:nth-of-type(4) > .rightcolumn
@@ -206,6 +223,7 @@ antonkozlov.ru###sidebar_friends
 articulos.softonic.com###popup-newsletter-article
 articulos.softonic.com##.ov_opened.ov_modal_bkgnd_layer
 bestru.ru##.main_box > .rightColumn
+bicaps.net##.external
 chelyabinsk-info.ga##body > noindex
 chistiulia.ru###content > .row-fluid > .span3:nth-of-type(1) > .clearfix.b-shadow.bt-5px.margin-25t.box.widget:nth-of-type(1)
 chistiulia.ru###content > .row-fluid > .span3:nth-of-type(1) > .clearfix.b-shadow.bt-5px.margin-25t.box.widget:nth-of-type(3)
@@ -253,6 +271,7 @@ ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > table > t
 ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > table > tbody > tr > td > noindex:nth-of-type(4) > form > div > center > p:nth-of-type(4)
 encyclopediadramatica.se###insticatorIframe
 energosovet.ru###r_col_f
+eniyifilmizle.com##[id^="reklam"]
 etalon-bt.ru###bannerSliderSidebar
 etalon-bt.ru##.container.main > .clearfix > .catalog > .catalog_block_left > .clearfix.bs-slider
 etalon-bt.ru##.container.main > .clearfix > .layout-column-single > .clearfix.bs-slider
@@ -283,6 +302,7 @@ games.mydiv.net##div[style="width:728px; height: 90px; border:#dddddd 1px solid;
 garant.ru###page > .content > .inner > .row-grid > .popup-social
 gde-ya.ru###post-11 > .entry > a[href="http://gde-ya.ru/st.php"]
 geektimes.ru###layout > .inner > .dont-add-our-site-pls
+generatorlinkpremium.com##.thirdsky
 getemoji.com##.container > div > .text-center:nth-of-type(2)
 gitem.ru##.container > table > tbody > tr > td > .addon
 gitem.ru##.container > table > tbody > tr > td > .block-box > .box-cont > .cssmenu > li > .vkpr[href="http://spishy-gdz.ru/"]
@@ -293,9 +313,11 @@ gotovkgia.ru###post-2251 > .entry-wrap > .content.entry-content > table
 grani.ru###LentaInformScriptRootN14220
 grani.ru###main-inner > .clearfix.main-text > .ad-240x400
 grani.ru###other-links
+graph.reshish.ru###rightSide
 gtmarket.ru###main > .main-cnt > section > .node > .t-a > tbody > tr > .t-f-a
 habrahabr.ru###layout > .inner > .dont-add-our-site-pls
 habrahabr.ru##.float_yandex_ad
+habrahabr.ru##.lain_13_what_are_you_doing
 habrahabr.ru##.sidebar_right > .float_block
 hackzone.ru##div:nth-of-type(1) > a[href="/forum/open/id/1908/"]
 hackzone.ru##div:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(2) > td > table:nth-of-type(3) > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > .plashka1:nth-of-type(5)
@@ -315,6 +337,7 @@ home.webalta.ru###out-content > .col-2
 howto.mydiv.net##div[style="border:1px #EAEAEA solid; widtH:728px; height:90px; margin-top:5px; margin-bottom:38px;"]
 howto.mydiv.net##div[style="margin-top:120px;width:160px; height:600px;  bordeR:1px #eeeeee solid;"]
 i-vd.org.ru##table > tbody > tr > td > table > tbody > tr > td > .mainfooter
+ib.mazurok.com###secondary
 ibm.com###dw-regbar
 ilibrary.ru###ex
 ilibrary.ru###in > div:nth-of-type(3)
@@ -341,6 +364,8 @@ kizi.com###game_header
 kostyor.ru##[class*="reclama"]
 kp.ru###ok-popup
 kp.ru###top-link-social.all_top-link-social > .left
+kritika24.ru###right-column1 > center > a[href^="http://play.google.com/store/apps/details"]
+kritika24.ru##.netv
 ksenia.8m.com###sideFrame
 kv.by###block-block-116
 laptop-info.ru###page > .container-inner > div > .banners
@@ -358,9 +383,12 @@ manyahin.ru##footer
 master-skills.ru###column_right > .moduletable:nth-of-type(3)
 math-prosto.ru###advTopLine
 math-prosto.ru##[id^="ambn"]
+math.semestr.ru##.adsbygoogle
 medow.ru###execphp-3.widget.widget_execphp
 medow.ru###execphp-9.widget.widget_execphp
+megamozg.ru###layout > .inner > .column-wrapper_content.content_wrapper > .js-sticky-wrapper.column-wrapper > .sidebar_fix.sidebar_right > .sticky-active.wrapper-sticky
 megamozg.ru###layout > .inner > .dont-add-our-site-pls
+megamozg.ru##.html_banner_wrap
 memesmix.net###footer_wrapper > p
 memesmix.net###menu-module > .module-body-i
 mignews.com###rightc > h5:nth-of-type(1)
@@ -389,10 +417,6 @@ mydiv.net##div[style="MARGIN-TOP:150PX;width:160px; height:600px; padding:3px; b
 mydiv.net##div[style="border:1px #EAEAEA solid; widtH:728px; height:90px; margin-bottom:28px;"]
 mymodo.ru###header > .region-bottom-header.region
 myzuka.org##.all > .header > .aside > .button-a.v2[href="/GetVipAccount"]
-myzuka.org##.all > .main > .aside-col > center
-myzuka.org##.all > .main > .aside-col > noindex > center
-myzuka.org##.all > .main > .side-col > noindex > center
-myzuka.org##.all > .main > center
 nagitaru.ru###text-24
 nagitaru.ru###text-35
 nashe.ru##.main > .content > .wrapper > .right-sidebar
@@ -418,6 +442,7 @@ oniksfly.md8.ru##body > div:nth-of-type(1)
 onlineguru.ru###ban240x400
 onlineguru.ru###jointNew
 orthographia.ru##.footer > tbody > tr:nth-of-type(4) > td
+otvet.mail.ru###portal-menu > .nt--position
 ovgorskiy.ru##body > div:nth-of-type(6) > table > tbody > tr > td:nth-of-type(2) > .zsnazzy:nth-of-type(2)
 ovgorskiy.ru##body > div:nth-of-type(6) > table > tbody > tr > td:nth-of-type(4) > .zsnazzy:nth-of-type(3)
 ovgorskiy.ru##body > div:nth-of-type(6) > table > tbody > tr > td:nth-of-type(6) > .zsnazzy:nth-of-type(2)
@@ -441,6 +466,8 @@ photobucket.com###adBlockMessaging
 php-zametki.ru###art-main > .art-sheet > .art-sheet-body > .art-content-layout > .art-content-layout-row > .art-sidebar1.art-layout-cell > .art-block:nth-of-type(7)
 physics.ru##body > noindex:nth-of-type(2)
 physics.ru##body > noindex:nth-of-type(3) > table > tbody > tr:nth-of-type(5)
+plusworld.ru###container > .wrapper > .left-column > .banner__forum-fixed.ban-180x200:nth-of-type(1)
+pm298.ru###bk
 pogoda.mail.ru###doubleformat_top
 pogoda.mail.ru##a.forecast-branding-link
 popmech.ru###_sim_popup
@@ -470,6 +497,7 @@ royallib.com##.container > .container-in > .nuclear.center > .wrapper > .content
 ru.aliexpress.com##.ui-mask
 ru.aliexpress.com##.ui-newuser-floating-layer
 ru.onlinemschool.com###G_M
+ru.onlinemschool.com###G_r1
 ru.onlinemschool.com##.table_main > tbody > tr:nth-of-type(3) > .td_main_left
 ru.stackoverflow.com###beta-ad-container
 ru.tsn.ua###left > .wrapper_10px:nth-of-type(5)
@@ -502,6 +530,7 @@ soft.mydiv.net##div[style="margin-top:5px; border-right:1px #a0a0a0 dotted; padd
 softpedia.com###wrapper > .main > .container_48 > .fr.sepbrd4.prefix_2.grid_31 > .legible.storybox1 > .fr.ad-336
 softrew.ru##.main-center-block > .content-block > .shad > .shad-top > .shad-bottom > .right-col > .right-block:nth-of-type(5)
 softrew.ru##.main-center-block > .content-block > .shad > .shad-top > .shad-bottom > .right-col > .right-block:nth-of-type(6)
+song-pad.ru##[id^="teaser"]
 sozdaiblog.ru###scrollable
 space.utema.ru###main-content > .main-content-padding > noindex:nth-of-type(1)
 speakrus.ru##body > .ssill
@@ -522,6 +551,7 @@ tvgid.ua##table > tbody > tr > td > table > tbody > tr > .head > table:nth-of-ty
 tvgid.ua##table > tbody > tr > td > table > tbody > tr > .head > table:nth-of-type(2) > tbody > tr:nth-of-type(2) > td:nth-of-type(2)
 tvgid.ua##table > tbody > tr > td > table > tbody > tr > .head > table:nth-of-type(2) > tbody > tr:nth-of-type(3) > td:nth-of-type(2)
 ubuntovod.ru###contentwrap > .sidecont > div:nth-of-type(4)
+ural.kp.ru###article-page\  > .boxPage > .boxCols
 velofun.ru###content > span
 velonews.ru###inner-wrap > .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid > .td-post-sidebar.column_container.span4 > .widget_text.widget
 veryicon.com###content > .right_content_728
@@ -538,6 +568,7 @@ webalta.ru###out-content > .col-2
 webalta.ru##.wrapper > .header2.header > .header2 > .head-row-logo2.o-h.head-row-logo > .f-l.search > .search-form2.search-form > .b-s.f-l.head2-setting
 webbazar.eu###fblikebg
 webbazar.eu###fblikepop
+webmath.ru##.popupCreateOrderWindow
 wiki.eduvdom.com##.dokuwiki > .page > .level1 > .table.sectionedit2
 wiki.eduvdom.com##.dokuwiki > .page > .level1 > .table.sectionedit3
 wiki.eduvdom.com##.dokuwiki > div:nth-of-type(2)
@@ -547,11 +578,13 @@ wolframalpha.com###headerad-pro
 wolframalpha.com###sidebar
 yandex.ru##.footer_distro_yes.clearfix.footer > .distro_shown_yes.distro_js_inited.scroll-spy_js_inited.i-bem.scroll-spy.distro
 yandex.ru##.footer_js_inited.i-bem.clearfix.footer_distro_yes.footer_layout_serp.footer > .distro_shown_yes.distro_js_inited.i-bem.distro
+yandex.ru##.rows.container > .rows__row_first.rows__row.row > .col > .universal-stripe-wrapper
 youpk.ru###text-27
 youpk.ru###text-29
 youpk.ru###text-31
 youpk.ru###text-33
 znak.com##main > .x1.column.flex:nth-of-type(1) > .st
+zona.media##.mz-adv-image
 zvanyuzhin.ru###sidebar > div:nth-of-type(10)
 zvanyuzhin.ru###sidebar > div:nth-of-type(11)
 zvanyuzhin.ru###sidebar > div:nth-of-type(8)
