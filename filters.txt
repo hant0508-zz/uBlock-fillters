@@ -1,5 +1,6 @@
+[Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 2.8.0
+! Version: 3.0.0
 
 ! Recommended to use with:
 ! - Adblock Warning Removal List
