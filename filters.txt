@@ -54,7 +54,6 @@ pikabu.ru###wrap > table > tbody > tr > .main-b > .inner_wrap > tbody > tr > td 
 pikabu.ru###wrap > table > tbody > tr > .main-b > .inner_wrap > tbody > tr > td > div:nth-of-type(1) > table[id^="inner_wrap_"]
 pikabu.ru##.promo-block
 pikabu.ru##[href^="http://pikabu.ru/go/"]
-pikabu.ru##noindex > .b-social
 pikabu.ru##td > [id="right_menu"] > table[style="width: 300px; margin: 15px 0 0 5px; padding: 0px; text-align: center"]
 pikabu.ru##td > span > table[style="border: 1px solid #d7d7d7; border-radius: 3px; width: 302px; margin: 15px 0 0 5px;text-align: center"]
 pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[class="inner_wrap b-story inner_wrap_visible"]
