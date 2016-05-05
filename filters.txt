@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.0.0
+! Version: 3.0.1
 
 ! Recommended to use with:
 ! - Adblock Warning Removal List
@@ -71,7 +71,6 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 4pda.ru###wrapper > div[class] > div[class] > div[id][class] > a[href]
 4pda.ru###wrapper > div[class] > div[class] > div[id][class] > a[style]
 4pda.ru##aside[id]:nth-of-type(1) > div[class] > .sidebar_border_content
-||s.4pda.to/*.gif$image
 
 ! Strict blocking rules
 ||askfm.im^
@@ -124,8 +123,10 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 ||cdn.comss.net/img/adguard_down*.png
 ||cdn8.grattis.ru/publicdata/widget/
 ||cs.ppvlj.com/s/*/*.html
+||cs.wmwyq.xyz$third-party
 ||deita.ru/*/*/*.gif
 ||delayreferat.ru/images/polosa.swf
+||delo-press.ru/upload/rk/*/*.gif$image
 ||demo.boobstagram.com/wp-content/themes/boobstagram/images/store.gif
 ||ecoteco.ru/assets/images/banners/
 ||ege-ok.ru/wp-content/uploads/*/*/*.gif
@@ -145,6 +146,7 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 ||last.by/adv/kr.gif
 ||magmens.com/wp-content/uploads/20*/*.gif
 ||mathprofi.com/images/promo/
+||mathprofi.ru/images/matburo*.gif$image
 ||mathprofi.ru/images/matburo.gif
 ||mathprofi.ru/images/zaochnik*.gif
 ||mathwarehouse.com/images/icons/penjee/*.gif
@@ -156,6 +158,7 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 ||moeobrazovanie.ru/*/*/*/asd*
 ||mp3.cc/public/api.iframe.php
 ||mparker.ru/images/banners
+||my-files.ru/Content/Banners/$image
 ||myonionsoup.com/bn/2053.gif
 ||myzuka.org/do/*
 ||nanevskom.ru/wp-content/uploads/*.gif
@@ -192,7 +195,9 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 ||vladmaxi.net/uploads/*/*/banner*.gif
 ||webmath.ru/images/webmath_240_400_homework.jpg
 ||whoer.net/images/*.gif
-||www.kuponlar.ru/res/knopki/kuponlar88x31.gif
+||kuponlar.ru/res/knopki/kuponlar88x31.gif
+||аспирантура.рф/diss.jpg$image
+||аспирантура.рф/rekl.jpg$image
 
 ! Hiding rules
 100-000-pochemu.info###sidebar-left.sidebar.grid_4.top-margin > ul
@@ -347,6 +352,7 @@ infocity.az###text-6-sticky-wrapper
 inforuss.ru##body > table:nth-of-type(2) > tbody > tr > td:nth-of-type(1) > table > tbody > tr > td > div
 inforuss.ru##noindex > div:nth-of-type(2)
 instagram.com##.-cx-PRIVATE-Photo__clickShield
+instagram.com##._ovg3g
 irc.lv###regForm
 irecommend.ru###bigright
 irecommend.ru###sidebar-left-top-content-wrapper
@@ -380,6 +386,7 @@ maketecheasier.com##.ctContainer
 maketecheasier.com##.site-container > .after-header > [class]
 malekal.com##center
 manyahin.ru##footer
+markapon.ru##.side-banner
 master-skills.ru###column_right > .moduletable:nth-of-type(3)
 math-prosto.ru###advTopLine
 math-prosto.ru##[id^="ambn"]
@@ -491,6 +498,7 @@ remontka.pro##.rem-container.uk-container-center.uk-container > .uk-grid.tm-top-
 ren.tv###block-block-13
 ren.tv###block-block-22
 ren.tv###block-block-24
+rg.ru##.banner-240x400
 rmprepusb.com##.sites-cookie-notice-fit
 royallib.com##.container > .container-in > .nuclear.center > .left-bar > .banner-box
 royallib.com##.container > .container-in > .nuclear.center > .wrapper > .content > table:nth-of-type(2)
@@ -536,6 +544,7 @@ space.utema.ru###main-content > .main-content-padding > noindex:nth-of-type(1)
 speakrus.ru##body > .ssill
 staforceteam.ru##body > div:nth-of-type(1)
 tatar-inform.ru##.banner
+telegraf.by##.promo-240_400.promo-box
 testi.ru###main > .menu.normb
 testi.ru##[class^="bborder"][class*="upad"]
 testi.ru##[id^="DIV_DA_"]
