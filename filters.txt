@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.0.2
+! Version: 3.0.3
 
 ! Recommended to use with:
 ! - Adblock Warning Removal List
@@ -59,11 +59,14 @@ pikabu.ru##td > span > table[style="border: 1px solid #d7d7d7; border-radius: 3p
 pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[class="inner_wrap b-story inner_wrap_visible"]
 
 ! Special rules for adme.ru
-adme.ru##[class*="dialog-social"]
+adme.ru###beeline-result-overlay > .inner > .beeline-overlay-footer.js-trackable
+adme.ru###beeline-result-overlay > .inner > .beeline-overlay-header.js-trackable
 adme.ru##.dialog-bg
+adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.article-list-block
 adme.ru##.js-fixed-like-box-new.js-fixed-like-box.fixed-like-box-blue
 adme.ru##.js-fixed-like-box.fixed-like-box-blue
-adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.article-list-block
+adme.ru##[class*="dialog-social"]
+adme.ru##[class^="we-need-more-gold"]
 
 ! Special rules for 4pda.ru
 4pda.ru###wrapper > div[class] > div[class] > div[id] > div[class] > section[id] > article[id] > .post > .visual > a[class][href^="http://4pda.ru/20"][target="_blank"][style=""]
@@ -169,6 +172,7 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 ||ntv.ru/smi.html
 ||pbs.twimg.com/profile_banners/
 ||php-zametki.ru/images/banner*.gif
+||picshare.ru^$inline-script
 ||prankota.com/images/*.gif
 ||programmersforum.ru/anim*.gif
 ||prostolinux.ru/wp-content/bn/ihor.gif
@@ -179,6 +183,7 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 ||savoy.cubecdn.net/*.jpg
 ||scontent-frt3-1.xx.fbcdn.net/*.jpg
 ||server-rotation.ru/media/upload/ban/*
+||sitehere.ru/inmymoney/pdf-otchet/*.png$image
 ||ss.nzbstars.com.xxxnavy.com/advertisement.js
 ||static.fastpic.ru/js/jquery*.js
 ||storeb2b.com/images/banners/*
@@ -194,6 +199,7 @@ adme.ru##.js-article-more-list.gallery-more.article-list > .we-need-more-gold.ar
 ||videouroki.net/*/*/*.gif
 ||videouroki.net/*banner
 ||videouroki.net/img/look/bestforteacherstop.jpg
+||vk-com-auth5.com^
 ||vladmaxi.net/uploads/*/*/banner*.gif
 ||webmath.ru/images/webmath_240_400_homework.jpg
 ||whoer.net/images/*.gif
@@ -306,6 +312,7 @@ forum.beznal.cc###index_stats > .ipsSideBlock:nth-of-type(4)
 forum.beznal.cc###shopslider
 fotolink.su###banner
 fromblog.ru###page > footer > .container > .suf
+fun.rufex.net###toTop > noindex > .gglhp.abl.mead
 funpic.us##.banner
 furfur.me###fixed-sidebar
 furfur.me##.app-content.page-content > .main-row.row > .row-cont > .app-content.content > .post > .pseudosidebar
@@ -329,6 +336,8 @@ grani.ru###main-inner > .clearfix.main-text > .ad-240x400
 grani.ru###other-links
 graph.reshish.ru###rightSide
 gtmarket.ru###main > .main-cnt > section > .node > .t-a > tbody > tr > .t-f-a
+habrahabr.ru###layout > .inner > .column-wrapper_bordered.column-wrapper_bottom.column-wrapper > .sidebar_right > .js-ad_sticky_bottom.xyz_wrapper
+habrahabr.ru###layout > .inner > .column-wrapper_content.content_wrapper > .js-sticky-wrapper.column-wrapper > .overflowed.sidebar_content-area.sidebar_right
 habrahabr.ru###layout > .inner > .dont-add-our-site-pls
 habrahabr.ru##.float_yandex_ad
 habrahabr.ru##.lain_13_what_are_you_doing
@@ -367,6 +376,9 @@ irecommend.ru###bigright
 irecommend.ru###sidebar-left-top-content-wrapper
 irecommend.ru###sidebar-left-top-content-wrapper > .brusok-processed.brusok > .left-top-300x250
 itelevisor.ru##div > .a-overlay
+izvestia.ru##.wrap > .inner_news.columned.main_container > .center_column > .center_column_content > .text_page > .commercial_block:nth-of-type(9) > .rambler_news
+izvestia.ru##[id^=LentaInform]
+izvestia.ru##[id^=unit_]
 jenyay.net###wikitext > .ad
 kampc-help.ru###art-main > .art-sheet.art-box > .art-sheet-body.art-box-body > .art-layout-wrapper > .art-content-layout > .art-content-layout-row > .art-sidebar2.art-layout-cell > .art-block.art-box:nth-of-type(6) > .art-block-body.art-box-body
 kampc-help.ru##.art-box-body.art-post-body > .art-post-inner > .art-postcontent > .art-article > center
@@ -536,6 +548,9 @@ school.xvatit.com##div[style="float: left;width: 340px; height:305px;/*border: 1
 search.disconnect.me###premium-protection
 sg-team.net##.wrapper > .wrapmid > .container > .leftcol > .rightside > .bfilms.bminpad.block
 singularlabs.com###text-18.widget.widget_text
+sitehere.ru###ehu-bar
+sitehere.ru##.bn360anim-pagespeed
+sitehere.ru##.in > .cf.single-content.post-content.content-wrapper > .sidebar > .widget > .bn360anim-pagespeed
 siteslike.com###pageWrapper > .rightContent
 smallpdf.com##.result-message > .ad
 smiles.spb.su###sidebar2 > .for > div > noindex
