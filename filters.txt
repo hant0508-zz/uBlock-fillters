@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.0.3
+! Version: 3.0.4
 
 ! Recommended to use with:
 ! - Adblock Warning Removal List
@@ -171,6 +171,7 @@ adme.ru##[class^="we-need-more-gold"]
 ||nic.liolu.site$third-party
 ||ntv.ru/smi.html
 ||pbs.twimg.com/profile_banners/
+||pcpro100.info/wp-content/themes/pcpro
 ||php-zametki.ru/images/banner*.gif
 ||picshare.ru^$inline-script
 ||prankota.com/images/*.gif
@@ -179,6 +180,7 @@ adme.ru##[class^="we-need-more-gold"]
 ||red.tingrinter.com/
 ||ru.onlinemschool.com/*/prmo/
 ||ru.onlinemschool.com/pictures/promo
+||rustorka.com^$inline-script
 ||s3.amazonaws.com/disconnect-images/images/search/*Premium*.png
 ||savoy.cubecdn.net/*.jpg
 ||scontent-frt3-1.xx.fbcdn.net/*.jpg
@@ -190,6 +192,7 @@ adme.ru##[class^="we-need-more-gold"]
 ||studme.org/images/*adv*.gif
 ||tampermonkey.net/bnir/*
 ||technical-server.ru/media/upload/ban/
+||teplo.guru/wp-content/uploads/banner
 ||theindependent.co.zw/wp-content/uploads/2015/12/13121B-ZB-Home-Improvements_ZimInd-*.jpg
 ||u.jimdo.com*/std/image.gif
 ||uchiyaziki.ru/adblock
@@ -340,8 +343,11 @@ habrahabr.ru###layout > .inner > .column-wrapper_bordered.column-wrapper_bottom.
 habrahabr.ru###layout > .inner > .column-wrapper_content.content_wrapper > .js-sticky-wrapper.column-wrapper > .overflowed.sidebar_content-area.sidebar_right
 habrahabr.ru###layout > .inner > .dont-add-our-site-pls
 habrahabr.ru##.float_yandex_ad
+habrahabr.ru##.html_banner_wrap
+habrahabr.ru##.is_visible.xyz_wrapper
 habrahabr.ru##.lain_13_what_are_you_doing
 habrahabr.ru##.sidebar_right > .float_block
+habrahabr.ru##.sticky.is_visible.js-ad_sticky
 hackzone.ru##div:nth-of-type(1) > a[href="/forum/open/id/1908/"]
 hackzone.ru##div:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(2) > td > table:nth-of-type(3) > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > .plashka1:nth-of-type(5)
 hackzone.ru##div:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(2) > td > table:nth-of-type(3) > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > .plashka1:nth-of-type(6)
@@ -444,7 +450,7 @@ mrko.mos.ru###swiffycontainer
 mydiv.net##div[style="MARGIN-TOP:150PX;width:160px; height:600px; padding:3px; bordeR:1px #EAEAEA solid;"]
 mydiv.net##div[style="border:1px #EAEAEA solid; widtH:728px; height:90px; margin-bottom:28px;"]
 mymodo.ru###header > .region-bottom-header.region
-myzuka.org##.all > .header > .aside > .button-a.v2[href="/GetVipAccount"]
+myzuka.fm##.all > .header > .aside > .button-a.v2[href="/GetVipAccount"]
 nagitaru.ru###text-24
 nagitaru.ru###text-35
 nashe.ru##.main > .content > .wrapper > .right-sidebar
@@ -456,6 +462,7 @@ newkaliningrad.ru###page-buffer > .container > .row > .col-main > .pr-600
 newkaliningrad.ru###page-buffer > .container > .row > .col-side
 newkaliningrad.ru##.modal, .fade, .in
 news-kmv.ru##img[alt="реклама"]
+news.sportbox.ru##[class*="advertis"]
 newslab.ru##.page > .container-fluid:nth-of-type(3) > .di2-skeleton > .di2-skeleton__aside > .hidden-sm.hidden-xs.b-banner_center.b-banner-wrapper
 newsru.com###stakan
 nixp.ru###nixp > .trueoffice_cpg.trueoffice
@@ -620,6 +627,7 @@ yandex.ru##.footer_distro_yes.clearfix.footer > .distro_shown_yes.distro_js_init
 yandex.ru##.footer_js_inited.i-bem.clearfix.footer_distro_yes.footer_layout_serp.footer > .distro_shown_yes.distro_js_inited.i-bem.distro
 yandex.ru##.popup_to_bottom
 yandex.ru##.rows.container > .rows__row_first.rows__row.row > .col > .universal-stripe-wrapper
+yandex.ru##.serp_js_inited.main_js_inited.i-bem.serp.main_right-panel-hidden_yes.main > .main__center > .main__content > .content_js_inited.i-bem.content > .content__left > .footer-stripe_revealed_yes.footer-stripe_js_inited.i-bem.serp.footer-stripe
 youpk.ru###text-27
 youpk.ru###text-29
 youpk.ru###text-31
