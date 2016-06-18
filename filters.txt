@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.0.4
+! Version: 3.0.5
 
 ! Recommended to use with:
 ! - Adblock Warning Removal List
@@ -16,7 +16,6 @@
 ! Optional:
 ! - RU AdList: Counters (https://easylist-downloads.adblockplus.org/cntblock.txt)
 ! - I don't care about cookies (http://www.kiboke-studio.hr/i-dont-care-about-cookies/abp/)
-! - hpHosts - PSH (http://hosts-file.net/psh.txt)
 ! - hpHosts - HJK (http://hosts-file.net/hjk.txt)
 ! - hpHosts - EXP (http://hosts-file.net/exp.txt)
 
@@ -183,7 +182,6 @@ adme.ru##[class^="we-need-more-gold"]
 ||rustorka.com^$inline-script
 ||s3.amazonaws.com/disconnect-images/images/search/*Premium*.png
 ||savoy.cubecdn.net/*.jpg
-||scontent-frt3-1.xx.fbcdn.net/*.jpg
 ||server-rotation.ru/media/upload/ban/*
 ||sitehere.ru/inmymoney/pdf-otchet/*.png$image
 ||ss.nzbstars.com.xxxnavy.com/advertisement.js
@@ -246,6 +244,7 @@ articulos.softonic.com###popup-newsletter-article
 articulos.softonic.com##.ov_opened.ov_modal_bkgnd_layer
 bestru.ru##.main_box > .rightColumn
 bicaps.net##.external
+bigpicture.ru##.section-main-project-link200.wrapper
 chelyabinsk-info.ga##body > noindex
 chistiulia.ru###content > .row-fluid > .span3:nth-of-type(1) > .clearfix.b-shadow.bt-5px.margin-25t.box.widget:nth-of-type(1)
 chistiulia.ru###content > .row-fluid > .span3:nth-of-type(1) > .clearfix.b-shadow.bt-5px.margin-25t.box.widget:nth-of-type(3)
