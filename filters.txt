@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.0.5
+! Version: 3.0.6
 
 ! Recommended to use with:
 ! - Adblock Warning Removal List
@@ -28,6 +28,7 @@
 @@||speedtest.net/javascript/speedtest-main.js?*
 @@||videouroki.net/img/*/*.gif
 comss.ru#@#.top + .av
+danieldefo.ru#@#.bannerBlock
 megafon.ru#@#div[id^="AdFox_banner_"]
 new.gramota.ru#@##main-sec > .block-side:last-child
 
@@ -106,6 +107,7 @@ adme.ru##[class^="we-need-more-gold"]
 ||znaniytutpiahocost.weebly.com^
 
 ! Blocking rules
+||static.1tv.ru/uploads/promo_position/
 ||003apteka.ru/uploads/banner*.gif
 ||198.58.122.116/ads
 ||2.cdn.echo.msk.ru/files/1338208.jpg
@@ -217,6 +219,10 @@ adme.ru##[class^="we-need-more-gold"]
 1cov-edu.ru###g_160_600
 1cov-edu.ru###g_160x600_2
 1cov-edu.ru###g_300x600
+1tv.ru##.footer-promo-place
+1tv.ru##.header-promo-place
+1tv.ru##.theme-main > .live > .player-wrapper > .branding_promo_place
+2016.footboom.com###rb-inner
 256bit.ru##body > div:nth-of-type(1)
 256bit.ru##body > table:nth-of-type(1)
 2ip.ru##.bla_bla_car
@@ -251,6 +257,7 @@ chistiulia.ru###content > .row-fluid > .span3:nth-of-type(1) > .clearfix.b-shado
 chistiulia.ru###content > .row-fluid > .span3:nth-of-type(3) > .clearfix.b-shadow.bt-5px.margin-25t.box.widget:nth-of-type(2)
 chistiulia.ru###content > .row-fluid > .span3:nth-of-type(3) > .clearfix.b-shadow.bt-5px.margin-25t.box.widget:nth-of-type(4)
 citilink.ru##.toggling_banners
+colorfest.ru##.middle > .rightside
 compconsult.orgfree.com###block-block-11.block.block-block
 compconsult.orgfree.com###block-block-17.block.block-block
 comss.info###header > .toplogo > span
@@ -268,6 +275,7 @@ cyberforum.ru##body > div:nth-of-type(1) > .page > div > .tborder:nth-of-type(3)
 cyberforum.ru##body > div:nth-of-type(3) > .page > div > .tborder
 d3.ru###js-fixed_sidebar
 d3.ru##iframe
+danieldefo.ru##.rightBanner.bannerBlock.newsItem
 darkside.ru###fscroller > div
 dead-line.net###content > .rightsidebar.hidden-xs.hidden-sm.col-sm-2
 deita.ru###stMainCenter > .stBunner.stInNewsListBunner
