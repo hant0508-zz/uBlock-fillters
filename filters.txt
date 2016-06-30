@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.0.6
+! Version: 3.0.7
 
 ! Recommended to use with:
 ! - Adblock Warning Removal List
@@ -107,7 +107,6 @@ adme.ru##[class^="we-need-more-gold"]
 ||znaniytutpiahocost.weebly.com^
 
 ! Blocking rules
-||static.1tv.ru/uploads/promo_position/
 ||003apteka.ru/uploads/banner*.gif
 ||198.58.122.116/ads
 ||2.cdn.echo.msk.ru/files/1338208.jpg
@@ -120,7 +119,7 @@ adme.ru##[class^="we-need-more-gold"]
 ||alma-ata.cf/*.html
 ||altwall.net/images/b/
 ||biblemenus.com/adframe
-||bicaps.net/bicaps-bg*.jpg$image
+||bicaps.net/bicaps-bg*.jpg
 ||c.mql4.com/images/*/*.gif
 ||cdn*.grattis.ru/publicdata/widget/
 ||cdn.comss.net/action/internet*.png
@@ -130,12 +129,13 @@ adme.ru##[class^="we-need-more-gold"]
 ||cs.wmwyq.xyz$third-party
 ||deita.ru/*/*/*.gif
 ||delayreferat.ru/images/polosa.swf
-||delo-press.ru/upload/rk/*/*.gif$image
+||delo-press.ru/upload/rk/*/*.gif
 ||demo.boobstagram.com/wp-content/themes/boobstagram/images/store.gif
 ||ecoteco.ru/assets/images/banners/
 ||ege-ok.ru/wp-content/uploads/*/*/*.gif
 ||etalon-bt.ru/upload/resize_cache/iblock/*
 ||fightforthefuture.github.io/countdown-widget/iframe/banner.html
+||football-tv.ru/images/banner
 ||funkyimg.com/i/*.jpg
 ||guruadmin.ru/hosting.gif
 ||hackzone.ru/img/*.gif
@@ -151,7 +151,7 @@ adme.ru##[class^="we-need-more-gold"]
 ||last.by/adv/kr.gif
 ||magmens.com/wp-content/uploads/20*/*.gif
 ||mathprofi.com/images/promo/
-||mathprofi.ru/images/matburo*.gif$image
+||mathprofi.ru/images/matburo*.gif
 ||mathprofi.ru/images/matburo.gif
 ||mathprofi.ru/images/zaochnik*.gif
 ||mathwarehouse.com/images/icons/penjee/*.gif
@@ -163,7 +163,7 @@ adme.ru##[class^="we-need-more-gold"]
 ||moeobrazovanie.ru/*/*/*/asd*
 ||mp3.cc/public/api.iframe.php
 ||mparker.ru/images/banners
-||my-files.ru/Content/Banners/$image
+||my-files.ru/Content/Banners/
 ||myonionsoup.com/bn/2053.gif
 ||myzuka.org/do/*
 ||nanevskom.ru/wp-content/uploads/*.gif
@@ -174,19 +174,18 @@ adme.ru##[class^="we-need-more-gold"]
 ||pbs.twimg.com/profile_banners/
 ||pcpro100.info/wp-content/themes/pcpro
 ||php-zametki.ru/images/banner*.gif
-||picshare.ru^$inline-script
 ||prankota.com/images/*.gif
 ||programmersforum.ru/anim*.gif
 ||prostolinux.ru/wp-content/bn/ihor.gif
 ||red.tingrinter.com/
 ||ru.onlinemschool.com/*/prmo/
 ||ru.onlinemschool.com/pictures/promo
-||rustorka.com^$inline-script
 ||s3.amazonaws.com/disconnect-images/images/search/*Premium*.png
 ||savoy.cubecdn.net/*.jpg
 ||server-rotation.ru/media/upload/ban/*
-||sitehere.ru/inmymoney/pdf-otchet/*.png$image
+||sitehere.ru/inmymoney/pdf-otchet/*.png
 ||ss.nzbstars.com.xxxnavy.com/advertisement.js
+||static.1tv.ru/uploads/promo_position/
 ||static.fastpic.ru/js/jquery*.js
 ||storeb2b.com/images/banners/*
 ||studme.org/images/*adv*.gif
@@ -196,6 +195,7 @@ adme.ru##[class^="we-need-more-gold"]
 ||theindependent.co.zw/wp-content/uploads/2015/12/13121B-ZB-Home-Improvements_ZimInd-*.jpg
 ||u.jimdo.com*/std/image.gif
 ||uchiyaziki.ru/adblock
+||utropot.ru/*.swf$third-party
 ||velo-stokcenter.ru/images/vst_720x100.swf
 ||velopiter.spb.ru/activeinfo/banners/*/*.gif
 ||vi.vipr.ebaydesc.com/ws/eBayISAPI.dll
@@ -206,6 +206,7 @@ adme.ru##[class^="we-need-more-gold"]
 ||vladmaxi.net/uploads/*/*/banner*.gif
 ||webmath.ru/images/webmath_240_400_homework.jpg
 ||whoer.net/images/*.gif
+||yandex.st/uefa16-frontend/1.0.30/i/extra/yabro/
 ||аспирантура.рф/diss.jpg
 ||аспирантура.рф/rekl.jpg
 
@@ -282,6 +283,7 @@ deita.ru###stMainCenter > .stBunner.stInNewsListBunner
 deita.ru###stMainRight > .stRightBunner_right.stBunner
 delayreferat.ru##.side-border-left
 delayreferat.ru##.side-border-right
+dns-shop.ru##.container > main > .ad-content-banner-under-window
 drivers.mydiv.net##div[style="margin:8px;margin-top:0px;border:1px #c0c0c0 solid; width: 336px;"]
 drivers.mydiv.net##div[style="width:160px; height:600px;  bordeR:1px #eeeeee solid;"]
 drivers.mydiv.net##div[style="width:160px; height:600px; margin-left:15px; margin-right:5px; bordeR:1px #eeeeee solid;"]
@@ -312,6 +314,8 @@ fcbarcelona.cat###site-header__ads
 filyanin.ru###art-main > .art-sheet > .art-sheet-body > .art-content-layout > .art-content-layout-row > .art-sidebar1.art-layout-cell > .art-block
 finmarket.ru###pl45_ban72
 finmarket.ru###pl46_ban45
+football-tv.ru##.wrapper > .header > .topreclama > .reclama-in-header
+football-tv.ru##.wrapper > .middle > .right-sidebar > .banner-ping-media
 forum.antichat.ru###content > .pageWidth > .noBorderRadiusBottom.pageContent > .funbox.section:nth-of-type(2) > .funboxWrapper > .samBannerUnit
 forum.beznal.cc###categories > .banner_800
 forum.beznal.cc###categories > .cat_banner
@@ -333,6 +337,10 @@ games.mydiv.net##div[style="width:728px; height: 90px; border:#dddddd 1px solid;
 garant.ru###page > .content > .inner > .row-grid > .popup-social
 gde-ya.ru###post-11 > .entry > a[href="http://gde-ya.ru/st.php"]
 geektimes.ru###layout > .inner > .dont-add-our-site-pls
+geektimes.ru##.column-wrapper_bordered.column-wrapper_bottom.column-wrapper > .sidebar_right
+geektimes.ru##.html_banner_wrap
+geektimes.ru##.js-ad_sticky
+geektimes.ru##.sticky_init.sidebar_content-area.sidebar_right > .is_visible.xyz_wrapper
 generatorlinkpremium.com##.thirdsky
 getemoji.com##.container > div > .text-center:nth-of-type(2)
 gitem.ru##.container > table > tbody > tr > td > .addon
@@ -479,6 +487,7 @@ ntv.ru###xblock
 ofirefox.ru###Mod41
 ofirefox.ru###Mod42
 ofirefox.ru###Mod43
+oldi.ru###wrap > .bigbanner
 ololo.fm##.content > .col_1 > .block2:nth-of-type(34)
 oniksfly.md8.ru##body > div:nth-of-type(1)
 onlineguru.ru###ban240x400
@@ -583,6 +592,7 @@ sozdaiblog.ru###scrollable
 space.utema.ru###main-content > .main-content-padding > noindex:nth-of-type(1)
 speakrus.ru##body > .ssill
 staforceteam.ru##body > div:nth-of-type(1)
+stoplinux.org.ru##div[id][style="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; overflow: visible; background: rgba(255, 255, 255, 0.6) none repeat scroll 0% 0%; z-index: 2147483647; text-align: center;"]
 tatar-inform.ru##.banner
 telegraf.by##.promo-240_400.promo-box
 testi.ru###main > .menu.normb
