@@ -6,5 +6,5 @@ https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt<br
 Дополнительная подписка для ABP/uBlock Origin, блокирующая рекламу и прочий мусор, пропускаемые другими фильтрами, особенно на просторах
 Рунета. Фильтр был разработан для использования совместно с другими фильтрами (рекомендации в filters.txt). Протестировано в Chrome и
 Firefox. <br>
-Вы можете [**подписаться**](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt&title=Filters%20by%20hant0508) или использовать прямую ссылку:
+Вы можете [подписаться](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt&title=Filters%20by%20hant0508) или использовать прямую ссылку:
 https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt
