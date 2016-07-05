@@ -20,7 +20,7 @@ https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt
 
 Если вы нашли проблемный фильтр, пожалуйста, [откройте проблему](https://github.com/hant0508/uBlock-fillters/issues/new) (issue) и
 подробно опишите её. Если у вас возникли затруднения с самостоятельной блокировкой рекламы на каком-либо сайте, вы так же можете
-[написать от этом](https://github.com/hant0508/uBlock-fillters/issues/new).
+[написать об этом](https://github.com/hant0508/uBlock-fillters/issues/new).
 
 Данный список фильтров совместим с большинством современных блокировщиков, однако для поддержки всех возможностей рекомендуется
 использовать [uBlock Origin](https://github.com/gorhill/uBlock) -- он имеет более широкий функционал и потребляет меньше ресурсов в
