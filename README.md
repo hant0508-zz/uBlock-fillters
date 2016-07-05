@@ -27,7 +27,7 @@ https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt
 сравнении с Adblock.<br>
 **Установка uBlock Origin**: [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/), [Opera](https://addons.opera.com/en-gb/extensions/details/ublock/), [дополнительные варианты установки](https://github.com/gorhill/uBlock#installation)
 
-Для достижения наилучшего эффекта рекомендую использовать следующие списки фильтров:
+Для достижения наилучшего эффекта я рекомендую использовать следующие списки фильтров:
 * [EasyList](https://subscribe.adblockplus.org/?location=easylist.github.io/easylist/easylist.txt&title=EasyList)
 * [EasyPrivacy](https://subscribe.adblockplus.org/?location=easylist.github.io/easylist/easyprivacy.txt&title=EasyPrivacy)
 * [Adblock Warning Removal List](https://subscribe.adblockplus.org/?location=https://easylist-downloads.adblockplus.org/antiadblockfilters.txt&title=Adblock%20Warning%20Removal%20List)
