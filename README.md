@@ -13,7 +13,8 @@ https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt
 Этот список uBlock Origin/Adblock Plus фильтров разрабатывается для использования совместно с такими списками как EasyList, RU AdList 
 и другими, поэтому практически не содержит пересечений с ними. Он создан для блокировки рекламы (преимущественно на русскоязычных
 сайтах), пропущенной по каким-либо причинам составителями других списков фильтров. Список регулярно обновляется и находится в стадии
-активной разработки.<br>
+активной разработки.
+
 **Установка списка фильтров:**
 нажмите [подписаться](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt&title=Filters%20by%20hant0508) или используйте прямую ссылку:
 https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt
@@ -24,7 +25,8 @@ https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt
 
 Данный список фильтров совместим с большинством современных блокировщиков, однако для поддержки всех возможностей рекомендуется
 использовать [uBlock Origin](https://github.com/gorhill/uBlock) -- он имеет более широкий функционал и потребляет меньше ресурсов в
-сравнении с Adblock.<br>
+сравнении с Adblock.
+
 **Установка uBlock Origin**: [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/), [Opera](https://addons.opera.com/en-gb/extensions/details/ublock/), [дополнительные варианты установки](https://github.com/gorhill/uBlock#installation)
 
 Для достижения наилучшего эффекта я рекомендую использовать следующие списки фильтров:
