@@ -24,7 +24,7 @@ https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt
 [написать об этом](https://github.com/hant0508/uBlock-fillters/issues/new).
 
 Данный список фильтров совместим с большинством современных блокировщиков, однако для поддержки всех возможностей рекомендуется
-использовать [uBlock Origin](https://github.com/gorhill/uBlock) -- он имеет более широкий функционал и потребляет меньше ресурсов в
+использовать [uBlock Origin](https://github.com/gorhill/uBlock) — он имеет более широкий функционал и потребляет меньше ресурсов в
 сравнении с Adblock.
 
 **Установка uBlock Origin**: [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/), [Opera](https://addons.opera.com/en-gb/extensions/details/ublock/), [дополнительные варианты установки](https://github.com/gorhill/uBlock#installation)
