@@ -1,9 +1,9 @@
-# uBlock fillters by hant0508
-[_See the Russan translation below_](#russian-translation)
+# uBlock filters by hant0508
+[_See the Russian translation below_](#russian-translation)
 
 This filter list for uBlock Origin/Adblock Plus is designed to be used with such lists as EasyList, RU AdList etc., so it's
 substantially free of intersections with them. The list is made for blocking ad (mostly on Russian websites) missed 
-by other filter lists maintainers. It is regulary updated and actively developed for now.
+by other filter lists maintainers. It is regularly updated and actively developed for now.
 
 **Filter list installation:**
 click [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt&title=Filters%20by%20hant0508) or use direct link:
