@@ -28,7 +28,7 @@ I recommend using the following filter lists for the best result:
 * [uBlock Filters +](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt&title=uBlock%20Filters%20%2B)* <br>
 *only compatible with uBlock Origin
 
-## &nbsp;
+## *
 <br>
 
 Этот список фильтров для uBlock Origin/Adblock Plus разработан для использования совместно с такими списками как EasyList, RU AdList 
