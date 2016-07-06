@@ -1,5 +1,5 @@
 # uBlock fillters by hant0508
-[_See the Russan translation below_]()
+[_See the Russan translation below_](https://github.com/hant0508/uBlock-fillters/blob/master/README.md#)
 
 This filter list for uBlock Origin/Adblock Plus is designed to be used with such lists as EasyList, RU AdList etc., so it's
 substantially free of intersections with them. The list is made for blocking ad (mostly on Russian websites) missed 
@@ -28,7 +28,6 @@ I recommend using the following filter lists for the best result:
 * [uBlock Filters +](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt&title=uBlock%20Filters%20%2B)* <br>
 *only compatible with uBlock Origin
 
-<br>
 ## &nbsp;
 <br>
 
