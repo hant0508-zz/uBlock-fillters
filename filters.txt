@@ -1,27 +1,25 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.0.7
+! Version: 3.1.0
 
 ! Recommended to use with:
-! - Adblock Warning Removal List
 ! - EasyList
-! - Peter Lowe’s Ad server list
 ! - EasyPrivacy
-! - Malware Domain List
+! - Peter Lowe’s Ad server list
+! - Adblock Warning Removal List
 ! - Malware domains
-! - RUS: RU AdList
+! - RU AdList
 ! - Adguard Russian Filter (https://adguard.com/ru/filter-rules.html?id=1)
 ! - uBlock Filters + (https://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt)
 
 ! Optional:
 ! - RU AdList: Counters (https://easylist-downloads.adblockplus.org/cntblock.txt)
-! - I don't care about cookies (http://www.kiboke-studio.hr/i-dont-care-about-cookies/abp/)
-! - hpHosts - HJK (http://hosts-file.net/hjk.txt)
-! - hpHosts - EXP (http://hosts-file.net/exp.txt)
+! - I don't care about cookies (http://www.kiboke-studio.hr/i-dont-care-about-cookies/abp)
+! - hpHosts (http://hosts-file.net)
 
 ! Exclusions
-@@/adwolf.
 @@/pr.php?
+@@||cs.pikabu.ru/files/ad/*.png
 @@||gigatorrent.net^
 @@||mymeizu.ru/bitrix/templates/m2mini/content$image
 @@||relap.io/api$script,domain=adme.ru
@@ -42,15 +40,12 @@ new.gramota.ru#@##main-sec > .block-side:last-child
 ##[class^="show_"][class$="_ads"]
 ##[id^="s"][id$="Bunner"]
 ##[id="WIX_ADS"]
-~megafon.ru##[class*="adfox"]
-~megafon.ru##[class*="AdFox"]
-~megafon.ru##[id*="adfox"]
-~megafon.ru##[id*="AdFox"]
-~nov-mod.ru##[href^="http://nov-mod.ru/"]
+
+! XPath rules
+4pda.ru##:xpath(/html/body//aside/div[.//text()="AppPromo"])
+go.mail.ru##:xpath(/html/body//div[@id="layout"]//div[@class="responses__wrapper"]/div/div[.//text()="Реклама"])
 
 ! Special rules for pikabu.ru
-@@||cs.pikabu.ru/files/ad/*.png
-pikabu.ru###wrap > table > tbody > tr > .main-b > .inner_wrap > tbody > tr > td > .stories_prev
 pikabu.ru###wrap > table > tbody > tr > .main-b > .inner_wrap > tbody > tr > td > div:nth-of-type(1) > table[id^="inner_wrap_"]
 pikabu.ru##.promo-block
 pikabu.ru##[href^="http://pikabu.ru/go/"]
@@ -73,7 +68,7 @@ adme.ru##[class^="we-need-more-gold"]
 4pda.ru###wrapper > div[class] > div[class] > div[id] > div[class] > section[id] > article[id] > .post > .visual > a[class][href^="http://4pda.ru/20"][target="_blank"][title=""]
 4pda.ru###wrapper > div[class] > div[class] > div[id][class] > a[href]
 4pda.ru###wrapper > div[class] > div[class] > div[id][class] > a[style]
-4pda.ru##aside[id]:nth-of-type(1) > div[class] > .sidebar_border_content
+4pda.ru##aside > div[class] > .sidebar_border_content
 
 ! Strict blocking rules
 ||askfm.im^
