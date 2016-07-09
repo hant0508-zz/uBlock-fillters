@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.1.0
+! Version: 3.1.1
 
 ! Recommended to use with:
 ! - EasyList
@@ -18,6 +18,7 @@
 ! - hpHosts (http://hosts-file.net)
 
 ! Exclusions
+@@/adguard.
 @@/pr.php?
 @@||cs.pikabu.ru/files/ad/*.png
 @@||gigatorrent.net^
@@ -42,6 +43,7 @@ new.gramota.ru#@##main-sec > .block-side:last-child
 ##[id="WIX_ADS"]
 
 ! XPath rules
+4pda.ru##:xpath((/html/body//aside/div[div[@class="sidebar_border_content"]])[1])
 4pda.ru##:xpath(/html/body//aside/div[.//text()="AppPromo"])
 go.mail.ru##:xpath(/html/body//div[@id="layout"]//div[@class="responses__wrapper"]/div/div[.//text()="Реклама"])
 
@@ -68,6 +70,7 @@ adme.ru##[class^="we-need-more-gold"]
 4pda.ru###wrapper > div[class] > div[class] > div[id] > div[class] > section[id] > article[id] > .post > .visual > a[class][href^="http://4pda.ru/20"][target="_blank"][title=""]
 4pda.ru###wrapper > div[class] > div[class] > div[id][class] > a[href]
 4pda.ru###wrapper > div[class] > div[class] > div[id][class] > a[style]
+4pda.ru###wrapper > div[class^="r"] > div[class^="r"] > div[class^="r"] > iframe[height="90"]
 4pda.ru##aside > div[class] > .sidebar_border_content
 
 ! Strict blocking rules
@@ -111,6 +114,7 @@ adme.ru##[class^="we-need-more-gold"]
 ||activeinfo.ru/ai.gif
 ||adminvps.ru/img/buttons/AV468x60.gif
 ||allforchildren.ru/img/lolo.gif
+||allsport-news.net/leon.gif
 ||alma-ata.cf/*.html
 ||altwall.net/images/b/
 ||biblemenus.com/adframe
@@ -119,6 +123,7 @@ adme.ru##[class^="we-need-more-gold"]
 ||cdn*.grattis.ru/publicdata/widget/
 ||cdn.comss.net/action/internet*.png
 ||cdn.comss.net/img/adguard_down*.png
+||cdn.livetvcdn.net/html/$subdocument
 ||cdn8.grattis.ru/publicdata/widget/
 ||cs.ppvlj.com/s/*/*.html
 ||cs.wmwyq.xyz$third-party
@@ -132,6 +137,7 @@ adme.ru##[class^="we-need-more-gold"]
 ||fightforthefuture.github.io/countdown-widget/iframe/banner.html
 ||football-tv.ru/images/banner
 ||funkyimg.com/i/*.jpg
+||futbik.net/templates/*/*/banner/
 ||guruadmin.ru/hosting.gif
 ||hackzone.ru/img/*.gif
 ||hi-tech.mail.ru/img/branding/
@@ -159,6 +165,7 @@ adme.ru##[class^="we-need-more-gold"]
 ||mp3.cc/public/api.iframe.php
 ||mparker.ru/images/banners
 ||my-files.ru/Content/Banners/
+||myfootball.ws/peklama/
 ||myonionsoup.com/bn/2053.gif
 ||myzuka.org/do/*
 ||nanevskom.ru/wp-content/uploads/*.gif
@@ -244,6 +251,7 @@ anekdot.ru##table > tbody > tr:nth-of-type(4) > .rightcolumn
 antonkozlov.ru###sidebar_friends
 articulos.softonic.com###popup-newsletter-article
 articulos.softonic.com##.ov_opened.ov_modal_bkgnd_layer
+barcaman.ru###content > .advert
 bestru.ru##.main_box > .rightColumn
 bicaps.net##.external
 bigpicture.ru##.section-main-project-link200.wrapper
@@ -325,6 +333,7 @@ fun.rufex.net###toTop > noindex > .gglhp.abl.mead
 funpic.us##.banner
 furfur.me###fixed-sidebar
 furfur.me##.app-content.page-content > .main-row.row > .row-cont > .app-content.content > .post > .pseudosidebar
+futbik.net##table > tbody > tr > td[onclick^="window.open('http"][style]
 game01.ru##.branding > .content > .inner:nth-of-type(2) > .gamePage > .gameTop > .rightBanner
 game01.ru##[class$="BannerWrap"]
 gamefaqs.com###content > .row.pre_content > .span12 > .board_wrap.pod > .body > .msg.message.board > tbody > .msg.forum_promo
@@ -354,6 +363,7 @@ habrahabr.ru###layout > .inner > .column-wrapper_content.content_wrapper > .js-s
 habrahabr.ru###layout > .inner > .dont-add-our-site-pls
 habrahabr.ru##.float_yandex_ad
 habrahabr.ru##.html_banner_wrap
+habrahabr.ru##.is_visible.js-ad_sticky
 habrahabr.ru##.is_visible.xyz_wrapper
 habrahabr.ru##.lain_13_what_are_you_doing
 habrahabr.ru##.sidebar_right > .float_block
@@ -417,6 +427,7 @@ lifehacker.ru##article[id^="post"] > .clearfix.entry-content > .relap-wrapper
 lit.1september.ru###menu
 litmir.co##tbody > tr > td > div[style="height:180px; overflow:hidden;"]
 livelib.ru###column-fixed
+lurkmore.net###banner-left-240x200-0
 lyricsfreak.com##.large_wrapper.wrapper > .floatfix.song-content.content > .w100p.d-table > .d-row > .d-cell.al-t.sidebar > div:nth-of-type(1)
 magic-karelia.ru##table > tbody > tr > td:nth-of-type(2) > table > tbody > tr > td:nth-of-type(4) > table:nth-of-type(4) > tbody > tr > td > table:nth-of-type(4) > tbody > tr > td > table:nth-of-type(1) > tbody > tr:nth-of-type(1) > td:nth-of-type(7) > .tizer > .hd[href="#"]:nth-of-type(3)
 maketecheasier.com##.ctContainer
@@ -428,6 +439,7 @@ master-skills.ru###column_right > .moduletable:nth-of-type(3)
 math-prosto.ru###advTopLine
 math-prosto.ru##[id^="ambn"]
 math.semestr.ru##.adsbygoogle
+mediazavod.ru##[id^="tx_banner"]
 medow.ru###execphp-3.widget.widget_execphp
 medow.ru###execphp-9.widget.widget_execphp
 megamozg.ru###layout > .inner > .column-wrapper_content.content_wrapper > .js-sticky-wrapper.column-wrapper > .sidebar_fix.sidebar_right > .sticky-active.wrapper-sticky
@@ -601,12 +613,15 @@ timeout.ru###DIV_BSN_36
 toolslib.net##.panel-default.panel
 toolslib.net##body > .container:nth-of-type(3) > .row > .col-sm-9
 top1000-ru.hotlog.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(3) > div:nth-of-type(3)
+torrent-baza.net##div[style="width: 600px; height: 300px; margin: 0px auto;"][ onclick][onmouseup][onmousedown]
 tproger.ru##[id^="bl_google_ads"]
 trashbox.ru###div_page_right > aside > .table_center > div > .adnobg.center
 tvgid.ua##table > tbody > tr > td > table > tbody > tr > .head > table:nth-of-type(2) > tbody > .copyright > td:nth-of-type(2)
 tvgid.ua##table > tbody > tr > td > table > tbody > tr > .head > table:nth-of-type(2) > tbody > tr:nth-of-type(2) > td:nth-of-type(2)
 tvgid.ua##table > tbody > tr > td > table > tbody > tr > .head > table:nth-of-type(2) > tbody > tr:nth-of-type(3) > td:nth-of-type(2)
+tyurem.net###sidebar
 ubuntovod.ru###contentwrap > .sidecont > div:nth-of-type(4)
+ucheba-otziv.ru##object[id^="baner"]
 ufa-room.ru,neva-room.ru,ekb-room.ru,saratov--room.ru,novosib-room.ru,tlt-room.ru,cheb-room.ru,kaliningrad-room.ruvoronezh-room.ru,vladi-room.ru,yaroslavl-room.ru##[id^="smi_teaser"]
 ufa-room.ru,neva-room.ru,ekb-room.ru,saratov-room.ru,novosib-room.ru,tlt-room.ru,cheb-room.ru,kaliningrad-room.ruvoronezh-room.ru,vladi-room.ru,yaroslavl-room.ru###content > .full_news > .content_wrapper > .fl_r > .typical_ad
 ufa-room.ru,neva-room.ru,ekb-room.ru,saratov-room.ru,novosib-room.ru,tlt-room.ru,cheb-room.ru,kaliningrad-room.ruvoronezh-room.ru,vladi-room.ru,yaroslavl-room.ru###right_side_fixed_ad
