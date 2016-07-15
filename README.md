@@ -32,4 +32,4 @@ I also recommend to see **[userscripts](https://github.com/hant0508/usescripts)*
 ### Feedback
 If you have any problems with the filters, [open an issue](https://github.com/hant0508/uBlock-fillters/issues/new). If you have any
 difficulties in blocking ads on any site, you can also
-[write about it](https://github.com/hant0508/uBlock-fillters/issues/new). If you have no GitHub account, write me [at email](mailto:hant0508@gmail.com?subject=GitHub issue | Filters").
+[write about it](https://github.com/hant0508/uBlock-fillters/issues/new). If you have no GitHub account, write me [at email](mailto:hant0508@gmail.com?subject=GitHub issue | Filters).
