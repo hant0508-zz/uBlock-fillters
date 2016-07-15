@@ -7,12 +7,10 @@ substantially free of intersections with them. The list is made for blocking ad 
 by other filter lists maintainers. It is regularly updated and actively developed for now.
 
 **Filter list installation:**
-click [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt&title=Filters%20by%20hant0508) or use direct link:
+click [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt&title=Filters%20by%20hant0508) or use direct link:<br>
 https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt
 
-If you have any problems with the filters, [open an issue](https://github.com/hant0508/uBlock-fillters/issues/new). If you have any difficulty in blocking ads on any site, you can also
-[write about it](https://github.com/hant0508/uBlock-fillters/issues/new).
-
+### Recommendations
 This filter list is compatible with most modern ad blockers, however it's recommended to use
 [uBlock Origin](https://github.com/gorhill/uBlock) to supporting all the features — it's more lightweight and functional compared to
 Adblock.
@@ -28,3 +26,10 @@ I recommend using the following filter lists for the best result:
 * [Adguard Russian Filter](https://subscribe.adblockplus.org/?location=https://adguard.com/en/filter-rules.html?id=1&title=Adguard%20Russian%20Filter)*
 * [uBlock Filters +](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt&title=uBlock%20Filters%20%2B)* <br>
 *only compatible with uBlock Origin
+
+I also recommend to see **[userscripts](https://github.com/hant0508/usescripts)** repository. There you can find scripts removing "complicated" ads.
+
+### Feedback
+If you have any problems with the filters, [open an issue](https://github.com/hant0508/uBlock-fillters/issues/new). If you have any
+difficulties in blocking ads on any site, you can also
+[write about it](https://github.com/hant0508/uBlock-fillters/issues/new). If you have no GitHub account, write me [at email](mailto:hant0508@gmail.com).
