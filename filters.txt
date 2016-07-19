@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.2.0
+! Version: 3.2.1
 
 ! Recommended to use with:
 ! - EasyList
@@ -48,9 +48,8 @@ new.gramota.ru#@##main-sec > .block-side:last-child
 go.mail.ru##:xpath(/html/body//div[@id="layout"]//div[@class="responses__wrapper"]/div/div[.//text()="Реклама"])
 
 ! Style rules
-4pda.ru##:xpath((/html/body//aside/div[div[@class="sidebar_border_content"]])[1])
-4pda.ru##:xpath(/html/body//aside/div[.//text()="AppPromo"])
-go.mail.ru##:xpath(/html/body//div[@id="layout"]//div[@class="responses__wrapper"]/div/div[.//text()="Реклама"])
+redkassa.ru##body:style(background:none!important)
+4pda.ru###wrapper > div > div > div:style(background:#e6e7e9!important;)
 
 ! Strict blocking rules
 ||askfm.im^
@@ -367,6 +366,7 @@ hackzone.ru##div:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(
 hackzone.ru##div:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(2) > td > table:nth-of-type(3) > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > div:nth-of-type(7)
 hackzone.ru##div:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > table:nth-of-type(3) > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > div:nth-of-type(8)
 hackzone.ru##div:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(2) > td:nth-of-type(2)
+hdrezka.me##[id^="bn_"]
 hdrezka.me##div[id^="skin_"][class^="skin-block_"][style^="background-image:"]
 hh.ru##body > .columns-wrapper:nth-of-type(5) > .column_container.column_l-16.column_m-12.column_s-8.column > .gap_top.gap > .column_container.column_l-4.column_m-4.column_s-4.column
 hh.ru##body > .columns-wrapper:nth-of-type(6) > .index-main-wrapper > .column_container.column_l-12.column_m-12.column_s-8.column:nth-of-type(1) > .column_container.column_l-12.column_m-12.column_s-8.column:nth-of-type(2)
