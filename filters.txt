@@ -348,7 +348,7 @@ grani.ru###main-inner > .clearfix.main-text > .ad-240x400
 grani.ru###other-links
 graph.reshish.ru###rightSide
 gtmarket.ru###main > .main-cnt > section > .node > .t-a > tbody > tr > .t-f-a
-habrahabr.ru##.html_banner_wra
+habrahabr.ru##.html_banner_wrap
 habrahabr.ru##.js-ad_sticky
 habrahabr.ru##.lain_13_what_are_you_doing
 habrahabr.ru##.xyz_wrapper
