@@ -29,7 +29,7 @@ https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt
 * [uBlock Filters +](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt&title=uBlock%20Filters%20%2B)* <br>
 *совместимы только с uBlock Origin
 
-Я также рекомендую посмотреть репозиторий **[userscripts](https://github.com/hant0508/usescripts)**. Там вы можете найти скрипты,
+Я также рекомендую посмотреть репозитории **[userscripts](https://github.com/hant0508/usescripts)** и **[userstyles](https://github.com/hant0508/userstyles)**. Там вы можете найти скрипты и стили,
 удаляющие "сложную" рекламу.
 
 ### Обратная связь
