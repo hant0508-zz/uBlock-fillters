@@ -27,7 +27,7 @@ I recommend using the following filter lists for the best result:
 * [uBlock Filters +](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt&title=uBlock%20Filters%20%2B)* <br>
 *only compatible with uBlock Origin
 
-I also recommend to see **[userscripts](https://github.com/hant0508/usescripts)** and **[userstyles](https://github.com/hant0508/usestyles)** repositories. There you can find scripts and styles removing "complicated" ads.
+I also recommend to see **[userscripts](https://github.com/hant0508/usescripts)** and **[userstyles](https://github.com/hant0508/userstyles)** repositories. There you can find scripts and styles removing "complicated" ads.
 
 ### Feedback
 If you have any problems with the filters, [open an issue](https://github.com/hant0508/uBlock-fillters/issues/new). If you have any
