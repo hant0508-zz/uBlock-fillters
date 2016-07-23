@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.2.2
+! Version: 3.2.3
 
 ! Recommended to use with:
 ! - EasyList
@@ -48,7 +48,7 @@ new.gramota.ru#@##main-sec > .block-side:last-child
 go.mail.ru##:xpath(/html/body//div[@id="layout"]//div[@class="responses__wrapper"]/div/div[.//text()="Реклама"])
 
 ! Style rules
-redkassa.ru##body:style(background:none!important)
+redkassa.ru##html > body:style(background:none!important;)
 4pda.ru###wrapper > div > div > div:style(background:#e6e7e9!important;)
 
 ! Strict blocking rules
