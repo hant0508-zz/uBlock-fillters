@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.2.3
+! Version: 3.2.4
 
 ! Recommended to use with:
 ! - EasyList
@@ -46,6 +46,8 @@ new.gramota.ru#@##main-sec > .block-side:last-child
 4pda.ru##:xpath((/html/body//aside/div[div[@class="sidebar_border_content"]])[1])
 4pda.ru##:xpath(/html/body//aside/div[.//text()="AppPromo"])
 go.mail.ru##:xpath(/html/body//div[@id="layout"]//div[@class="responses__wrapper"]/div/div[.//text()="Реклама"])
+pikabu.ru##:xpath(/html/body//div[@class="story"and .//a[@class="story__author" and text()="ads"]])
+yandex.ru##:xpath(/html/body//div/div[a[./text()="Яндекс.Директ"]])
 
 ! Style rules
 redkassa.ru##html > body:style(background:none!important;)
@@ -457,6 +459,7 @@ mp3-zaycev.com###topArtistsBlock
 mp3.cc##div[id*="Banner"]
 mp3.shmidt.net###mainbox > .rightbox
 mrko.mos.ru###swiffycontainer
+myddns.ru###rightcolumn
 mydiv.net##div[style="MARGIN-TOP:150PX;width:160px; height:600px; padding:3px; bordeR:1px #EAEAEA solid;"]
 mydiv.net##div[style="border:1px #EAEAEA solid; widtH:728px; height:90px; margin-bottom:28px;"]
 mymodo.ru###header > .region-bottom-header.region
@@ -647,10 +650,12 @@ windowsfaq.ru##.container > tbody > tr > .maincolumn > div:nth-of-type(1)
 windxp.com.ru###fixblock > .del:nth-of-type(1)
 wolframalpha.com###headerad-pro
 wolframalpha.com###sidebar
+yandex.ru##.footer-stripe_revealed_yes.footer-stripe_js_inited.i-bem.footer-stripe
 yandex.ru##.footer_distro_yes.clearfix.footer > .distro_shown_yes.distro_js_inited.scroll-spy_js_inited.i-bem.scroll-spy.distro
 yandex.ru##.footer_js_inited.i-bem.clearfix.footer_distro_yes.footer_layout_serp.footer > .distro_shown_yes.distro_js_inited.i-bem.distro
 yandex.ru##.popup_to_bottom
 yandex.ru##.rows.container > .rows__row_first.rows__row.row > .col > .universal-stripe-wrapper
+yandex.ru##.search-snippet-view > .search-direct-snippet-view
 yandex.ru##.serp_js_inited.main_js_inited.i-bem.serp.main_right-panel-hidden_yes.main > .main__center > .main__content > .content_js_inited.i-bem.content > .content__left > .footer-stripe_revealed_yes.footer-stripe_js_inited.i-bem.serp.footer-stripe
 youpk.ru###text-27
 youpk.ru###text-29
