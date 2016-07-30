@@ -8,7 +8,7 @@ Language: **Русский|[English](/README.md)**
 активной разработки.
 
 **Установка списка фильтров:**
-нажмите [подписаться](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt&title=Filters%20by%20hant0508) или используйте прямую ссылку:<br>
+нажмите **[подписаться](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt&title=Filters%20by%20hant0508)** или используйте прямую ссылку:<br>
 https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt
 
 ### Рекоммендации
