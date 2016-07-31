@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.3.0
+! Version: 3.3.1
 
 ! Recommended to use with:
 ! - EasyList
@@ -28,6 +28,7 @@
 @@||videouroki.net/img/*/*.gif
 comss.ru#@#.top + .av
 danieldefo.ru#@#.bannerBlock
+joyreactor.cc#@#div#sidebar
 megafon.ru#@#div[id^="AdFox_banner_"]
 new.gramota.ru#@##main-sec > .block-side:last-child
 
@@ -90,6 +91,7 @@ redkassa.ru##html > body:style(background:none!important;)
 
 ! Blocking rules
 ||003apteka.ru/uploads/banner*.gif
+||black.beauty-mask.biz^$popup
 ||198.58.122.116/ads
 ||2.cdn.echo.msk.ru/files/1338208.jpg
 ||2ip.ru/images/ad/*.png
