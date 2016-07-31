@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.2.4
+! Version: 3.3.0
 
 ! Recommended to use with:
 ! - EasyList
@@ -32,21 +32,25 @@ megafon.ru#@#div[id^="AdFox_banner_"]
 new.gramota.ru#@##main-sec > .block-side:last-child
 
 ! Global rules
-##.adv_wrap
+###bannerSmall
 ##.Banner_Top
+##.adv_wrap
 ##.banner2
 ##.bunner
 ##.megaads
 ##.place_for_ad
+##.rn-global-header > .rn-top-banner
+##.rn-global-wrapper > noindex > .au-top-ads-container
 ##[class^="show_"][class$="_ads"]
-##[id^="s"][id$="Bunner"]
 ##[id="WIX_ADS"]
+##[id^="s"][id$="Bunner"]
 
 ! XPath rules
 4pda.ru##:xpath((/html/body//aside/div[div[@class="sidebar_border_content"]])[1])
 4pda.ru##:xpath(/html/body//aside/div[.//text()="AppPromo"])
 go.mail.ru##:xpath(/html/body//div[@id="layout"]//div[@class="responses__wrapper"]/div/div[.//text()="Реклама"])
 pikabu.ru##:xpath(/html/body//div[@class="story"and .//a[@class="story__author" and text()="ads"]])
+pikabu.ru##:xpath(/html/body//span[@id="right_menu"]//table[.//text()="Промо"])
 yandex.ru##:xpath(/html/body//div/div[a[./text()="Яндекс.Директ"]])
 
 ! Style rules
@@ -160,6 +164,7 @@ redkassa.ru##html > body:style(background:none!important;)
 ||programmersforum.ru/anim*.gif
 ||prostolinux.ru/wp-content/bn/ihor.gif
 ||red.tingrinter.com/
+||reklama*.ngs.ru/
 ||ru.onlinemschool.com/*/prmo/
 ||ru.onlinemschool.com/pictures/promo
 ||s3.amazonaws.com/disconnect-images/images/search/*Premium*.png
@@ -169,6 +174,7 @@ redkassa.ru##html > body:style(background:none!important;)
 ||ss.nzbstars.com.xxxnavy.com/advertisement.js
 ||static.1tv.ru/uploads/promo_position/
 ||static.fastpic.ru/js/jquery*.js
+||static.ngs.ru/reklama/$image
 ||storeb2b.com/images/banners/*
 ||studme.org/images/*adv*.gif
 ||tampermonkey.net/bnir/*
@@ -194,6 +200,9 @@ redkassa.ru##html > body:style(background:none!important;)
 
 ! Hiding rules
 100-000-pochemu.info###sidebar-left.sidebar.grid_4.top-margin > ul
+joyreactor.cc##.post-normal.article > .post_top > .post_content > div > table
+news.vse42.ru##div[data-adplace-inited="true"]
+tass.ru##a[href="http://smi2.ru/"]
 10minutemail.*###noadright
 10minutemail.net###right
 1cov-edu.ru###da300x1285
@@ -518,12 +527,6 @@ photobucket.com###adBlockMessaging
 php-zametki.ru###art-main > .art-sheet > .art-sheet-body > .art-content-layout > .art-content-layout-row > .art-sidebar1.art-layout-cell > .art-block:nth-of-type(7)
 physics.ru##body > noindex:nth-of-type(2)
 physics.ru##body > noindex:nth-of-type(3) > table > tbody > tr:nth-of-type(5)
-pikabu.ru###wrap > table > tbody > tr > .main-b > .inner_wrap > tbody > tr > td > div:nth-of-type(1) > table[id^="inner_wrap_"]
-pikabu.ru##.promo-block
-pikabu.ru##[href^="http://pikabu.ru/go/"]
-pikabu.ru##td > [id="right_menu"] > table[style="width: 300px; margin: 15px 0 0 5px; padding: 0px; text-align: center"]
-pikabu.ru##td > span > table[style="border: 1px solid #d7d7d7; border-radius: 3px; width: 302px; margin: 15px 0 0 5px;text-align: center"]
-pikabu.ru##td[style^="padding-left: 0px;"][style$="text-align: left;"] > table[class="inner_wrap b-story inner_wrap_visible"]
 pleer.ru##.mainBlock.pie[style="margin-bottom: 15px; "]
 pleer.ru##noindex > center > .pie.gray_border
 plusworld.ru###container > .wrapper > .left-column > .banner__forum-fixed.ban-180x200:nth-of-type(1)
