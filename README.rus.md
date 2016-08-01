@@ -36,4 +36,4 @@ https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt
 
 Если у вас возникли проблемы с фильтрами, сообщите о них на [GitHub](https://github.com/hant0508/uBlock-fillters/issues/new) или [Вконтакте](https://vk.com/im?sel=116615188).
 Если у вас возникли трудности при блокировке рекламы на каком-либо сайте, вы так же можете
-[написать об этом](https://github.com/hant0508/uBlock-fillters/issues/new). Если у вас нет аккаунта на GitHub, пишите мне [по электронной почте](mailto:hant0508@gmail.com?subject=GitHub issue | Filters).
+[написать об этом](https://github.com/hant0508/uBlock-fillters/issues/new). Пишите мне [по электронной почте](mailto:hant0508@gmail.com?subject=GitHub issue | Filters), если у вас нет аккаунта на GitHub.
