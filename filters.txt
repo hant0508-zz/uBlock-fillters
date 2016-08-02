@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.3.1
+! Version: 3.3.2
 
 ! Recommended to use with:
 ! - EasyList
@@ -33,6 +33,7 @@ megafon.ru#@#div[id^="AdFox_banner_"]
 new.gramota.ru#@##main-sec > .block-side:last-child
 
 ! Global rules
+###WIX_ADS
 ###bannerSmall
 ##.Banner_Top
 ##.adv_wrap
@@ -50,7 +51,7 @@ new.gramota.ru#@##main-sec > .block-side:last-child
 4pda.ru##:xpath((/html/body//aside/div[div[@class="sidebar_border_content"]])[1])
 4pda.ru##:xpath(/html/body//aside/div[.//text()="AppPromo"])
 go.mail.ru##:xpath(/html/body//div[@id="layout"]//div[@class="responses__wrapper"]/div/div[.//text()="Реклама"])
-pikabu.ru##:xpath(/html/body//div[@class="story"and .//a[@class="story__author" and text()="ads"]])
+pikabu.ru##:xpath(/html/body//div[@class="story" and .//a[@class="story__author" and text()="ads"]])
 pikabu.ru##:xpath(/html/body//span[@id="right_menu"]//table[.//text()="Промо"])
 yandex.ru##:xpath(/html/body//div/div[a[./text()="Яндекс.Директ"]])
 
