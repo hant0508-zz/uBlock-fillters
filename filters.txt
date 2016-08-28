@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.4.0
+! Version: 3.4.1
 ! Homepage: https://github.com/hant0508/uBlock-fillters
 
 ! Recommended to use with:
@@ -101,6 +101,7 @@ redkassa.ru##html > body:style(background:none!important;)
 
 ! Blocking rules
 ||003apteka.ru/uploads/banner*.gif
+||rustorka.com/forum/images/avatars/
 ||198.58.122.116/ads
 ||2.cdn.echo.msk.ru/files/1338208.jpg
 ||2ip.ru/images/ad/*.png
@@ -211,8 +212,6 @@ redkassa.ru##html > body:style(background:none!important;)
 ||www.proficinema.ru/images/bg_mamy.jpg
 ||yandex.st/uefa16-frontend/1.0.30/i/extra/yabro/
 ||youpk.ru/wp-content/*/banner
-||аспирантура.рф/diss.jpg
-||аспирантура.рф/rekl.jpg
 
 ! Hiding rules
 100-000-pochemu.info###sidebar-left.sidebar.grid_4.top-margin > ul
@@ -577,6 +576,8 @@ russian.rt.com###content > .widget-mediametrics
 russian.rt.com###sidebar > .shown.widget-mediametrics
 russian.rt.com###smi2-aside_single
 russian7.ru###bannerCT-2
+rustorka.com###logo > table > tbody > tr > td:nth-of-type(2) > div > * > * > *
+rustorka.com###sidebar1-wrap > div > * > * > *
 school.xvatit.com###slider1
 school.xvatit.com##div[style="float: left;width: 340px; height:305px;/*border: 1px dashed #95d4e2;*/ background-color: #fff;"]
 search.disconnect.me###premium-protection
