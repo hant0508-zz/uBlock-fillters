@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.4.1
+! Version: 3.4.2
 ! Homepage: https://github.com/hant0508/uBlock-fillters
 
 ! Recommended to use with:
@@ -85,6 +85,7 @@ redkassa.ru##html > body:style(background:none!important;)
 ||mona-vi.ru^
 ||peceqi.meda-21.ru^
 ||phone8.ru^
+||rxjqqt.joyreactor.cc^
 ||rybalka-profi.ru^
 ||smartinf.ru^
 ||softing.draizer.ru^
