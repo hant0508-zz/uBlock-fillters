@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.4.2
+! Version: 3.4.3
 ! Homepage: https://github.com/hant0508/uBlock-fillters
 
 ! Recommended to use with:
@@ -64,6 +64,7 @@ yandex.ru##:xpath(/html/body//div/div[a[./text()="Яндекс.Директ"]])
 ivi.ru##.content-main:style(padding-top:0px!important;)
 proficinema.ru##html > body:style(background:none!important;margin-top:0px!important;)
 redkassa.ru##html > body:style(background:none!important;)
+yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 
 ! Strict blocking rules
 ||askfm.im^
@@ -102,7 +103,6 @@ redkassa.ru##html > body:style(background:none!important;)
 
 ! Blocking rules
 ||003apteka.ru/uploads/banner*.gif
-||rustorka.com/forum/images/avatars/
 ||198.58.122.116/ads
 ||2.cdn.echo.msk.ru/files/1338208.jpg
 ||2ip.ru/images/ad/*.png
@@ -114,6 +114,7 @@ redkassa.ru##html > body:style(background:none!important;)
 ||allsport-news.net/leon.gif
 ||alma-ata.cf/*.html
 ||altwall.net/images/b/
+||beebom.redkapmedia.netdna-cdn.com/wp-content/uploads/*/Hiring.png
 ||beznal.cc/*bimgs/*$image
 ||biblemenus.com/adframe
 ||bicaps.net/bicaps-bg*.jpg
@@ -131,6 +132,7 @@ redkassa.ru##html > body:style(background:none!important;)
 ||delayreferat.ru/images/polosa.swf
 ||delo-press.ru/upload/rk/*/*.gif
 ||demo.boobstagram.com/wp-content/themes/boobstagram/images/store.gif
+||e-pay.tv/i/250х250.gif
 ||ecoteco.ru/assets/images/banners/
 ||ege-ok.ru/wp-content/uploads/*/*/*.gif
 ||etalon-bt.ru/upload/resize_cache/iblock/*
@@ -138,6 +140,8 @@ redkassa.ru##html > body:style(background:none!important;)
 ||football-tv.ru/images/banner
 ||funkyimg.com/i/*.jpg
 ||futbik.net/templates/*/*/banner/
+||go4convert.com/cmi.png
+||go4convert.com/cwf.png
 ||guruadmin.ru/hosting.gif
 ||hackzone.ru/img/*.gif
 ||hi-tech.mail.ru/img/branding/
@@ -173,6 +177,7 @@ redkassa.ru##html > body:style(background:none!important;)
 ||new.gramota.ru/templates/ru_gramota_spravka_/images/sp.gif
 ||nic.liolu.site$third-party
 ||ntv.ru/smi.html
+||payad.me/images/payadme
 ||pbs.twimg.com/profile_banners/
 ||pcpro100.info/wp-content/themes/pcpro
 ||php-zametki.ru/images/banner*.gif
@@ -183,6 +188,7 @@ redkassa.ru##html > body:style(background:none!important;)
 ||reklama*.ngs.ru/
 ||ru.onlinemschool.com/*/prmo/
 ||ru.onlinemschool.com/pictures/promo
+||rustorka.com/forum/images/avatars/
 ||s3.amazonaws.com/disconnect-images/images/search/*Premium*.png
 ||savoy.cubecdn.net/*.jpg
 ||server-rotation.ru/media/upload/ban/*
@@ -222,6 +228,7 @@ redkassa.ru##html > body:style(background:none!important;)
 10minutemail.net###right
 10minutemail.org###leftover
 10minutemail.org###right
+1337x.to##body > div:not(.wrapper)
 1cov-edu.ru###da300x1285
 1cov-edu.ru###da300x2535
 1cov-edu.ru###da300x450
@@ -238,7 +245,9 @@ redkassa.ru##html > body:style(background:none!important;)
 320kbit.net###sl
 320kbit.net##.bg > .tpi.ProfileCanopy--large.ProfileCanopy--withNav.ProfileCanopy
 3dyuriki.com###wsidebar-top
+4ege.ru##.size-wrap > .centrovka > tbody > tr > .yip > div > object[width]
 4ege.ru##.size-wrap > .centrovka > tbody > tr > .yip > object
+4ege.ru##.size-wrap > .minbas
 4pda.ru###wrapper > div[class] > div[class] > div[id] > div[class] > section[id] > article[id] > .post > .visual > a[class][href^="http://4pda.ru/20"][target="_blank"][style=""]
 4pda.ru###wrapper > div[class] > div[class] > div[id] > div[class] > section[id] > article[id] > .post > .visual > a[class][href^="http://4pda.ru/20"][target="_blank"][title=""]
 4pda.ru###wrapper > div[class] > div[class] > div[id][class] > a[href]
@@ -256,6 +265,9 @@ adme.ru##[class*="dialog-social"]
 aeroflot.ru##.main-body > .block-right
 afisha.yandex.ru##.b-page__inner > .page-content > .content-event > .main > .content-event__main.smart-grid > .smart-grid__right-column
 afisha.yandex.ru##.b-page__inner > .page-content > .content-events > .main > .smart-grid_adaptive_yes.smart-grid > .smart-grid__right-column
+afisha.yandex.ru##.content-place-other__sidebar.grid__sidebar.smart-grid__right > .i-sticky_js_inited.i-sticky_state_initial.i-bem.i-sticky
+afisha.yandex.ru##.grid_adaptive_yes.grid.b-page__inner > .grid__container > .page-content > .grid__margin-right.grid__margin-left.page-content__inner > .content-events_commercial_yes.content-events > .smart-grid > .content-events__sidebar.grid__sidebar.smart-grid__right > .i-sticky_js_inited.i-sticky_state_initial.i-bem.i-sticky
+afisha.yandex.ru##.popup__wrapper_behaviour_scrollable.popup__wrapper > .popup_visibility_visible.popup_js_inited.i-bem.page-modal__popup.popup_body-scroll_no.popup_wrapped_yes.popup_focusout_no.popup_behaviour_scrollable.popup_has-close_yes.popup_padding_no.popup_type_modal.popup_name_page-modal-uniq256.popup_animate_no.popup_adaptive_no.popup_autoclosable_yes.popup_theme_page-modal.popup > .popup__content > .content-event_js_inited.i-bem.content-event > .grid__margin-right.grid__margin-left.main > .content-event__main.smart-grid > .grid__sidebar.smart-grid__right
 afisha.yandex.ru##.smart-grid__right-column
 agar.io###helloContainer > .side-container:nth-of-type(4) > .agario-promo
 agar.io###mainPanel > center
@@ -265,6 +277,8 @@ altyazilifilmizle.org###pageskin > .bannergroup-pageskin
 alvinalexander.com##.ads-large.ads
 ame-game.com.ua###main-carcas > .content > tbody > tr:nth-of-type(1) > .cont_left > .div_rek
 anekdot.ru##table > tbody > tr:nth-of-type(4) > .rightcolumn
+anti-malware.ru###popup
+anti-malware.ru###slidebox
 antonkozlov.ru###sidebar_friends
 articulos.softonic.com###popup-newsletter-article
 articulos.softonic.com##.ov_opened.ov_modal_bkgnd_layer
@@ -321,6 +335,8 @@ ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > noindex
 ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > noindex:nth-of-type(1)
 ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > table > tbody > tr > td > noindex:nth-of-type(4) > form > div > center > p:nth-of-type(3)
 ecosystema.ru##table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > table > tbody > tr > td > noindex:nth-of-type(4) > form > div > center > p:nth-of-type(4)
+egesdam.ru###rcolumn
+encyclopediadramatica.se###column-one > .portlet > #insticator-container > #insticator-embed
 encyclopediadramatica.se###insticatorIframe
 energosovet.ru###r_col_f
 eniyifilmizle.com##[id^="reklam"]
@@ -332,6 +348,7 @@ euroki.net##.bg_main > .main > div:nth-of-type(9)
 fastpic.ru##body > .center > a[href]
 fb.ru##.rollup.fsb
 fcbarcelona.cat###site-header__ads
+festival.1september.ru###body-side-right
 filyanin.ru###art-main > .art-sheet > .art-sheet-body > .art-content-layout > .art-content-layout-row > .art-sidebar1.art-layout-cell > .art-block
 finmarket.ru###pl45_ban72
 finmarket.ru###pl46_ban45
@@ -352,6 +369,7 @@ game01.ru##[class$="BannerWrap"]
 gamefaqs.com###content > .row.pre_content > .span12 > .board_wrap.pod > .body > .msg.message.board > tbody > .msg.forum_promo
 games.mydiv.net##div[style="width:728px; height: 90px; border:#dddddd 1px solid; margin-bottom:40px;margin-top:10px;"]
 garant.ru###page > .content > .inner > .row-grid > .popup-social
+gazeta.ru###right
 gde-ya.ru###post-11 > .entry > a[href="http://gde-ya.ru/st.php"]
 geektimes.ru###layout > .inner > .dont-add-our-site-pls
 geektimes.ru##.column-wrapper_bordered.column-wrapper_bottom.column-wrapper > .sidebar_right
@@ -371,6 +389,7 @@ grani.ru###main-inner > .clearfix.main-text > .ad-240x400
 grani.ru###other-links
 graph.reshish.ru###rightSide
 gtmarket.ru###main > .main-cnt > section > .node > .t-a > tbody > tr > .t-f-a
+gunsamerica.com##.logclick
 habrahabr.ru##.html_banner_wrap
 habrahabr.ru##.js-ad_sticky
 habrahabr.ru##.lain_13_what_are_you_doing
@@ -591,6 +610,7 @@ siteslike.com###pageWrapper > .rightContent
 smallpdf.com##.result-message > .ad
 smiles.spb.su###sidebar2 > .for > div > noindex
 sobralio.net###sidebar-right
+sochinenie11.ru##.wrapper > .middle > .left-sidebar > object
 soft.mydiv.net##.leftcon2
 soft.mydiv.net##div[style*="width:728px; height: 90px;"][style*="border:1px #eaeaea solid;"]
 soft.mydiv.net##div[style="border:#eeeeee 1px solid; margin-bottom:20px;padding:5px;"]
@@ -605,6 +625,7 @@ sozdaiblog.ru###scrollable
 space.utema.ru###main-content > .main-content-padding > noindex:nth-of-type(1)
 speakrus.ru##body > .ssill
 spoj.com## .c300x600
+sredalinux.blogspot.com###HTML9 > .widget-content
 staforceteam.ru##body > div:nth-of-type(1)
 stoplinux.org.ru##div[id][style="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; overflow: visible; background: rgba(255, 255, 255, 0.6) none repeat scroll 0% 0%; z-index: 2147483647; text-align: center;"]
 tass.ru##a[href="http://smi2.ru/"]
@@ -642,8 +663,6 @@ velonews.ru###inner-wrap > .td-page-wrap.container > .row > .span12 > .td-grid-w
 veryicon.com###content > .right_content_728
 veryicon.com###content > .right_content_728:nth-of-type(3)
 vesti.ru##.page-wrap > .main-content > .content > .adv-list_inner.adv-list
-vk.com###profile_narrow > .profile_rate_warning
-vk.com###profile_narrow > .stage0.rate_line
 vokrugsveta.ru###sape_links
 vporn.com###video-banner
 vsekratko.ru###content > .add
@@ -661,6 +680,8 @@ windowsfaq.ru##.container > tbody > tr > .maincolumn > div:nth-of-type(1)
 windxp.com.ru###fixblock > .del:nth-of-type(1)
 wolframalpha.com###headerad-pro
 wolframalpha.com###sidebar
+wolframalpha.com###spons-bound
+wolframalpha.com###sponsor-ad
 yandex.ru##.footer-stripe_revealed_yes.footer-stripe_js_inited.i-bem.footer-stripe
 yandex.ru##.footer_distro_yes.clearfix.footer > .distro_shown_yes.distro_js_inited.scroll-spy_js_inited.i-bem.scroll-spy.distro
 yandex.ru##.footer_js_inited.i-bem.clearfix.footer_distro_yes.footer_layout_serp.footer > .distro_shown_yes.distro_js_inited.i-bem.distro
