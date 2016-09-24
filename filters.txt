@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.4.3
+! Version: 3.4.4
 ! Homepage: https://github.com/hant0508/uBlock-fillters
 
 ! Recommended to use with:
@@ -63,6 +63,7 @@ yandex.ru##:xpath(/html/body//div/div[a[./text()="Яндекс.Директ"]])
 4pda.ru###wrapper > div > div > div:style(background:#e6e7e9!important;)
 ivi.ru##.content-main:style(padding-top:0px!important;)
 proficinema.ru##html > body:style(background:none!important;margin-top:0px!important;)
+radikal.ru##body > .render_body_main:style(padding-top:0px!important;)
 redkassa.ru##html > body:style(background:none!important;)
 yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 
@@ -73,6 +74,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||etofirma36.pp.ua^
 ||extrabase.ru^
 ||fed2.ru^
+||fiilueportal.dvvarf.pp.ua^
 ||file.freeddns.org^
 ||freesoft2scc.pp.ua^
 ||glav4.ru^
@@ -83,6 +85,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||kyrenie.magbraslet.top^
 ||lapala.cl^
 ||misterjoy.ru^
+||mnn0gofilueus.dvvarf.pp.ua^
 ||mona-vi.ru^
 ||peceqi.meda-21.ru^
 ||phone8.ru^
@@ -106,6 +109,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||198.58.122.116/ads
 ||2.cdn.echo.msk.ru/files/1338208.jpg
 ||2ip.ru/images/ad/*.png
+||2month.hochu-zamuj.ru/aff/tovars/
 ||5ballov.qip.ru/iframe/
 ||abcege.easytrack.pro/b$subdocument
 ||activeinfo.ru/ai.gif
@@ -118,6 +122,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||beznal.cc/*bimgs/*$image
 ||biblemenus.com/adframe
 ||bicaps.net/bicaps-bg*.jpg
+||biord.ru/wp-content/uploads/2016/01/iherb.swf
 ||black.beauty-mask.biz^$popup
 ||c.mql4.com/images/*/*.gif
 ||cardingboard.net/imgs/*.gif$third-party
@@ -132,10 +137,16 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||delayreferat.ru/images/polosa.swf
 ||delo-press.ru/upload/rk/*/*.gif
 ||demo.boobstagram.com/wp-content/themes/boobstagram/images/store.gif
+||dinternal.com.ua/wp-content/themes/dinternal/images/button-elt.jpg
+||dinternal.com.ua/wp-content/themes/dinternal/images/pearson.gif
+||dinternal.com.ua/wp-content/themes/dinternal/images/s2a-inner.gif
+||dinternal.com.ua/wp-content/themes/dinternal/images/shop*
+||dinternal.com.ua/wp-content/themes/dinternal/images/vac.jpg
 ||e-pay.tv/i/250х250.gif
 ||ecoteco.ru/assets/images/banners/
 ||ege-ok.ru/wp-content/uploads/*/*/*.gif
 ||etalon-bt.ru/upload/resize_cache/iblock/*
+||factor-vesa.net^
 ||fightforthefuture.github.io/countdown-widget/iframe/banner.html
 ||football-tv.ru/images/banner
 ||funkyimg.com/i/*.jpg
@@ -464,6 +475,7 @@ master-skills.ru###column_right > .moduletable:nth-of-type(3)
 math-prosto.ru###advTopLine
 math-prosto.ru##[id^="ambn"]
 math.semestr.ru##.adsbygoogle
+mebeles-lv.ucoz.lv##p > a[href^="https://vk.com/"]
 mediazavod.ru##[id^="tx_banner"]
 medow.ru###execphp-3.widget.widget_execphp
 medow.ru###execphp-9.widget.widget_execphp
