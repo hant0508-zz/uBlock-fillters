@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.4.4
+! Version: 3.4.5
 ! Homepage: https://github.com/hant0508/uBlock-fillters
 
 ! Recommended to use with:
@@ -84,6 +84,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||kareliyarsp.ru^
 ||kyrenie.magbraslet.top^
 ||lapala.cl^
+||lexclub.ru^
 ||misterjoy.ru^
 ||mnn0gofilueus.dvvarf.pp.ua^
 ||mona-vi.ru^
@@ -98,6 +99,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||vstrade.ru^
 ||vtradein.ru^
 ||webalta.ru^
+||webindicator.ru^
 ||well-men.ru^
 ||x002xx.ru^
 ||xiby.ru^
@@ -133,6 +135,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||cdn8.grattis.ru/publicdata/widget/
 ||cs.ppvlj.com/s/*/*.html
 ||cs.wmwyq.xyz$third-party
+||ctege.info/temp/*.gif
 ||deita.ru/*/*/*.gif
 ||delayreferat.ru/images/polosa.swf
 ||delo-press.ru/upload/rk/*/*.gif
@@ -147,6 +150,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||ege-ok.ru/wp-content/uploads/*/*/*.gif
 ||etalon-bt.ru/upload/resize_cache/iblock/*
 ||factor-vesa.net^
+||fanfics.me/images/*banner*
 ||fightforthefuture.github.io/countdown-widget/iframe/banner.html
 ||football-tv.ru/images/banner
 ||funkyimg.com/i/*.jpg
@@ -160,7 +164,9 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||host-food.ru/images/banners/
 ||i.qtymi.com/s/*/*.html
 ||idatz.twirpx.com/swf/*
+||img1.fanfics.me/images/banner/
 ||kampc-help.ru/img/30.gif
+||keys.edufuture.biz/images/office-reform.jpg
 ||kotovski.net/wp-content/uploads/*banner*
 ||kotovski.net/wp-content/uploads/CRONUS_Models3-1_600x200.png
 ||kuponlar.ru/res/knopki/kuponlar88x31.gif
@@ -199,6 +205,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||reklama*.ngs.ru/
 ||ru.onlinemschool.com/*/prmo/
 ||ru.onlinemschool.com/pictures/promo
+||ru.onlinemschool.com/pictures/trq/
 ||rustorka.com/forum/images/avatars/
 ||s3.amazonaws.com/disconnect-images/images/search/*Premium*.png
 ||savoy.cubecdn.net/*.jpg
@@ -217,6 +224,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||u.jimdo.com*/std/image.gif
 ||uchiyaziki.ru/adblock
 ||utropot.ru/*.swf$third-party
+||v-olymp.ru/upload/rk/$image
 ||velo-stokcenter.ru/images/vst_720x100.swf
 ||velopiter.spb.ru/activeinfo/banners/*/*.gif
 ||vi.vipr.ebaydesc.com/ws/eBayISAPI.dll
@@ -356,6 +364,7 @@ etalon-bt.ru##.container.main > .clearfix > .catalog > .catalog_block_left > .cl
 etalon-bt.ru##.container.main > .clearfix > .layout-column-single > .clearfix.bs-slider
 euroki.net##.bg_main > .main > .one_page.content > .clearfix > .send_error
 euroki.net##.bg_main > .main > div:nth-of-type(9)
+fanfics.me###site-content-right > table
 fastpic.ru##body > .center > a[href]
 fb.ru##.rollup.fsb
 fcbarcelona.cat###site-header__ads
@@ -369,6 +378,7 @@ forum.antichat.ru###content > .pageWidth > .noBorderRadiusBottom.pageContent > .
 forum.beznal.cc###categories > .banner_800
 forum.beznal.cc###categories > .cat_banner
 fotolink.su###banner
+freedownloadtorrent.org##.bg_link
 fromblog.ru###page > footer > .container > .suf
 fun.rufex.net###toTop > noindex > .gglhp.abl.mead
 funpic.us##.banner
@@ -431,6 +441,8 @@ ilibrary.ru##.r
 infocity.az###text-6-sticky-wrapper
 inforuss.ru##body > table:nth-of-type(2) > tbody > tr > td:nth-of-type(1) > table > tbody > tr > td > div
 inforuss.ru##noindex > div:nth-of-type(2)
+infourok.ru###dr-push-global-wrap2
+infourok.ru##.dr-side-banner
 instagram.com##.-cx-PRIVATE-Photo__clickShield
 instagram.com##._ovg3g
 irc.lv###regForm
@@ -442,7 +454,6 @@ izvestia.ru##.wrap > .inner_news.columned.main_container > .center_column > .cen
 izvestia.ru##[id^=LentaInform]
 izvestia.ru##[id^=unit_]
 jenyay.net###wikitext > .ad
-joyreactor.cc##.post-normal.article > .post_top > .post_content > div > table
 kampc-help.ru###art-main > .art-sheet.art-box > .art-sheet-body.art-box-body > .art-layout-wrapper > .art-content-layout > .art-content-layout-row > .art-sidebar2.art-layout-cell > .art-block.art-box:nth-of-type(6) > .art-block-body.art-box-body
 kampc-help.ru##.art-box-body.art-post-body > .art-post-inner > .art-postcontent > .art-article > center
 kampc-help.ru##.art-layout-cell.art-sidebar1 > .art-box.art-block
@@ -569,6 +580,7 @@ pogoda.mail.ru##a.forecast-branding-link
 popmech.ru###_sim_popup
 popuptest.com##table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2)
 popuptest.com##table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(3)
+pravoved.ru##.prvd-af-banner
 price4all.ru##body > .topreklama
 proficinema.ru###makeAllStatic
 proficinema.ru##.lw > div[style="height: 120px;"]
@@ -702,4 +714,5 @@ yandex.ru##.rows.container > .rows__row_first.rows__row.row > .col > .universal-
 yandex.ru##.search-snippet-view > .search-direct-snippet-view
 yandex.ru##.serp_js_inited.main_js_inited.i-bem.serp.main_right-panel-hidden_yes.main > .main__center > .main__content > .content_js_inited.i-bem.content > .content__left > .footer-stripe_revealed_yes.footer-stripe_js_inited.i-bem.serp.footer-stripe
 znak.com##main > .x1.column.flex:nth-of-type(1) > .st
+znanija.com##.brn-ads-box
 zona.media##.mz-adv-image
