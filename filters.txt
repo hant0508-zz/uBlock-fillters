@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.4.5
+! Version: 3.4.6
 ! Homepage: https://github.com/hant0508/uBlock-fillters
 
 ! Recommended to use with:
@@ -92,6 +92,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||phone8.ru^
 ||rxjqqt.joyreactor.cc^
 ||rybalka-profi.ru^
+||sellings.ru^
 ||smartinf.ru^
 ||softing.draizer.ru^
 ||swhpgjkl.kyty.net^
@@ -121,6 +122,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||alma-ata.cf/*.html
 ||altwall.net/images/b/
 ||beebom.redkapmedia.netdna-cdn.com/wp-content/uploads/*/Hiring.png
+||belmathematics.by/images/mesto.gif$image
 ||beznal.cc/*bimgs/*$image
 ||biblemenus.com/adframe
 ||bicaps.net/bicaps-bg*.jpg
@@ -162,6 +164,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||hi-tech.mail.ru/img/branding/
 ||homeenglish.ru/image/*.gif
 ||host-food.ru/images/banners/
+||htmlweb.ru/pic/pic.php*.gif$image
 ||i.qtymi.com/s/*/*.html
 ||idatz.twirpx.com/swf/*
 ||img1.fanfics.me/images/banner/
@@ -192,6 +195,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||nanevskom.ru/wp-content/uploads/*.gif
 ||nesk.ru/images/up_line.gif
 ||new.gramota.ru/templates/ru_gramota_spravka_/images/sp.gif
+||neznaika.pro/itog/images/250.png$image
 ||nic.liolu.site$third-party
 ||ntv.ru/smi.html
 ||payad.me/images/payadme
@@ -223,6 +227,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||theindependent.co.zw/wp-content/uploads/2015/12/13121B-ZB-Home-Improvements_ZimInd-*.jpg
 ||u.jimdo.com*/std/image.gif
 ||uchiyaziki.ru/adblock
+||ug.ru/images/kittens/$image
 ||utropot.ru/*.swf$third-party
 ||v-olymp.ru/upload/rk/$image
 ||velo-stokcenter.ru/images/vst_720x100.swf
@@ -306,6 +311,7 @@ bestru.ru##.main_box > .rightColumn
 beznal.cc##.banners
 bicaps.net##.external
 bigpicture.ru##.section-main-project-link200.wrapper
+blinovrus.ru##.setup-bottom-panel
 chelyabinsk-info.ga##body > noindex
 chistiulia.ru###content > .row-fluid > .span3:nth-of-type(1) > .clearfix.b-shadow.bt-5px.margin-25t.box.widget:nth-of-type(1)
 chistiulia.ru###content > .row-fluid > .span3:nth-of-type(1) > .clearfix.b-shadow.bt-5px.margin-25t.box.widget:nth-of-type(3)
@@ -372,6 +378,8 @@ festival.1september.ru###body-side-right
 filyanin.ru###art-main > .art-sheet > .art-sheet-body > .art-content-layout > .art-content-layout-row > .art-sidebar1.art-layout-cell > .art-block
 finmarket.ru###pl45_ban72
 finmarket.ru###pl46_ban45
+fiz.1september.ru###menu
+fizika.advandcash.biz##.textwidget
 football-tv.ru##.wrapper > .header > .topreclama > .reclama-in-header
 football-tv.ru##.wrapper > .middle > .right-sidebar > .banner-ping-media
 forum.antichat.ru###content > .pageWidth > .noBorderRadiusBottom.pageContent > .funbox.section:nth-of-type(2) > .funboxWrapper > .samBannerUnit
@@ -588,6 +596,7 @@ proficinema.ru##.top_link
 progimp.ru###iCN > .left > .ad-rle
 progimp.ru###iCN > .right > .spp
 programmersclub.ru##img[alt="330x300 banner"]
+pron.tv##.resblockx.lextra.resblock
 prostolinux.ru###colLeft > .blogItem > center > .spanlink
 prostolinux.ru##.spanlink > img[class^="aligncenter wp-image-"]
 pythonworld.ru###ytb > .pythonworld-contributor.alert
@@ -602,6 +611,7 @@ remontka.pro##.rem-container.uk-container-center.uk-container > .uk-grid.tm-top-
 ren.tv###block-block-13
 ren.tv###block-block-22
 ren.tv###block-block-24
+resolventa.ru###parent_popup
 rg.ru##.banner-240x400
 rmprepusb.com##.sites-cookie-notice-fit
 royallib.com##.container > .container-in > .nuclear.center > .left-bar > .banner-box
@@ -652,6 +662,7 @@ spoj.com## .c300x600
 sredalinux.blogspot.com###HTML9 > .widget-content
 staforceteam.ru##body > div:nth-of-type(1)
 stoplinux.org.ru##div[id][style="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; overflow: visible; background: rgba(255, 255, 255, 0.6) none repeat scroll 0% 0%; z-index: 2147483647; text-align: center;"]
+studfiles.ru##.banner_bottom_preview
 tass.ru##a[href="http://smi2.ru/"]
 tatar-inform.ru##.banner
 telegraf.by##.promo-240_400.promo-box
@@ -716,3 +727,4 @@ yandex.ru##.serp_js_inited.main_js_inited.i-bem.serp.main_right-panel-hidden_yes
 znak.com##main > .x1.column.flex:nth-of-type(1) > .st
 znanija.com##.brn-ads-box
 zona.media##.mz-adv-image
+zoon.ru##.service-box-white > .box-padding
