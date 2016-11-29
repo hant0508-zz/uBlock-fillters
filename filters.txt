@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.4.6
+! Version: 3.4.7
 ! Homepage: https://github.com/hant0508/uBlock-fillters
 
 ! Recommended to use with:
@@ -68,8 +68,10 @@ redkassa.ru##html > body:style(background:none!important;)
 yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 
 ! Strict blocking rules
+||appvk.ru^
 ||askfm.im^
 ||base2.ru^
+||blogport.ru^
 ||delta-search.com^
 ||etofirma36.pp.ua^
 ||extrabase.ru^
@@ -79,6 +81,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||freesoft2scc.pp.ua^
 ||glav4.ru^
 ||gorspravki.ru^
+||guestapp.ru^
 ||guf2.ru^
 ||hivxffti.oagroup.info^
 ||kareliyarsp.ru^
@@ -88,6 +91,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||misterjoy.ru^
 ||mnn0gofilueus.dvvarf.pp.ua^
 ||mona-vi.ru^
+||myblogoff.ru^
 ||peceqi.meda-21.ru^
 ||phone8.ru^
 ||rxjqqt.joyreactor.cc^
@@ -121,6 +125,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||allsport-news.net/leon.gif
 ||alma-ata.cf/*.html
 ||altwall.net/images/b/
+||ayu.ru/bannerUploads/
 ||beebom.redkapmedia.netdna-cdn.com/wp-content/uploads/*/Hiring.png
 ||belmathematics.by/images/mesto.gif$image
 ||beznal.cc/*bimgs/*$image
@@ -128,6 +133,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||bicaps.net/bicaps-bg*.jpg
 ||biord.ru/wp-content/uploads/2016/01/iherb.swf
 ||black.beauty-mask.biz^$popup
+||botan.cc/kursy.gif
 ||c.mql4.com/images/*/*.gif
 ||cardingboard.net/imgs/*.gif$third-party
 ||cdn*.grattis.ru/publicdata/widget/
@@ -135,6 +141,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||cdn.comss.net/img/adguard_down*.png
 ||cdn.livetvcdn.net/html/$subdocument
 ||cdn8.grattis.ru/publicdata/widget/
+||compua.com.ua/wp-content/uploads/2010/07/Kupit-computer.gif
 ||cs.ppvlj.com/s/*/*.html
 ||cs.wmwyq.xyz$third-party
 ||ctege.info/temp/*.gif
@@ -195,21 +202,24 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||nanevskom.ru/wp-content/uploads/*.gif
 ||nesk.ru/images/up_line.gif
 ||new.gramota.ru/templates/ru_gramota_spravka_/images/sp.gif
-||neznaika.pro/itog/images/250.png$image
+||neznaika.pro/itog/images/$image
 ||nic.liolu.site$third-party
 ||ntv.ru/smi.html
 ||payad.me/images/payadme
 ||pbs.twimg.com/profile_banners/
 ||pcpro100.info/wp-content/themes/pcpro
 ||php-zametki.ru/images/banner*.gif
+||pornhub.com^$third-party
 ||prankota.com/images/*.gif
 ||programmersforum.ru/anim*.gif
 ||prostolinux.ru/wp-content/bn/ihor.gif
 ||red.tingrinter.com/
 ||reklama*.ngs.ru/
+||reshimvse.com/artadmin/$image
 ||ru.onlinemschool.com/*/prmo/
 ||ru.onlinemschool.com/pictures/promo
 ||ru.onlinemschool.com/pictures/trq/
+||ru.solverbook.com/wp-content/themes/solverbook/img/*.gif
 ||rustorka.com/forum/images/avatars/
 ||s3.amazonaws.com/disconnect-images/images/search/*Premium*.png
 ||savoy.cubecdn.net/*.jpg
@@ -306,6 +316,7 @@ anti-malware.ru###slidebox
 antonkozlov.ru###sidebar_friends
 articulos.softonic.com###popup-newsletter-article
 articulos.softonic.com##.ov_opened.ov_modal_bkgnd_layer
+ayu.ru##.baner-top
 barcaman.ru###content > .advert
 bestru.ru##.main_box > .rightColumn
 beznal.cc##.banners
@@ -344,6 +355,8 @@ deita.ru###stMainRight > .stRightBunner_right.stBunner
 delayreferat.ru##.side-border-left
 delayreferat.ru##.side-border-right
 dns-shop.ru##.container > main > .ad-content-banner-under-window
+download.chainfire.eu###bar-left
+download.chainfire.eu###bar-right
 drivers.mydiv.net##div[style="margin:8px;margin-top:0px;border:1px #c0c0c0 solid; width: 336px;"]
 drivers.mydiv.net##div[style="width:160px; height:600px;  bordeR:1px #eeeeee solid;"]
 drivers.mydiv.net##div[style="width:160px; height:600px; margin-left:15px; margin-right:5px; bordeR:1px #eeeeee solid;"]
@@ -553,6 +566,7 @@ ntv.ru##[id^="flamur"]
 ofirefox.ru###Mod41
 ofirefox.ru###Mod42
 ofirefox.ru###Mod43
+ogo1.ru###verBanC
 oldi.ru###wrap > .bigbanner
 ololo.fm##.content > .col_1 > .block2:nth-of-type(34)
 oniksfly.md8.ru##body > div:nth-of-type(1)
@@ -597,11 +611,13 @@ progimp.ru###iCN > .left > .ad-rle
 progimp.ru###iCN > .right > .spp
 programmersclub.ru##img[alt="330x300 banner"]
 pron.tv##.resblockx.lextra.resblock
+proshkolu.ru##a[href^="click"]
 prostolinux.ru###colLeft > .blogItem > center > .spanlink
 prostolinux.ru##.spanlink > img[class^="aligncenter wp-image-"]
 pythonworld.ru###ytb > .pythonworld-contributor.alert
 rbc.ua##.hidemobo.rdblock
 read.ru##.banner_subscribe
+realsexinvr.com##.textwidget > p > a > img
 redkassa.ru##.brandingLinksWrapper
 redkassa.ru##.main-wrap.wrap > .cf.content-box.layout-two-columns > .layout-right-column
 redkassa.ru##.main-wrap.wrap > .mb10.top-line
@@ -611,6 +627,8 @@ remontka.pro##.rem-container.uk-container-center.uk-container > .uk-grid.tm-top-
 ren.tv###block-block-13
 ren.tv###block-block-22
 ren.tv###block-block-24
+reshimvse.com###add
+reshimvse.com###right_block_add
 resolventa.ru###parent_popup
 rg.ru##.banner-240x400
 rmprepusb.com##.sites-cookie-notice-fit
