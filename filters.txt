@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.4.7
+! Version: 3.4.8
 ! Homepage: https://github.com/hant0508/uBlock-fillters
 
 ! Recommended to use with:
@@ -577,11 +577,6 @@ otvet.mail.ru###portal-menu > .nt--position
 ozhegov.textologia.ru###bot > table > tbody > tr > .bot_right
 padaread.com###page_content > .sidebar > .partners2
 padaread.com###page_content > .total_list > .b_pag_bann
-paperpaper.ru##.r-top-banner.placeholder2_m.placeholder2
-paperpaper.ru##.singular-container > .base-frame-wide > .dd-push--top.base-frame > .gw > .js-controller.is-skew.sk-sidebar.d2-soft-bottom.hard--left.one-quarter.g > .push-left:nth-of-type(1) > .d4-push-bottom > .simple-list > .sk-middle-banner.push-ends
-paperpaper.ru##.singular-container > .base-frame-wide > .dd-push--top.base-frame > .gw:nth-of-type(1) > .js-controller.d2-soft-bottom.hard--left.one-quarter.sk-sidebar.g > .sk-news-banner.js-banner > .simple-list > .sk-middle-banner.push-ends
-paperpaper.ru##.singular-container > .base-frame-wide > .gw > .is-main.sk-sidebar.d2-push-bottom.hard--left.one-third.g > .push-left > .d2-soft-bottom > .simple-list > .sk-middle-banner.push-ends
-paperpaper.ru##.singular-container > .placeholder2
 parta.com.ua###block_gr
 parta.com.ua###left_menu > div:nth-of-type(1)
 parta.com.ua###left_menu > div:nth-of-type(7)
