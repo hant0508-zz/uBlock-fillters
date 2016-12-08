@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.4.8
+! Version: 3.4.9
 ! Homepage: https://github.com/hant0508/uBlock-fillters
 
 ! Recommended to use with:
@@ -160,6 +160,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||etalon-bt.ru/upload/resize_cache/iblock/*
 ||factor-vesa.net^
 ||fanfics.me/images/*banner*
+||ffin.ru/images/banner.html
 ||fightforthefuture.github.io/countdown-widget/iframe/banner.html
 ||football-tv.ru/images/banner
 ||funkyimg.com/i/*.jpg
@@ -174,6 +175,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||htmlweb.ru/pic/pic.php*.gif$image
 ||i.qtymi.com/s/*/*.html
 ||idatz.twirpx.com/swf/*
+||imagebam.com/files/_b*.php$image
 ||img1.fanfics.me/images/banner/
 ||kampc-help.ru/img/30.gif
 ||keys.edufuture.biz/images/office-reform.jpg
@@ -413,6 +415,8 @@ games.mydiv.net##div[style="width:728px; height: 90px; border:#dddddd 1px solid;
 garant.ru###page > .content > .inner > .row-grid > .popup-social
 gazeta.ru###right
 gde-ya.ru###post-11 > .entry > a[href="http://gde-ya.ru/st.php"]
+gdz-putina.me###advideo_adv
+gdz-putina.me##.games
 geektimes.ru###layout > .inner > .dont-add-our-site-pls
 geektimes.ru##.column-wrapper_bordered.column-wrapper_bottom.column-wrapper > .sidebar_right
 geektimes.ru##.html_banner_wrap
@@ -721,11 +725,14 @@ webalta.ru##.wrapper > .header2.header > .header2 > .head-row-logo2.o-h.head-row
 webbazar.eu###fblikebg
 webbazar.eu###fblikepop
 webmath.ru##.popupCreateOrderWindow
+whatsonsukhumvit.com##.floatBottom.nc_wrapper
+whatsonsukhumvit.com##[class*="pushcrew"][class*="notification"]
 wiki.eduvdom.com##.dokuwiki > .page > .level1 > .table.sectionedit2
 wiki.eduvdom.com##.dokuwiki > .page > .level1 > .table.sectionedit3
 wiki.eduvdom.com##.dokuwiki > div:nth-of-type(2)
 windowsfaq.ru##.container > tbody > tr > .maincolumn > div:nth-of-type(1)
 windxp.com.ru###fixblock > .del:nth-of-type(1)
+wolframalpha.com###codezone-footer
 wolframalpha.com###headerad-pro
 wolframalpha.com###sidebar
 wolframalpha.com###spons-bound
