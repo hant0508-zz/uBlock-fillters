@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.4.9
+! Version: 3.4.10
 ! Homepage: https://github.com/hant0508/uBlock-fillters
 
 ! Recommended to use with:
@@ -47,6 +47,7 @@ new.gramota.ru#@##main-sec > .block-side:last-child
 ##[class^="show_"][class$="_ads"]
 ##[id="WIX_ADS"]
 ##[id^="s"][id$="Bunner"]
+/bannery/$image
 
 ! XPath rules
 4pda.ru##:xpath((/html/body//aside/div[div[@class="sidebar_border_content"]])[1])
@@ -94,6 +95,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||myblogoff.ru^
 ||peceqi.meda-21.ru^
 ||phone8.ru^
+||pilabu.ru^
 ||rxjqqt.joyreactor.cc^
 ||rybalka-profi.ru^
 ||sellings.ru^
@@ -601,6 +603,7 @@ pogoda.mail.ru##a.forecast-branding-link
 popmech.ru###_sim_popup
 popuptest.com##table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2)
 popuptest.com##table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(3)
+ppl.nnov.ru##a[href="http://www.monolit.nnov.ru/"]
 pravoved.ru##.prvd-af-banner
 price4all.ru##body > .topreklama
 proficinema.ru###makeAllStatic
