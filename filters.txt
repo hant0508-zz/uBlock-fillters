@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.4.10
+! Version: 3.5.0
 ! Homepage: https://github.com/hant0508/uBlock-fillters
 
 ! Recommended to use with:
@@ -76,6 +76,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||delta-search.com^
 ||etofirma36.pp.ua^
 ||extrabase.ru^
+||factor-vesa.net^
 ||fed2.ru^
 ||fiilueportal.dvvarf.pp.ua^
 ||file.freeddns.org^
@@ -103,6 +104,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||softing.draizer.ru^
 ||swhpgjkl.kyty.net^
 ||vid.x-casino.net^
+||vk-com-auth5.com^
 ||vstrade.ru^
 ||vtradein.ru^
 ||webalta.ru^
@@ -145,7 +147,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||cdn8.grattis.ru/publicdata/widget/
 ||compua.com.ua/wp-content/uploads/2010/07/Kupit-computer.gif
 ||cs.ppvlj.com/s/*/*.html
-||cs.wmwyq.xyz$third-party
+||cs.wmwyq.xyz^$third-party
 ||ctege.info/temp/*.gif
 ||deita.ru/*/*/*.gif
 ||delayreferat.ru/images/polosa.swf
@@ -160,7 +162,6 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||ecoteco.ru/assets/images/banners/
 ||ege-ok.ru/wp-content/uploads/*/*/*.gif
 ||etalon-bt.ru/upload/resize_cache/iblock/*
-||factor-vesa.net^
 ||fanfics.me/images/*banner*
 ||ffin.ru/images/banner.html
 ||fightforthefuture.github.io/countdown-widget/iframe/banner.html
@@ -224,6 +225,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||ru.onlinemschool.com/pictures/promo
 ||ru.onlinemschool.com/pictures/trq/
 ||ru.solverbook.com/wp-content/themes/solverbook/img/*.gif
+||ruseller.com/img/PHPb.jpg
 ||rustorka.com/forum/images/avatars/
 ||s3.amazonaws.com/disconnect-images/images/search/*Premium*.png
 ||savoy.cubecdn.net/*.jpg
@@ -250,7 +252,6 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||videouroki.net/*/*/*.gif
 ||videouroki.net/*banner
 ||videouroki.net/img/look/bestforteacherstop.jpg
-||vk-com-auth5.com^
 ||vladmaxi.net/uploads/*/*/banner*.gif
 ||webmath.ru/images/webmath_240_400_homework.jpg
 ||whoer.net/images/*.gif
@@ -743,7 +744,6 @@ wolframalpha.com###sponsor-ad
 yandex.ru##.footer-stripe_revealed_yes.footer-stripe_js_inited.i-bem.footer-stripe
 yandex.ru##.footer_distro_yes.clearfix.footer > .distro_shown_yes.distro_js_inited.scroll-spy_js_inited.i-bem.scroll-spy.distro
 yandex.ru##.footer_js_inited.i-bem.clearfix.footer_distro_yes.footer_layout_serp.footer > .distro_shown_yes.distro_js_inited.i-bem.distro
-yandex.ru##.popup_to_bottom
 yandex.ru##.rows.container > .rows__row_first.rows__row.row > .col > .universal-stripe-wrapper
 yandex.ru##.search-snippet-view > .search-direct-snippet-view
 yandex.ru##.serp_js_inited.main_js_inited.i-bem.serp.main_right-panel-hidden_yes.main > .main__center > .main__content > .content_js_inited.i-bem.content > .content__left > .footer-stripe_revealed_yes.footer-stripe_js_inited.i-bem.serp.footer-stripe
