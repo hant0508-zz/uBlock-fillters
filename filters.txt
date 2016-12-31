@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.5.0
+! Version: 3.5.1
 ! Homepage: https://github.com/hant0508/uBlock-fillters
 
 ! Recommended to use with:
@@ -26,6 +26,8 @@
 @@||mymeizu.ru/bitrix/templates/m2mini/content$image
 @@||relap.io/api$script,domain=adme.ru
 @@||speedtest.net/javascript/speedtest-main.js?*
+@@||u.alicdn.com/??js/6v/lib/arale/widget/widget.js,js/6v/lib/arale/templatable/templatable.js,js/6v/biz/common/click-stat/click-stat.js,mobile/ae/common/hawe/1.0.4/hawe.js$script,domain=sale.aliexpress.com
+@@||u.alicdn.com/js/5v/run/pool/monitor/beacon_async.js$script,domain=sale.aliexpress.com
 @@||videouroki.net/img/*/*.gif
 comss.ru#@#.top + .av
 danieldefo.ru#@#.bannerBlock
@@ -168,6 +170,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||football-tv.ru/images/banner
 ||funkyimg.com/i/*.jpg
 ||futbik.net/templates/*/*/banner/
+||gidonline.club/wp-content/themes/gidonline/js/jsbox1.js
 ||go4convert.com/cmi.png
 ||go4convert.com/cwf.png
 ||guruadmin.ru/hosting.gif
@@ -187,6 +190,9 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||kuponlar.ru/res/knopki/kuponlar88x31.gif
 ||last.by/adv/kr.gif
 ||magmens.com/wp-content/uploads/20*/*.gif
+||matematikalegko.ru/img/260x249handrozdvd.jpg
+||matematikalegko.ru/img/egestudia258x360.jpg
+||matematikalegko.ru/wp-content/themes/zeesynergie/images/258x400foxvord.jpg
 ||mathprofi.com/images/promo/
 ||mathprofi.ru/images/matburo*.gif
 ||mathprofi.ru/images/matburo.gif
@@ -511,6 +517,7 @@ malekal.com##center
 manyahin.ru##footer
 markapon.ru##.side-banner
 master-skills.ru###column_right > .moduletable:nth-of-type(3)
+matematikalegko.ru##[class*="Banner"]
 math-prosto.ru###advTopLine
 math-prosto.ru##[id^="ambn"]
 math.semestr.ru##.adsbygoogle
@@ -693,6 +700,7 @@ testi.ru##[id^="DIV_DA_"]
 textnow.com###banner
 the-village.ru###fixed-sidebar
 the-village.ru##.app-content.page-content > .row-adblock-message.row
+thequestion.ru##.promo
 thg.ru##body > div:nth-of-type(4) > table:nth-of-type(2) > tbody > tr > td:nth-of-type(3) > table > tbody > tr:nth-of-type(1)
 timeout.ru###DIV_BSN_36
 tlgrm.ru##.b-channel-post--ads.b-channel-post
