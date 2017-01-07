@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.5.1
+! Version: 3.5.2
 ! Homepage: https://github.com/hant0508/uBlock-fillters
 
 ! Recommended to use with:
@@ -23,6 +23,7 @@
 @@/pr.php?
 @@||cs.pikabu.ru/files/ad/*.png
 @@||gigatorrent.net^
+@@||mc.yandex.ru/metrika/watch.js$script,domain=nofelet.ru
 @@||mymeizu.ru/bitrix/templates/m2mini/content$image
 @@||relap.io/api$script,domain=adme.ru
 @@||speedtest.net/javascript/speedtest-main.js?*
@@ -119,6 +120,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 
 ! Blocking rules
 ||003apteka.ru/uploads/banner*.gif
+||1000ideas.ru/upload/rk/9c6/nash.png
 ||198.58.122.116/ads
 ||2.cdn.echo.msk.ru/files/1338208.jpg
 ||2ip.ru/images/ad/*.png
@@ -147,6 +149,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||cdn.comss.net/img/adguard_down*.png
 ||cdn.livetvcdn.net/html/$subdocument
 ||cdn8.grattis.ru/publicdata/widget/
+||chudobilet.ru/content/images/дыши.gif
 ||compua.com.ua/wp-content/uploads/2010/07/Kupit-computer.gif
 ||cs.ppvlj.com/s/*/*.html
 ||cs.wmwyq.xyz^$third-party
@@ -247,6 +250,8 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||technical-server.ru/media/upload/ban/
 ||teplo.guru/wp-content/uploads/banner
 ||theindependent.co.zw/wp-content/uploads/2015/12/13121B-ZB-Home-Improvements_ZimInd-*.jpg
+||transkart.ru/111/img/TIC_Excursion.gif
+||transkart.ru/111/img/banner
 ||u.jimdo.com*/std/image.gif
 ||uchiyaziki.ru/adblock
 ||ug.ru/images/kittens/$image
@@ -457,6 +462,7 @@ hackzone.ru##div:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(
 hackzone.ru##div:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(2) > td > table:nth-of-type(3) > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > div:nth-of-type(7)
 hackzone.ru##div:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > table:nth-of-type(3) > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > div:nth-of-type(8)
 hackzone.ru##div:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(2) > td:nth-of-type(2)
+handscrew.ru###abdanner
 hdrezka.me##[id^="bn_"]
 hdrezka.me##div[id^="skin_"][class^="skin-block_"][style^="background-image:"]
 hh.ru##body > .columns-wrapper:nth-of-type(5) > .column_container.column_l-16.column_m-12.column_s-8.column > .gap_top.gap > .column_container.column_l-4.column_m-4.column_s-4.column
@@ -491,6 +497,7 @@ jenyay.net###wikitext > .ad
 kampc-help.ru###art-main > .art-sheet.art-box > .art-sheet-body.art-box-body > .art-layout-wrapper > .art-content-layout > .art-content-layout-row > .art-sidebar2.art-layout-cell > .art-block.art-box:nth-of-type(6) > .art-block-body.art-box-body
 kampc-help.ru##.art-box-body.art-post-body > .art-post-inner > .art-postcontent > .art-article > center
 kampc-help.ru##.art-layout-cell.art-sidebar1 > .art-box.art-block
+kanobu.ru##.fluid-banner
 kinobaza.tv###fast-feedback-btn
 kinogb.net###fehu-content > .statics > .dwnl-osn > .dwnl-right
 kinogb.net###mcont > a[href="/premium.html"]
