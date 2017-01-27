@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.5.2
+! Version: 3.5.3
 ! Homepage: https://github.com/hant0508/uBlock-fillters
 
 ! Recommended to use with:
@@ -21,8 +21,10 @@
 ! Exclusions
 @@/adguard.
 @@/pr.php?
+@@||*.*$popup,domain=google.com
 @@||cs.pikabu.ru/files/ad/*.png
 @@||gigatorrent.net^
+@@||google.*/adwords/*$domain=www.google.ru
 @@||mc.yandex.ru/metrika/watch.js$script,domain=nofelet.ru
 @@||mymeizu.ru/bitrix/templates/m2mini/content$image
 @@||relap.io/api$script,domain=adme.ru
@@ -32,13 +34,16 @@
 @@||videouroki.net/img/*/*.gif
 comss.ru#@#.top + .av
 danieldefo.ru#@#.bannerBlock
+google.com#@#a[href]
 joyreactor.cc#@#div#sidebar
+marketgid.com#@#a[href*="marketgid.com/"]
 megafon.ru#@#div[id^="AdFox_banner_"]
 new.gramota.ru#@##main-sec > .block-side:last-child
 
 ! Global rules
 ###WIX_ADS
 ###bannerSmall
+###bg-banner
 ##.Banner_Top
 ##.adv_wrap
 ##.banner2
@@ -61,6 +66,7 @@ go.mail.ru##:xpath(/html/body//div[@id="layout"]//div[@class="responses__wrapper
 ovgorskiy.ru##:xpath(/html/body//div[@class="zsnazzy" and div[@class="xboxcontent" and .//text()="Блок рекламы"]])
 pikabu.ru##:xpath(/html/body//div[@class="story" and .//a[@class="story__author" and text()="ads"]])
 pikabu.ru##:xpath(/html/body//span[@id="right_menu"]//table[.//text()="Промо"])
+velocityreviews.com##:xpath(/html/body//li[@class="message" and ./div[@class="messageAdvertising"]])
 yandex.ru##:xpath(/html/body//div/div[a[./text()="Яндекс.Директ"]])
 
 ! Style rules
@@ -75,8 +81,11 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||appvk.ru^
 ||askfm.im^
 ||base2.ru^
+||beryblog.ru^
+||bestload.me^
 ||blogport.ru^
 ||delta-search.com^
+||dle30.sofftportall9nn.info^
 ||etofirma36.pp.ua^
 ||extrabase.ru^
 ||factor-vesa.net^
@@ -97,6 +106,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||mnn0gofilueus.dvvarf.pp.ua^
 ||mona-vi.ru^
 ||myblogoff.ru^
+||nkokbr.ru^
 ||peceqi.meda-21.ru^
 ||phone8.ru^
 ||pilabu.ru^
@@ -129,6 +139,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||abcege.easytrack.pro/b$subdocument
 ||activeinfo.ru/ai.gif
 ||adminvps.ru/img/buttons/AV468x60.gif
+||alexlarin.net/970x90*.png
 ||allforchildren.ru/img/lolo.gif
 ||allsport-news.net/leon.gif
 ||alma-ata.cf/*.html
@@ -186,6 +197,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||idatz.twirpx.com/swf/*
 ||imagebam.com/files/_b*.php$image
 ||img1.fanfics.me/images/banner/
+||izvygon.ru/*.swf
 ||kampc-help.ru/img/30.gif
 ||keys.edufuture.biz/images/office-reform.jpg
 ||kotovski.net/wp-content/uploads/*banner*
@@ -438,6 +450,7 @@ geektimes.ru##.js-ad_sticky
 geektimes.ru##.sticky_init.sidebar_content-area.sidebar_right > .is_visible.xyz_wrapper
 generatorlinkpremium.com##.thirdsky
 getemoji.com##.container > div > .text-center:nth-of-type(2)
+gismeteo.ru##.ru.side__i
 gitem.ru##.container > table > tbody > tr > td > .addon
 gitem.ru##.container > table > tbody > tr > td > .block-box > .box-cont > .cssmenu > li > .vkpr[href="http://spishy-gdz.ru/"]
 google.ru###pmocntr2
@@ -532,6 +545,7 @@ mebeles-lv.ucoz.lv##p > a[href^="https://vk.com/"]
 mediazavod.ru##[id^="tx_banner"]
 medow.ru###execphp-3.widget.widget_execphp
 medow.ru###execphp-9.widget.widget_execphp
+meestekas.net##.textwidget > center
 megamozg.ru###layout > .inner > .column-wrapper_content.content_wrapper > .js-sticky-wrapper.column-wrapper > .sidebar_fix.sidebar_right > .sticky-active.wrapper-sticky
 megamozg.ru###layout > .inner > .dont-add-our-site-pls
 megamozg.ru##.html_banner_wrap
@@ -584,6 +598,9 @@ ntv.ru###pa_header
 ntv.ru###themes_container > .tegwrapBl > .themesBl > .flamurBrd
 ntv.ru##.temaout
 ntv.ru##[id^="flamur"]
+nude-share.com##.fixed-sidebar
+nudebabe.pictures##.big-div
+nudebabe.pictures##.exo
 ofirefox.ru###Mod41
 ofirefox.ru###Mod42
 ofirefox.ru###Mod43
@@ -618,6 +635,8 @@ pogoda.mail.ru##a.forecast-branding-link
 popmech.ru###_sim_popup
 popuptest.com##table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2)
 popuptest.com##table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(3)
+pornolab.cf##body > div:not(#all)
+pornscrape.com##.css2table
 ppl.nnov.ru##a[href="http://www.monolit.nnov.ru/"]
 pravoved.ru##.prvd-af-banner
 price4all.ru##body > .topreklama
@@ -657,6 +676,7 @@ ru.aliexpress.com##.ui-newuser-floating-layer
 ru.onlinemschool.com###G_M
 ru.onlinemschool.com###G_r1
 ru.onlinemschool.com##.table_main > tbody > tr:nth-of-type(3) > .td_main_left
+ru.onlinemschool.com##div[style="cursor: pointer;display:block!important;visibility: visible!important;"]
 ru.stackoverflow.com###beta-ad-container
 ru.tsn.ua##.advert.item
 ru.wikihow.com##[class^="ad_label"]
@@ -728,6 +748,7 @@ ucheba-otziv.ru##object[id^="baner"]
 ufa-room.ru,neva-room.ru,ekb-room.ru,saratov--room.ru,novosib-room.ru,tlt-room.ru,cheb-room.ru,kaliningrad-room.ruvoronezh-room.ru,vladi-room.ru,yaroslavl-room.ru##[id^="smi_teaser"]
 ufa-room.ru,neva-room.ru,ekb-room.ru,saratov-room.ru,novosib-room.ru,tlt-room.ru,cheb-room.ru,kaliningrad-room.ruvoronezh-room.ru,vladi-room.ru,yaroslavl-room.ru###content > .full_news > .content_wrapper > .fl_r > .typical_ad
 ufa-room.ru,neva-room.ru,ekb-room.ru,saratov-room.ru,novosib-room.ru,tlt-room.ru,cheb-room.ru,kaliningrad-room.ruvoronezh-room.ru,vladi-room.ru,yaroslavl-room.ru###right_side_fixed_ad
+unionpron.org##body > div:not(#body_container)
 ural.kp.ru###article-page\  > .boxPage > .boxCols
 velofun.ru###content > span
 velonews.ru###inner-wrap > .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid > .td-post-sidebar.column_container.span4 > .widget_text.widget
@@ -765,4 +786,5 @@ yandex.ru##.serp_js_inited.main_js_inited.i-bem.serp.main_right-panel-hidden_yes
 znak.com##main > .x1.column.flex:nth-of-type(1) > .st
 znanija.com##.brn-ads-box
 zona.media##.mz-adv-image
+zonazakona.ru##[id^="yandex_ad"]
 zoon.ru##.service-box-white > .box-padding
