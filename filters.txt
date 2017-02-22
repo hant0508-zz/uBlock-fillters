@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.5.3
+! Version: 3.5.4
 ! Homepage: https://github.com/hant0508/uBlock-fillters
 
 ! Recommended to use with:
@@ -135,6 +135,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||2.cdn.echo.msk.ru/files/1338208.jpg
 ||2ip.ru/images/ad/*.png
 ||2month.hochu-zamuj.ru/aff/tovars/
+||4ege.ru/up/a1/fox17f.png
 ||5ballov.qip.ru/iframe/
 ||abcege.easytrack.pro/b$subdocument
 ||activeinfo.ru/ai.gif
@@ -146,7 +147,8 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||altwall.net/images/b/
 ||ayu.ru/bannerUploads/
 ||beebom.redkapmedia.netdna-cdn.com/wp-content/uploads/*/Hiring.png
-||belmathematics.by/images/mesto.gif$image
+||belmathematics.by/images/mesto.gif
+||belta.by/uploads/files/evroopt*$subdocument
 ||beznal.cc/*bimgs/*$image
 ||biblemenus.com/adframe
 ||bicaps.net/bicaps-bg*.jpg
@@ -157,6 +159,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||cardingboard.net/imgs/*.gif$third-party
 ||cdn*.grattis.ru/publicdata/widget/
 ||cdn.comss.net/action/internet*.png
+||cdn.comss.net/action/ya-antiphishing.jpg
 ||cdn.comss.net/img/adguard_down*.png
 ||cdn.livetvcdn.net/html/$subdocument
 ||cdn8.grattis.ru/publicdata/widget/
@@ -205,6 +208,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||kuponlar.ru/res/knopki/kuponlar88x31.gif
 ||last.by/adv/kr.gif
 ||magmens.com/wp-content/uploads/20*/*.gif
+||matburo.ru/Data/banner
 ||matematikalegko.ru/img/260x249handrozdvd.jpg
 ||matematikalegko.ru/img/egestudia258x360.jpg
 ||matematikalegko.ru/wp-content/themes/zeesynergie/images/258x400foxvord.jpg
@@ -318,6 +322,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 4pda.ru##aside > div[class] > .sidebar_border_content
 5ballov.qip.ru###content > .right_sidebar > .h_block.panel
 720pizle.com##[id^="reklam"]
+8nog.com##.results.error1 > div:nth-of-type(1)
 adme.ru###beeline-result-overlay > .inner > [class^="beeline-overlay"]
 adme.ru##.dialog-bg
 adme.ru##.js-fixed-like-box-new.js-fixed-like-box.fixed-like-box-blue
@@ -345,7 +350,10 @@ antonkozlov.ru###sidebar_friends
 articulos.softonic.com###popup-newsletter-article
 articulos.softonic.com##.ov_opened.ov_modal_bkgnd_layer
 ayu.ru##.baner-top
+babla.ru##.ad
+babla.ru##.info-wrapper
 barcaman.ru###content > .advert
+belta.by##.bans_flash
 bestru.ru##.main_box > .rightColumn
 beznal.cc##.banners
 bicaps.net##.external
@@ -783,6 +791,7 @@ yandex.ru##.footer_js_inited.i-bem.clearfix.footer_distro_yes.footer_layout_serp
 yandex.ru##.rows.container > .rows__row_first.rows__row.row > .col > .universal-stripe-wrapper
 yandex.ru##.search-snippet-view > .search-direct-snippet-view
 yandex.ru##.serp_js_inited.main_js_inited.i-bem.serp.main_right-panel-hidden_yes.main > .main__center > .main__content > .content_js_inited.i-bem.content > .content__left > .footer-stripe_revealed_yes.footer-stripe_js_inited.i-bem.serp.footer-stripe
+znak.com##figure
 znak.com##main > .x1.column.flex:nth-of-type(1) > .st
 znanija.com##.brn-ads-box
 zona.media##.mz-adv-image
