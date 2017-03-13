@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Filters by hant0508
-! Version: 3.5.4
+! Version: 3.5.5
 ! Homepage: https://github.com/hant0508/uBlock-fillters
 
 ! Recommended to use with:
@@ -84,7 +84,9 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||beryblog.ru^
 ||bestload.me^
 ||blogport.ru^
+||bromigo.pw^
 ||delta-search.com^
+||dle01.freesoftt2cc.name^
 ||dle30.sofftportall9nn.info^
 ||etofirma36.pp.ua^
 ||extrabase.ru^
@@ -107,6 +109,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||mona-vi.ru^
 ||myblogoff.ru^
 ||nkokbr.ru^
+||pdf-knigi.com^
 ||peceqi.meda-21.ru^
 ||phone8.ru^
 ||pilabu.ru^
@@ -115,6 +118,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||sellings.ru^
 ||smartinf.ru^
 ||softing.draizer.ru^
+||spenlobubestgas.files.wordpress.com^
 ||swhpgjkl.kyty.net^
 ||vid.x-casino.net^
 ||vk-com-auth5.com^
@@ -233,6 +237,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||nesk.ru/images/up_line.gif
 ||new.gramota.ru/templates/ru_gramota_spravka_/images/sp.gif
 ||neznaika.pro/itog/images/$image
+||neznaika.pro/templates/neznaika/_img/god*.png
 ||nic.liolu.site$third-party
 ||ntv.ru/smi.html
 ||payad.me/images/payadme
@@ -282,6 +287,7 @@ yandex.ru##.main_distro-footer_yes:style(margin:0!important;padding:0!important)
 ||vladmaxi.net/uploads/*/*/banner*.gif
 ||webmath.ru/images/webmath_240_400_homework.jpg
 ||whoer.net/images/*.gif
+||wsturbo.net/*.gif
 ||www.proficinema.ru/images/bg_mamy.jpg
 ||yandex.st/uefa16-frontend/1.0.30/i/extra/yabro/
 ||youpk.ru/wp-content/*/banner
@@ -390,6 +396,7 @@ deita.ru###stMainCenter > .stBunner.stInNewsListBunner
 deita.ru###stMainRight > .stRightBunner_right.stBunner
 delayreferat.ru##.side-border-left
 delayreferat.ru##.side-border-right
+dfiles.ru###iframe_console
 dns-shop.ru##.container > main > .ad-content-banner-under-window
 download.chainfire.eu###bar-left
 download.chainfire.eu###bar-right
@@ -499,6 +506,7 @@ i-vd.org.ru##table > tbody > tr > td > table > tbody > tr > td > .mainfooter
 ib.mazurok.com###secondary
 ibm.com###dw-regbar
 ilibrary.ru##.r
+info.sibnet.ru##.td.main-content-right > div > a[href] > img
 infocity.az###text-6-sticky-wrapper
 inforuss.ru##body > table:nth-of-type(2) > tbody > tr > td:nth-of-type(1) > table > tbody > tr > td > div
 inforuss.ru##noindex > div:nth-of-type(2)
@@ -506,6 +514,9 @@ infourok.ru###dr-push-global-wrap2
 infourok.ru##.dr-side-banner
 instagram.com##.-cx-PRIVATE-Photo__clickShield
 instagram.com##._ovg3g
+instme.com##.adv1
+instme.com##.adv2
+instme.com##center > .sponsored
 irc.lv###regForm
 irecommend.ru###bigright
 irecommend.ru###sidebar-left-top-content-wrapper
@@ -586,6 +597,7 @@ mymodo.ru###header > .region-bottom-header.region
 myzuka.fm##.all > .header > .aside > .button-a.v2[href="/GetVipAccount"]
 nagitaru.ru###text-24
 nagitaru.ru###text-35
+naked-science.ru##.naked-banner
 nashe.ru##.main > .content > .wrapper > .right-sidebar
 nat-geo.ru###_sim_popup
 nat-geo.ru###widget-collection-overlay
@@ -699,6 +711,7 @@ school.xvatit.com###slider1
 school.xvatit.com##div[style="float: left;width: 340px; height:305px;/*border: 1px dashed #95d4e2;*/ background-color: #fff;"]
 search.disconnect.me###premium-protection
 sg-team.net##.wrapper > .wrapmid > .container > .leftcol > .rightside > .bfilms.bminpad.block
+sibnet.ru##.b-banner-under-search
 singularlabs.com###text-18.widget.widget_text
 sitehere.ru###ehu-bar
 sitehere.ru##.bn360anim-pagespeed
@@ -785,12 +798,14 @@ wolframalpha.com###headerad-pro
 wolframalpha.com###sidebar
 wolframalpha.com###spons-bound
 wolframalpha.com###sponsor-ad
+wsturbo.net##.fullstory.base > noindex > center
 yandex.ru##.footer-stripe_revealed_yes.footer-stripe_js_inited.i-bem.footer-stripe
 yandex.ru##.footer_distro_yes.clearfix.footer > .distro_shown_yes.distro_js_inited.scroll-spy_js_inited.i-bem.scroll-spy.distro
 yandex.ru##.footer_js_inited.i-bem.clearfix.footer_distro_yes.footer_layout_serp.footer > .distro_shown_yes.distro_js_inited.i-bem.distro
 yandex.ru##.rows.container > .rows__row_first.rows__row.row > .col > .universal-stripe-wrapper
 yandex.ru##.search-snippet-view > .search-direct-snippet-view
 yandex.ru##.serp_js_inited.main_js_inited.i-bem.serp.main_right-panel-hidden_yes.main > .main__center > .main__content > .content_js_inited.i-bem.content > .content__left > .footer-stripe_revealed_yes.footer-stripe_js_inited.i-bem.serp.footer-stripe
+zakharenkova.ru##.adsbyfffs
 znak.com##figure
 znak.com##main > .x1.column.flex:nth-of-type(1) > .st
 znanija.com##.brn-ads-box
